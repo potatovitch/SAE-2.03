@@ -87,7 +87,7 @@ STIEVENARD Adam -- CHAUMETTE Thomas -- Leclercq Hugo
   > Puis mettre de mettre la commande :
   `groups user`  
   > Si l'utilisateur au quel vous êtes connecté possède les droits sudo pas besoins de mettre le mode administrateur, il suffit juste de mettre :
-  `sudo groups user`  
+  `sudo groups user`   
   &nbsp;
   &nbsp;  
 ### Question(s) 4. Suppléments invités 

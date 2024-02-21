@@ -156,9 +156,9 @@ hppa (HP PA-RISC)
   &nbsp;
   
 ### Question(s) 5. Ajustement de la pré-configuration
-* Ajouter le droit d’utiliser sudo à l’utilisateur standard
+* Ajouter le droit d’utiliser sudo à l’utilisateur standard  
   &nbsp;  
-* Installer l’environnement MATE
+* Installer l’environnement MATE  
   &nbsp;  
 * Ajouter les paquets suivants :
      1. sudo : sinon la gestion sudo est inutile

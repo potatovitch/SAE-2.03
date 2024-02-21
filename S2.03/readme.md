@@ -94,8 +94,9 @@ STIEVENARD Adam -- CHAUMETTE Thomas -- Leclercq Hugo
 ### Question(s) 4. Suppléments invités 
 * Quel est la version du noyau Linux utilisé par votre VM ? N’oubliez pas, comme pour toutes les questions, de justifier votre réponse.
 * À quoi servent les suppléments invités ? Donner 2 principales raisons de les installer.
-* À quoi sert la commande mount (dans notre cas de figure et dans le cas général) ?
-
+* À quoi sert la commande mount (dans notre cas de figure et dans le cas général) ?  
+  &nbsp;
+  
 ### 4.2. Quelques Questions
 * Qu’est-ce que le Projet Debian ? D’où vient le nom Debian ?
   >Le Projet Debian est une organisation communautaire qui développe le système d'exploitation Debian. Debian est une distribution Linux très populaire, connue pour sa stabilité, sa fiabilité et son engagement envers les principes du logiciel libre. Son nom "Debian" est une fusion des prénoms du fondateur du projet, Ian Murdock, et de celui de son épouse.  

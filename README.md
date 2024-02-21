@@ -1,5 +1,3 @@
-## ET TOI SALE FRAUDE VIENS SUR DISCORD LA !!!   
-
 # SAE-2.03  
 
 1. faire la partie VM

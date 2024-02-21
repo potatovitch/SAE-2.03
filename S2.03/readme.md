@@ -48,7 +48,7 @@ STIEVENARD Adam -- CHAUMETTE Thomas -- Leclercq Hugo
 
     ![sch http](img/sch_http.png)
   
-    **Source :** [Mozilla](https://developer.mozilla.org/fr/docs/Learn/Common_questions/Web_mechanics/What_is_a_web_server)
+    **Source :** [Mozilla](https://developer.mozilla.org/fr/docs/Learn/Common_questions/Web_mechanics/What_is_a_web_server)  
   &nbsp;  
 * Qu’est-ce qu’un serveur ssh ?
     > Un serveur SSH (Secure Shell) est un logiciel qui permet à un utilisateur de se connecter de manière sécurisée à un ordinateur distant sur un réseau, généralement Internet.  

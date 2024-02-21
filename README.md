@@ -18,3 +18,4 @@
 * [tuto markdown](https://www.markdowntutorial.com/fr/lesson/1/)
 * [doc markdown](https://commonmark.org/help/)
 * [full doc markdown](https://docs.framasoft.org/fr/grav/markdown.html)
+* [stack edit](https://stackedit.io)

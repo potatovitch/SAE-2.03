@@ -15,7 +15,7 @@ STIEVENARD Adam -- CHAUMETTE Thomas -- Leclercq Hugo
     
     ```
     ** Source : **
-  [LeMagIt](https://www.lemagit.fr/definition/64-bits)
+  `[LeMagIt](https://www.lemagit.fr/definition/64-bits)`
     ```
 
 * Quelle est la configuration réseau utilisée par défaut ?

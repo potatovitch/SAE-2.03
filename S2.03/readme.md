@@ -178,7 +178,7 @@ hppa (HP PA-RISC)
 * Installer l’environnement MATE
   &nbsp;  
 * Ajouter les paquets suivants :
-     1. -> sudo : sinon la gestion sudo est inutile
+     1. sudo : sinon la gestion sudo est inutile
      2. git, sqlite3, curl : pour préparer l’installation de la semaine prochaine
      3. bash-completion : va vous simplifier grandement l’écriture des lignes de commande
      4. neofetch : pas très utile mais c’est un classique dans son genre (essayez-le) 

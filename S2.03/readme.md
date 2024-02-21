@@ -45,15 +45,15 @@ STIEVENARD Adam -- CHAUMETTE Thomas -- Leclercq Hugo
     > Un serveur web est un logiciel informatique conçu pour recevoir, traiter et répondre aux requêtes HTTP (Hypertext Transfer Protocol) provenant des clients, généralement des navigateurs web, et pour fournir des ressources web, telles que des pages HTML, des images, des fichiers CSS et JavaScript, en réponse à ces requêtes.  
     En termes simples, un serveur web permet de rendre les sites web accessibles sur Internet.
 
-    ![sch http]()  
+    ![sch http](img/sch_http.png)  
     `[Source : Mozilla](https://developer.mozilla.org/fr/docs/Learn/Common_questions/Web_mechanics/What_is_a_web_server)`
 
 * Qu’est-ce qu’un serveur ssh ?
     > Un serveur SSH (Secure Shell) est un logiciel qui permet à un utilisateur de se connecter de manière sécurisée à un ordinateur distant sur un réseau, généralement Internet.  
     Le protocole SSH fournit un moyen crypté et sécurisé pour accéder à des systèmes distants et exécuter des commandes à distance, transférer des fichiers et gérer des systèmes à distance.  
 
-    ![sch ssh1]()  
-    ![sch ssh2]()  
+    ![sch ssh1](img/sch_ssh1.png)  
+    ![sch ssh2](img/sch_ssh2.png)  
     `[Source : It-Connect.fr](https://www.it-connect.fr/chapitres/quest-ce-que-ssh/)`
 
 * Qu’est-ce qu’un serveur mandataire ?

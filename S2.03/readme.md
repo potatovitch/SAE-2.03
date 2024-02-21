@@ -166,10 +166,10 @@ hppa (HP PA-RISC)
      3. bash-completion : va vous simplifier grandement l’écriture des lignes de commande
      4. neofetch : pas très utile mais c’est un classique dans son genre (essayez-le) 
 ---
-**_partie Markdown_**  
+**_Partie Markdown_**  
 
 &nbsp; &nbsp; &nbsp; blabla en crabe 🦀🦀🦀  
 &nbsp; &nbsp; &nbsp; faite le tableau de marckdown en marckdown allez loulou tu peux le faire   
 
 ---
-**_partie git_**
+**_Partie GIT_**

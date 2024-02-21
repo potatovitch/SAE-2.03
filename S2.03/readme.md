@@ -62,10 +62,78 @@ STIEVENARD Adam -- CHAUMETTE Thomas -- Leclercq Hugo
     
     `[Source : Techno-Science.net](https://www.techno-science.net/definition/3812.html)`
 
+### Question(s) 3. sudo
+* Comment peux-ton savoir à quels groupes appartient l'utilisateur user ?
+  > Pour savoir à quels groupes l'utilisateur user appartient, il suffit juste de se connecter en administrateur avec la commade :
+  `su -`
+  > Puis mettre de mettre la commande :
+  `groups user`
+  > Si l'utilisateur au quel vous êtes connecté possède les droits sudo pas besoins de mettre le mode administrateur, il suffit juste de mettre :
+  `sudo groups user`
+  
+### Question(s) 4. Suppléments invités 
+* Quel est la version du noyau Linux utilisé par votre VM ? N’oubliez pas, comme pour toutes les questions, de justifier votre réponse.
+* À quoi servent les suppléments invités ? Donner 2 principales raisons de les installer.
+* À quoi sert la commande mount (dans notre cas de figure et dans le cas général) ?
+
+### 4.2. Quelques Questions
+* Qu’est-ce que le Projet Debian ? D’où vient le nom Debian ?
+  >Le Projet Debian est une organisation communautaire qui développe le système d'exploitation Debian. Debian est une distribution Linux très populaire, connue pour sa stabilité, sa fiabilité et son engagement envers les principes du logiciel libre. Son nom "Debian" est une fusion des prénoms du fondateur du projet, Ian Murdock, et de celui de son épouse.
+  `[Source : Debian.org](https://www.techno-science.net/definition/3812.html](https://www.debian.org/doc/manuals/project-history/intro.fr.html#:~:text=La%20prononciation%20officielle%20de%20Debian,et%20de%20son%20épouse%2C%20Debra)`
+  
+* Il existe 3 durées de prise en charge (support) de ces versions : la durée minimale, la durée en support long terme (LTS) et la durée en support long terme étendue (ELTS). Quelle sont les durées de ces prises en charge ?
+* Pendant combien de temps les mises à jour de sécurité seront-elles fournies ?
+* Combien de version au minimum sont activement maintenues par Debian ? Donnez leur nom générique (= les types de distribution).
+  > Debian maintient généralement trois versions en même temps : Stable : C'est la version principale et la plus récente, conçue pour être stable et fiable. C'est la version recommandée pour la plupart des utilisateurs, car elle bénéficie d'un support complet, y compris les mises à jour de sécurité et les correctifs de bogues.
+Testing : Également connue sous le nom de "Testing", cette version est en cours de développement et contient des logiciels plus récents que la version stable, mais elle peut être moins stable car elle est sujette à des changements fréquents. Cette version est destinée aux utilisateurs qui souhaitent accéder aux dernières fonctionnalités et qui sont prêts à accepter un certain niveau de risque.
+Unstable : Aussi appelée "Unstable" ou "Sid", cette version est le terrain de jeu pour les développeurs Debian. Elle contient les dernières versions de logiciels qui sont en cours de préparation pour inclusion dans la prochaine version stable. Cette version est instable par nature et n'est pas recommandée pour une utilisation en production, mais elle est utile pour les tests et le développement.
+`[Source : Debian.org](https://www.debian.org/releases/index.fr.html#:~:text=Debian%20a%20toujours%20au%20moins,%3A%20stable%20%2C%20testing%20et%20unstable%20)`
+* Chaque distribution majeur possède un nom de code différent. Par exemple, la version majeur actuelle (Debian 12) se nomme bookworm. D’où viennent les noms de code données aux distributions ?
+  > Les noms de code donnés aux distributions majeures de Debian (et à de nombreuses autres distributions Linux) sont généralement tirés des noms de personnages du film d'animation « Toy Story » de Pixar. Cela remonte aux premiers jours du projet Debian lorsque Ian Murdock, le fondateur de Debian, a décidé de nommer les versions de manière ludique et amusante. Les développeurs de Debian ont adopté cette tradition et continuent de nommer les versions de Debian d'après les personnages de Toy Story.
+`[Source : Dmtechnologies.com](https://www.dbmtechnologies.com/debian-versions)`
+  
+* L’un des atouts de Debian fut le nombre d’architecture (≈ processeurs) officiellement prises en charge. Combien et lesquelles sont prises en charge par la version Bullseye ?
+  > 13 architecture -> amd64 (64-bit PC)
+arm64 (ARM 64 bits)
+armel (ARM Little Endian 32 bits)
+armhf (ARM Hard Float 32 bits)
+i386 (PC 32 bits)
+mips (MIPS (big endian))
+mips64el (MIPS (little endian))
+ppc64el (PowerPC 64 bits Little Endian)
+s390x (IBM System z)
+riscv64 (RISC-V 64 bits)
+m68k (Motorola 680x0)
+alpha (DEC Alpha)
+hppa (HP PA-RISC)
+
+
+* Quelle a était le premier nom de code utilisé ?
+  > Le premier nom de code utilisé pour une version de Debian était « Buzz ».
+  `[Source : Wiki.debian.org](https://wiki.debian.org/fr/DebianBuzz)`
+  
+* Quand a-t-il été annoncé ?
+  > Elle a été annoncé le 17 juin 1996
+    `[Source : Wiki.debian.org](https://wiki.debian.org/fr/DebianBuzz)`
+
+* Quelle était le numéro de version de cette distribution ?
+  > C'est la version 1.1 de Debian.
+  `[Source : Wiki.debian.org](https://wiki.debian.org/fr/DebianBuzz)`
+  
+* Quel est le dernier nom de code annoncée à ce jour ?
+* Quand a-t-il été annoncé ?
+* Quelle est la version de cette distribution ?
+
+### Question(s) 5. Ajustement de la pré-configuration
+* Ajouter le droit d’utiliser sudo à l’utilisateur standard
+* Installer l’environnement MATE
+* Ajouter les paquets suivants : -> sudo : sinon la gestion sudo est inutile
+                                 -> git, sqlite3, curl : pour préparer l’installation de la semaine prochaine
+                                 -> bash-completion : va vous simplifier grandement l’écriture des lignes de commande
+                                 -> neofetch : pas très utile mais c’est un classique dans son genre (essayez-le) 
 ---
 **_partie Markdown_**  
 blabla en crabe 🦀🦀🦀  
 faite le tableau de marckdown en marckdown allez loulou tu peux le faire 
-
 ---
 **_partie git_**

@@ -88,8 +88,8 @@ STIEVENARD Adam -- CHAUMETTE Thomas -- Leclercq Hugo
   `groups user`  
   > Si l'utilisateur au quel vous êtes connecté possède les droits sudo pas besoins de mettre le mode administrateur, il suffit juste de mettre :
   `sudo groups user`   
-  &nbsp;  
-  &nbsp;  
+&nbsp;  
+&nbsp;  
 ### Question(s) 4. Suppléments invités 
 * Quel est la version du noyau Linux utilisé par votre VM ? N’oubliez pas, comme pour toutes les questions, de justifier votre réponse.
 * À quoi servent les suppléments invités ? Donner 2 principales raisons de les installer.

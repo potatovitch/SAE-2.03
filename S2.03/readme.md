@@ -167,7 +167,7 @@ hppa (HP PA-RISC)
      4. neofetch : pas très utile mais c’est un classique dans son genre (essayez-le) 
 ---
 **_partie Markdown_**  
-blabla en crabe 🦀🦀🦀  
-faite le tableau de marckdown en marckdown allez loulou tu peux le faire 
+&nbsp; &nbsp; &nbsp; blabla en crabe 🦀🦀🦀  
+&nbsp; &nbsp; &nbsp; faite le tableau de marckdown en marckdown allez loulou tu peux le faire 
 ---
 **_partie git_**

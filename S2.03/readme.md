@@ -14,7 +14,7 @@ STIEVENARD Adam -- CHAUMETTE Thomas -- Leclercq Hugo
     Ainsi, une version 64 bits de Debian est optimisée pour fonctionner sur des systèmes équipés de processeurs 64 bits, offrant potentiellement des performances améliorées et une meilleure gestion de la mémoire pour les applications et les systèmes qui exigent une grande puissance de calcul ou une grande capacité mémoire.
     
     **Source :**  
-  [LeMagIt](https://www.lemagit.fr/definition/64-bits)
+      [LeMagIt](https://www.lemagit.fr/definition/64-bits)
 
 * Quelle est la configuration réseau utilisée par défaut ?
 * Quel est le nom du fichier XML contenant la configuration de votre machine ?

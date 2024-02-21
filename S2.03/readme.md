@@ -42,7 +42,7 @@ STIEVENARD Adam -- CHAUMETTE Thomas -- Leclercq Hugo
     > GNOME est un environnement de bureau moderne et convivial pour les systèmes d'exploitation basés sur Linux et Unix. GNOME met l'accent sur l'ergonomie, l'accessibilité et l'expérience utilisateur. Il propose une interface utilisateur épurée et intuitive avec un lanceur d'applications, un gestionnaire de fichiers intégré et une multitude d'applications intégrées pour les activités quotidiennes telles que la navigation sur le Web, la gestion des courriels et la retouche d'images. GNOME est hautement personnalisable et extensible grâce à des extensions et des thèmes.
 
     ```  
-    **Sources :**  
+    ** Sources : **  
     [Site officiel de GNOME](https://www.gnome.org/)  
     [Site officiel de MATE Desktop](https://mate-desktop.org/)  
     ```

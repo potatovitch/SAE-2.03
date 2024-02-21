@@ -104,6 +104,7 @@ STIEVENARD Adam -- CHAUMETTE Thomas -- Leclercq Hugo
   ** Source : **
   [Debian.org(https://www.debian.org/doc/manuals/project-history/intro.fr.html#:~:text=La%20prononciation%20officielle%20de%20Debian,et%20de%20son%20épouse%2C%20Debra)
   ```
+    &nbsp;  
   
 * Il existe 3 durées de prise en charge (support) de ces versions : la durée minimale, la durée en support long terme (LTS) et la durée en support long terme étendue (ELTS). Quelle sont les durées de ces prises en charge ?
 * Pendant combien de temps les mises à jour de sécurité seront-elles fournies ?
@@ -114,13 +115,15 @@ Unstable : Aussi appelée "Unstable" ou "Sid", cette version est le terrain de j
 ```
 ** Source : **
 [Debian.org](https://www.debian.org/releases/index.fr.html#:~:text=Debian%20a%20toujours%20au%20moins,%3A%20stable%20%2C%20testing%20et%20unstable%20)
-```  
+```
+  &nbsp;  
 * Chaque distribution majeur possède un nom de code différent. Par exemple, la version majeur actuelle (Debian 12) se nomme bookworm. D’où viennent les noms de code données aux distributions ?
   > Les noms de code donnés aux distributions majeures de Debian (et à de nombreuses autres distributions Linux) sont généralement tirés des noms de personnages du film d'animation « Toy Story » de Pixar. Cela remonte aux premiers jours du projet Debian lorsque Ian Murdock, le fondateur de Debian, a décidé de nommer les versions de manière ludique et amusante. Les développeurs de Debian ont adopté cette tradition et continuent de nommer les versions de Debian d'après les personnages de Toy Story.
 ```
 ** Source : **
 [Dmtechnologies.com](https://www.dbmtechnologies.com/debian-versions)
-```  
+```
+  &nbsp;  
   
 * L’un des atouts de Debian fut le nombre d’architecture (≈ processeurs) officiellement prises en charge. Combien et lesquelles sont prises en charge par la version Bullseye ?
   > 13 architecture -> amd64 (64-bit PC)
@@ -135,22 +138,24 @@ s390x (IBM System z)
 riscv64 (RISC-V 64 bits)
 m68k (Motorola 680x0)
 alpha (DEC Alpha)
-hppa (HP PA-RISC)
-
+hppa (HP PA-RISC)  
+  &nbsp;  
 
 * Quelle a était le premier nom de code utilisé ?
   > Le premier nom de code utilisé pour une version de Debian était « Buzz ».  
   ```
   ** Source : **
   [Wiki.debian.org](https://wiki.debian.org/fr/DebianBuzz)
-  ```  
+  ```
+    &nbsp;  
   
 * Quand a-t-il été annoncé ?
   > Elle a été annoncé le 17 juin 1996  
   ```
   ** Source : **
   [Wiki.debian.org](https://wiki.debian.org/fr/DebianBuzz)
-  ```  
+  ```
+    &nbsp;  
 
 * Quelle était le numéro de version de cette distribution ?
   > C'est la version 1.1 de Debian.  
@@ -158,11 +163,15 @@ hppa (HP PA-RISC)
   ** Source : **
   [Wiki.debian.org](https://wiki.debian.org/fr/DebianBuzz)
   ```
+    &nbsp;  
   
 * Quel est le dernier nom de code annoncée à ce jour ?
+  &nbsp;  
 * Quand a-t-il été annoncé ?
-* Quelle est la version de cette distribution ?
-
+  &nbsp;  
+* Quelle est la version de cette distribution ?  
+  &nbsp;
+  
 ### Question(s) 5. Ajustement de la pré-configuration
 * Ajouter le droit d’utiliser sudo à l’utilisateur standard
 * Installer l’environnement MATE

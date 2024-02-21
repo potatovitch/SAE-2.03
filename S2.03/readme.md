@@ -90,7 +90,7 @@ STIEVENARD Adam -- CHAUMETTE Thomas -- Leclercq Hugo
   `sudo groups user`
     
 &nbsp;  
-&nbsp;  
+
 ### Question(s) 4. Suppléments invités 
 * Quel est la version du noyau Linux utilisé par votre VM ? N’oubliez pas, comme pour toutes les questions, de justifier votre réponse.
 * À quoi servent les suppléments invités ? Donner 2 principales raisons de les installer.

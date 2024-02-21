@@ -23,7 +23,7 @@ STIEVENARD Adam -- CHAUMETTE Thomas -- Leclercq Hugo
 * Sauriez-vous le modifier directement ce fichier de configuration pour mettre 2 processeurs à votre machine ?
   &nbsp;  
   &nbsp;  
-  &nbsp;  
+
 ### Question(s) 2. Installation OS de base 
 * Qu’est-ce qu’un fichier iso bootable ?
 

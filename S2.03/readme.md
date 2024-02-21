@@ -26,7 +26,9 @@ STIEVENARD Adam -- CHAUMETTE Thomas -- Leclercq Hugo
 
     > Un fichier ISO bootable est une image disque qui contient l'ensemble des fichiers et des données nécessaires pour installer un système d'exploitation ou un logiciel. Le terme "bootable" signifie que cette image est configurée de manière à ce qu'elle puisse être utilisée pour démarrer un ordinateur directement à partir de cette image, sans avoir besoin d'un système d'exploitation déjà installé.
 
-    ```[Source : Digital Guide IONOS](https://www.ionos.fr/digitalguide/serveur/know-how/quest-ce-quun-fichier-iso/)```
+    ```
+  [Source : Digital Guide IONOS](https://www.ionos.fr/digitalguide/serveur/know-how/quest-ce-quun-fichier-iso/)
+    ```
 
 * Qu’est-ce que MATE ? GNOME ?
 
@@ -48,7 +50,9 @@ STIEVENARD Adam -- CHAUMETTE Thomas -- Leclercq Hugo
     En termes simples, un serveur web permet de rendre les sites web accessibles sur Internet.
 
     ![sch http](img/sch_http.png)  
-    ```[Source : Mozilla](https://developer.mozilla.org/fr/docs/Learn/Common_questions/Web_mechanics/What_is_a_web_server)```
+    ```
+  [Source : Mozilla](https://developer.mozilla.org/fr/docs/Learn/Common_questions/Web_mechanics/What_is_a_web_server)
+    ```
 
 * Qu’est-ce qu’un serveur ssh ?
     > Un serveur SSH (Secure Shell) est un logiciel qui permet à un utilisateur de se connecter de manière sécurisée à un ordinateur distant sur un réseau, généralement Internet.  
@@ -56,13 +60,17 @@ STIEVENARD Adam -- CHAUMETTE Thomas -- Leclercq Hugo
 
     ![sch ssh1](img/sch_ssh1.png)  
     ![sch ssh2](img/sch_ssh2.png)  
-    ```[Source : It-Connect.fr](https://www.it-connect.fr/chapitres/quest-ce-que-ssh/)```
+    ```
+  [Source : It-Connect.fr](https://www.it-connect.fr/chapitres/quest-ce-que-ssh/)
+    ```
 
 * Qu’est-ce qu’un serveur mandataire ?
     > Un serveur mandataire, également connu sous le nom de serveur proxy, est un serveur informatique qui agit comme un intermédiaire entre les clients et d'autres serveurs.  
     Son rôle principal est de recevoir les requêtes des clients, telles que des demandes de pages web, des fichiers, ou d'autres ressources, et de les transmettre aux serveurs appropriés.  En retour, il renvoie les réponses des serveurs aux clients.  
     
-    ```[Source : Techno-Science.net](https://www.techno-science.net/definition/3812.html)```
+    ```
+  [Source : Techno-Science.net](https://www.techno-science.net/definition/3812.html)
+    ```
 
 ### Question(s) 3. sudo
 * Comment peux-ton savoir à quels groupes appartient l'utilisateur user ?
@@ -91,10 +99,14 @@ STIEVENARD Adam -- CHAUMETTE Thomas -- Leclercq Hugo
   > Debian maintient généralement trois versions en même temps : Stable : C'est la version principale et la plus récente, conçue pour être stable et fiable. C'est la version recommandée pour la plupart des utilisateurs, car elle bénéficie d'un support complet, y compris les mises à jour de sécurité et les correctifs de bogues.
 Testing : Également connue sous le nom de "Testing", cette version est en cours de développement et contient des logiciels plus récents que la version stable, mais elle peut être moins stable car elle est sujette à des changements fréquents. Cette version est destinée aux utilisateurs qui souhaitent accéder aux dernières fonctionnalités et qui sont prêts à accepter un certain niveau de risque.  
 Unstable : Aussi appelée "Unstable" ou "Sid", cette version est le terrain de jeu pour les développeurs Debian. Elle contient les dernières versions de logiciels qui sont en cours de préparation pour inclusion dans la prochaine version stable. Cette version est instable par nature et n'est pas recommandée pour une utilisation en production, mais elle est utile pour les tests et le développement.  
-```[Source : Debian.org](https://www.debian.org/releases/index.fr.html#:~:text=Debian%20a%20toujours%20au%20moins,%3A%20stable%20%2C%20testing%20et%20unstable%20)```  
+```
+[Source : Debian.org](https://www.debian.org/releases/index.fr.html#:~:text=Debian%20a%20toujours%20au%20moins,%3A%20stable%20%2C%20testing%20et%20unstable%20)
+```  
 * Chaque distribution majeur possède un nom de code différent. Par exemple, la version majeur actuelle (Debian 12) se nomme bookworm. D’où viennent les noms de code données aux distributions ?
   > Les noms de code donnés aux distributions majeures de Debian (et à de nombreuses autres distributions Linux) sont généralement tirés des noms de personnages du film d'animation « Toy Story » de Pixar. Cela remonte aux premiers jours du projet Debian lorsque Ian Murdock, le fondateur de Debian, a décidé de nommer les versions de manière ludique et amusante. Les développeurs de Debian ont adopté cette tradition et continuent de nommer les versions de Debian d'après les personnages de Toy Story.
-```[Source : Dmtechnologies.com](https://www.dbmtechnologies.com/debian-versions)```  
+```
+[Source : Dmtechnologies.com](https://www.dbmtechnologies.com/debian-versions)
+```  
   
 * L’un des atouts de Debian fut le nombre d’architecture (≈ processeurs) officiellement prises en charge. Combien et lesquelles sont prises en charge par la version Bullseye ?
   > 13 architecture -> amd64 (64-bit PC)
@@ -114,15 +126,21 @@ hppa (HP PA-RISC)
 
 * Quelle a était le premier nom de code utilisé ?
   > Le premier nom de code utilisé pour une version de Debian était « Buzz ».  
-  ```[Source : Wiki.debian.org](https://wiki.debian.org/fr/DebianBuzz)```  
+  ```
+  > [Source : Wiki.debian.org](https://wiki.debian.org/fr/DebianBuzz)
+  ```  
   
 * Quand a-t-il été annoncé ?
   > Elle a été annoncé le 17 juin 1996  
-    ```[Source : Wiki.debian.org](https://wiki.debian.org/fr/DebianBuzz)```  
+    ```
+  > Source : Wiki.debian.org](https://wiki.debian.org/fr/DebianBuzz)
+    ```  
 
 * Quelle était le numéro de version de cette distribution ?
   > C'est la version 1.1 de Debian.  
-  ```[Source : Wiki.debian.org](https://wiki.debian.org/fr/DebianBuzz)```
+   ```
+  > [Source : Wiki.debian.org](https://wiki.debian.org/fr/DebianBuzz)
+   ```
   
 * Quel est le dernier nom de code annoncée à ce jour ?
 * Quand a-t-il été annoncé ?

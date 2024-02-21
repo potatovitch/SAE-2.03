@@ -17,11 +17,11 @@ STIEVENARD Adam -- CHAUMETTE Thomas -- Leclercq Hugo
   &nbsp; &nbsp; &nbsp; [LeMagIt](https://www.lemagit.fr/definition/64-bits)  
   &nbsp;
 * Quelle est la configuration réseau utilisée par défaut ?  
-* &nbsp;
+  &nbsp;
 * Quel est le nom du fichier XML contenant la configuration de votre machine ?  
-* &nbsp;
+  &nbsp;
 * Sauriez-vous le modifier directement ce fichier de configuration pour mettre 2 processeurs à votre machine ?
-* &nbsp;
+  &nbsp;
 
 ### Question(s) 2. Installation OS de base 
 * Qu’est-ce qu’un fichier iso bootable ?

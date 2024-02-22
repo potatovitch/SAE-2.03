@@ -82,8 +82,19 @@ STIEVENARD Adam -- CHAUMETTE Thomas -- Leclercq Hugo
 
 ### Question(s) 4. Suppléments invités 
 * Quel est la version du noyau Linux utilisé par votre VM ? N’oubliez pas, comme pour toutes les questions, de justifier votre réponse.
+  mettre 'uname -r' dans le terminal
+  &nbsp;
 * À quoi servent les suppléments invités ? Donner 2 principales raisons de les installer.
-* À quoi sert la commande mount (dans notre cas de figure et dans le cas général) ?  
+  > Meilleures performances graphiques : les pilotes graphiques personnalisés qui sont installés avec les additions invité vous offrent de meilleures performances graphiques pour un système plus fluide. Vous pourrez aussi redimensionner la fenêtre de la machine virtuelle, la résolution d’écran de l’invité sera automatiquement ajustée.
+
+  > Dossiers partagés : permet d’échanger des fichiers entre l’hôte et l’invité.
+
+  **Source :** [Lecrabeinfo.net](https://lecrabeinfo.net/virtualbox-installer-les-additions-invite-guest-additions.html)
+  &nbsp;
+* À quoi sert la commande mount (dans notre cas de figure et dans le cas général) ?
+  > La commande mount permet de demander au système d'exploitation de rendre un système de fichiers accessible, à un emplacement spécifié (le point de montage). La commande mount monte un système de fichiers indiqué comme répertoire à l'aide du paramètre Noeud:Répertoire, sur le répertoire spécifié par le paramètre Répertoire. Une fois la commande mount exécutée, le répertoire indiqué devient le répertoire racine du nouveau système de fichiers monté.
+
+  **Source :** [ibm.com](https://www.ibm.com/docs/fr/power9?topic=commands-mount-command)
   &nbsp;
   
 ### 4.2. Quelques Questions
@@ -95,7 +106,17 @@ STIEVENARD Adam -- CHAUMETTE Thomas -- Leclercq Hugo
     &nbsp;  
   
 * Il existe 3 durées de prise en charge (support) de ces versions : la durée minimale, la durée en support long terme (LTS) et la durée en support long terme étendue (ELTS). Quelle sont les durées de ces prises en charge ?
+  > La durée en support long terme (LTS) est de 5ans quand à la durée en support long terme étendue est de 10ans.
+  
+  **Source :** [Wiki.debian.org](https://wiki.debian.org/fr/LTS/)
+  &nbsp; 
 * Pendant combien de temps les mises à jour de sécurité seront-elles fournies ?
+  > L'équipe en charge de la sécurité prend en charge la distribution stable pendant trois années après sa publication. Il n'est pas possible de prendre en charge trois distributions, c'est déjà bien assez difficile avec deux.
+  
+
+  **Source :** [Debian.org](https://www.debian.org/security/faq.fr.html#lifespan)
+
+    &nbsp; 
 * Combien de version au minimum sont activement maintenues par Debian ? Donnez leur nom générique (= les types de distribution).
   > Debian maintient généralement trois versions en même temps : Stable : C'est la version principale et la plus récente, conçue pour être stable et fiable. C'est la version recommandée pour la plupart des utilisateurs, car elle bénéficie d'un support complet, y compris les mises à jour de sécurité et les correctifs de bogues.
 Testing : Également connue sous le nom de "Testing", cette version est en cours de développement et contient des logiciels plus récents que la version stable, mais elle peut être moins stable car elle est sujette à des changements fréquents. Cette version est destinée aux utilisateurs qui souhaitent accéder aux dernières fonctionnalités et qui sont prêts à accepter un certain niveau de risque.  
@@ -107,7 +128,7 @@ Unstable : Aussi appelée "Unstable" ou "Sid", cette version est le terrain de j
 * Chaque distribution majeur possède un nom de code différent. Par exemple, la version majeur actuelle (Debian 12) se nomme bookworm. D’où viennent les noms de code données aux distributions ?
   > Les noms de code donnés aux distributions majeures de Debian (et à de nombreuses autres distributions Linux) sont généralement tirés des noms de personnages du film d'animation « Toy Story » de Pixar. Cela remonte aux premiers jours du projet Debian lorsque Ian Murdock, le fondateur de Debian, a décidé de nommer les versions de manière ludique et amusante. Les développeurs de Debian ont adopté cette tradition et continuent de nommer les versions de Debian d'après les personnages de Toy Story.
 
-    **Source :** [Dmtechnologies.com](https://www.dbmtechnologies.com/debian-versions)
+    **Source :** [Debian.org](https://www.debian.org/doc/manuals/debian-faq/ftparchives.fr.html)
 
   &nbsp;  
   
@@ -149,22 +170,47 @@ hppa (HP PA-RISC)
     &nbsp;  
   
 * Quel est le dernier nom de code annoncée à ce jour ?
+  > Le dernier nom de code annocée à ce jour est Bookworm
+
+  **Source :** [Debian.org](https://www.debian.org/releases/index.fr.html#:~:text=Actuellement%2C%20la%20distribution%20stable%20de,publiée%20le%2010%20février%202024.)
+  
   &nbsp;  
 * Quand a-t-il été annoncé ?
+  > Elle à été publié 10 juin 2023
+
+  **Source :** [Debian.org](https://www.debian.org/releases/index.fr.html#:~:text=Actuellement%2C%20la%20distribution%20stable%20de,publiée%20le%2010%20février%202024.)
   &nbsp;  
-* Quelle est la version de cette distribution ?  
+* Quelle est la version de cette distribution ?
+  > Elle possède la version 12, sa dernière version est le 12.5 en février 2024
+
+   **Source :** [Debian.org](https://www.debian.org/releases/index.fr.html#:~:text=Actuellement%2C%20la%20distribution%20stable%20de,publiée%20le%2010%20février%202024.)
   &nbsp;
   
 ### Question(s) 5. Ajustement de la pré-configuration
-* Ajouter le droit d’utiliser sudo à l’utilisateur standard  
+* Ajouter le droit d’utiliser sudo à l’utilisateur standard
+  > `su -`
+  `usermod -aG sudo utilisateur`  
   &nbsp;  
-* Installer l’environnement MATE  
+* Installer l’environnement MATE
+  > `su -`
+  `tasksel`
+  > Puis cocher la case MATE et appliquer 
   &nbsp;  
 * Ajouter les paquets suivants :
      1. sudo : sinon la gestion sudo est inutile
-     2. git, sqlite3, curl : pour préparer l’installation de la semaine prochaine
-     3. bash-completion : va vous simplifier grandement l’écriture des lignes de commande
-     4. neofetch : pas très utile mais c’est un classique dans son genre (essayez-le) 
+        > `su -`
+        `apt install sudo`  
+     3. git, sqlite3, curl : pour préparer l’installation de la semaine prochaine
+        > `su -`
+        `apt install git`
+        `apt install sqlite3`
+        `apt install curl`  
+     5. bash-completion : va vous simplifier grandement l’écriture des lignes de commande
+        > `su -`
+        `apt install bash-completion` 
+     7. neofetch : pas très utile mais c’est un classique dans son genre (essayez-le)
+        > `su -`
+        `apt install neofetch`  
 ---
 **_Partie Markdown_**  
 

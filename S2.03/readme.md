@@ -1,4 +1,4 @@
-python3 toc.py readme.md
+python3 ./toc.py readme.md
 
 ### SAE 2.03 : RAPPORT SEMAINE 08
 

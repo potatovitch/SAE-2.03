@@ -224,10 +224,10 @@ hppa (HP PA-RISC)
         > `su -`
         `apt install neofetch`  
 ---
-#### Partie Markdown {#mkw}  
+# Partie Markdown {#mkw}  
 
 &nbsp; &nbsp; &nbsp; blabla en crabe 🦀🦀🦀  
 &nbsp; &nbsp; &nbsp; faite le tableau de marckdown en marckdown allez loulou tu peux le faire   
 
 ---
-#### Partie GIT {#git}
+# Partie GIT {#git}

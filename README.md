@@ -20,7 +20,7 @@
 
 &nbsp;  
 &nbsp;  
-ps :  
+**ps :**  
   * toc.py c'est un programme qui gère automatiquement les tables des matières,  
     mais vsi ça me casse les couilles y a moyen ça sert à rien.
   * mon entête est cassé touche y pas

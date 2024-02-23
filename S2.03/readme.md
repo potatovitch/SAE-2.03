@@ -10,12 +10,12 @@ STIEVENARD Adam -- CHAUMETTE Thomas -- Leclercq Hugo
 ---
 table des matières
 
-[Partie VM](#vm)
-[Partie Markdown](#mkw)
-[Partie GIT](#git)
+[Partie VM](#vm)  
+[Partie Markdown](#mkw)  
+[Partie GIT](#git)  
 
 ---
-[vm]**_Partie VM_**[/vm]
+[vm] **_Partie VM_** [/vm]
 
 ### Question(s) 1 : Configuration matérielle dans VirtualBox 
 * Que signifie “64-bit” dans “Debian 64-bit” ?

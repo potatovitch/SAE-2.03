@@ -15,7 +15,7 @@ table des matières
 [Partie GIT](#git)  
 
 ---
-[**_Partie VM_**](#vm)
+**_Partie VM_** {#vm}
 
 ### Question(s) 1 : Configuration matérielle dans VirtualBox 
 * Que signifie “64-bit” dans “Debian 64-bit” ?
@@ -224,10 +224,10 @@ hppa (HP PA-RISC)
         > `su -`
         `apt install neofetch`  
 ---
-[**_Partie Markdown_**](#mkw)  
+**_Partie Markdown_**{#mkw}  
 
 &nbsp; &nbsp; &nbsp; blabla en crabe 🦀🦀🦀  
 &nbsp; &nbsp; &nbsp; faite le tableau de marckdown en marckdown allez loulou tu peux le faire   
 
 ---
-[**_Partie GIT_**](#git)
+**_Partie GIT_** {#git}

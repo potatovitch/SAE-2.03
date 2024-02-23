@@ -18,8 +18,8 @@
 * [full doc markdown](https://docs.framasoft.org/fr/grav/markdown.html)
 * [stack edit](https://stackedit.io)
 
-
-
+&nbsp;
+&nbsp;
 ps :  
 toc.py c'est un programme qui gère automatiquement les tables des matières,  
 mais vsi ça me casse les couilles y a moyen ça sert à rien.

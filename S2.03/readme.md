@@ -5,11 +5,8 @@ STIEVENARD Adam -- CHAUMETTE Thomas -- Leclercq Hugo
 ---
 table des matières
 
- # My Table of content - [Section 1](#id-section1) - [Section 2](#id-section2) 
- ## Section 1 
- ## Section 2 
-
-
+# Table of Contents 1. [Example](#example) 2. [Example2](#example2) 3. [Third Example](#third-example)
+## Example ## Example2 ## Third Example 
 ---
 **_Partie VM_**
 

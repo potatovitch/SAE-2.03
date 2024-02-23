@@ -1,14 +1,9 @@
-python3 ./toc.py readme.md
-import TOCInLine from '@theme/TOCInLine';
-<TOCInline toc={toc} />
-
-
 ### SAE 2.03 : RAPPORT SEMAINE 08
 
 STIEVENARD Adam -- CHAUMETTE Thomas -- Leclercq Hugo
 
 ---
-table des matières
+# table des matières
 
 [Partie VM](#vm)  
 [Partie Markdown](#mkw)  

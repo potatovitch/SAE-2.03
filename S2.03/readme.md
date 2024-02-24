@@ -20,7 +20,7 @@ STIEVENARD Adam -- CHAUMETTE Thomas -- Leclercq Hugo
     Les processeurs 64 bits sont capables de traiter des instructions en blocs de 64 bits à la fois, ce qui peut offrir des performances et une capacité de mémoire supérieures par rapport aux processeurs 32 bits.  
     Ainsi, une version 64 bits de Debian est optimisée pour fonctionner sur des systèmes équipés de processeurs 64 bits, offrant potentiellement des performances améliorées et une meilleure gestion de la mémoire pour les applications et les systèmes qui exigent une grande puissance de calcul ou une grande capacité mémoire.
     
-  **Source :** [LeMagIt](https://www.lemagit.fr/definition/64-bits)  
+  **Source :** [Lemagit.fr](https://www.lemagit.fr/definition/64-bits)  
   &nbsp;
 * Quelle est la configuration réseau utilisée par défaut ?  
   &nbsp;
@@ -35,7 +35,7 @@ STIEVENARD Adam -- CHAUMETTE Thomas -- Leclercq Hugo
 
     > Un fichier ISO bootable est une image disque qui contient l'ensemble des fichiers et des données nécessaires pour installer un système d'exploitation ou un logiciel. Le terme "bootable" signifie que cette image est configurée de manière à ce qu'elle puisse être utilisée pour démarrer un ordinateur directement à partir de cette image, sans avoir besoin d'un système d'exploitation déjà installé.
 
-    **Source :** [Digital Guide IONOS](https://www.ionos.fr/digitalguide/serveur/know-how/quest-ce-quun-fichier-iso/)
+    **Source :** [Ionos.fr](https://www.ionos.fr/digitalguide/serveur/know-how/quest-ce-quun-fichier-iso/)
 
   &nbsp;  
 * Qu’est-ce que MATE ? GNOME ?
@@ -46,7 +46,7 @@ STIEVENARD Adam -- CHAUMETTE Thomas -- Leclercq Hugo
     
     > GNOME est un environnement de bureau moderne et convivial pour les systèmes d'exploitation basés sur Linux et Unix. GNOME met l'accent sur l'ergonomie, l'accessibilité et l'expérience utilisateur. Il propose une interface utilisateur épurée et intuitive avec un lanceur d'applications, un gestionnaire de fichiers intégré et une multitude d'applications intégrées pour les activités quotidiennes telles que la navigation sur le Web, la gestion des courriels et la retouche d'images. GNOME est hautement personnalisable et extensible grâce à des extensions et des thèmes.
  
-    **Sources :** [Le Site officiel de GNOME](https://www.gnome.org/) et [Le Site officiel de MATE Desktop](https://mate-desktop.org/)  
+    **Sources :** [Gnome.org](https://www.gnome.org/) et [Le Site officiel de MATE Desktop](https://mate-desktop.org/)  
 
   &nbsp;  
 * Qu’est-ce qu’un serveur web ?
@@ -55,7 +55,7 @@ STIEVENARD Adam -- CHAUMETTE Thomas -- Leclercq Hugo
 
     ![sch http](img/sch_http.png)
   
-    **Source :** [Mozilla](https://developer.mozilla.org/fr/docs/Learn/Common_questions/Web_mechanics/What_is_a_web_server)  
+    **Source :** [Mozilla.org](https://developer.mozilla.org/fr/docs/Learn/Common_questions/Web_mechanics/What_is_a_web_server)  
   &nbsp;  
 * Qu’est-ce qu’un serveur ssh ?
     > Un serveur SSH (Secure Shell) est un logiciel qui permet à un utilisateur de se connecter de manière sécurisée à un ordinateur distant sur un réseau, généralement Internet.  

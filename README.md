@@ -3,10 +3,11 @@
 1. faire la partie VM
 2. faire la partie Markdown
 3. faire la partie git
+4. introduire chaque parties et sous-parties
 
-4. faire le readme.md
+5. faire le readme.md
 
-5. rendre l'archive en .zip/.tar.gz avec
+6. rendre l'archive en .zip/.tar.gz avec
    * version pdf
    * version html
    * fichier sources pour la conversion
@@ -24,4 +25,6 @@
   * toc.py c'est un programme qui gère automatiquement les tables des matières,  
     mais vsi ça me casse les couilles y a moyen ça sert à rien.
   * mon entête est cassé touche y pas
+  * en vrai nique toc.py ça dégage
+  * bite en crabe
 

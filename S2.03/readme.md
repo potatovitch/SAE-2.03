@@ -46,7 +46,7 @@ STIEVENARD Adam -- CHAUMETTE Thomas -- Leclercq Hugo
     
     > GNOME est un environnement de bureau moderne et convivial pour les systèmes d'exploitation basés sur Linux et Unix. GNOME met l'accent sur l'ergonomie, l'accessibilité et l'expérience utilisateur. Il propose une interface utilisateur épurée et intuitive avec un lanceur d'applications, un gestionnaire de fichiers intégré et une multitude d'applications intégrées pour les activités quotidiennes telles que la navigation sur le Web, la gestion des courriels et la retouche d'images. GNOME est hautement personnalisable et extensible grâce à des extensions et des thèmes.
  
-    **Sources :** [Gnome.org](https://www.gnome.org/) et [Le Site officiel de MATE Desktop](https://mate-desktop.org/)  
+    **Sources :** [Gnome.org](https://www.gnome.org/) et [mate-desktop.org](https://mate-desktop.org/)  
 
   &nbsp;  
 * Qu’est-ce qu’un serveur web ?
@@ -231,7 +231,7 @@ hppa (HP PA-RISC)
 * Qu’est-ce que le logiciel gitk ? Comment se lance-t-il ?  
   > gitk est un navigateur de dépôt graphique, le premier de son genre. Il peut être considéré comme un encapsuleur graphique pour git log. Il permet         d'explorer et de visualiser l'historique d'un dépôt.
   
-  **Source :** [ATLASSIAN](https://www.atlassian.com/fr/git/tutorials/gitk)
+  **Source :** [Atlassian.com](https://www.atlassian.com/fr/git/tutorials/gitk)
   > Il se lance en rentrant dans un terminal la commande `gitk &`  
   &nbsp;
 * Qu’est-ce que le logiciel git-gui ? Comment se lance-t-il ?

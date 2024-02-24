@@ -226,3 +226,15 @@ hppa (HP PA-RISC)
 
 ---
 # Partie GIT {#git}
+
+### 1.2. Les interfaces graphiques pour git
+* Qu’est-ce que le logiciel gitk ? Comment se lance-t-il ?
+* Qu’est-ce que le logiciel git-gui ? Comment se lance-t-il ?
+
+### 1.3. Installons autre chose et comparons
+* Pourquoi avez-vous choisi ce logiciel ?
+* Comment l’avez vous installé ?
+* Comparer-le aux outils inclus avec git (et installé précédemment) ainsi qu’avec ce qui serait fait
+    en ligne de commande pure : fonctionnalités avantages, inconvénients
+
+

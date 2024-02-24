@@ -186,11 +186,13 @@ hppa (HP PA-RISC)
   > Elle à été publié 10 juin 2023
 
   **Source :** [Debian.org](https://www.debian.org/releases/index.fr.html#:~:text=Actuellement%2C%20la%20distribution%20stable%20de,publiée%20le%2010%20février%202024.)
+  
   &nbsp;  
 * Quelle est la version de cette distribution ?
   > Elle possède la version 12, sa dernière version est le 12.5 en février 2024
 
    **Source :** [Debian.org](https://www.debian.org/releases/index.fr.html#:~:text=Actuellement%2C%20la%20distribution%20stable%20de,publiée%20le%2010%20février%202024.)
+  
   &nbsp;
   
 ### Question(s) 5. Ajustement de la pré-configuration

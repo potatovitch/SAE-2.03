@@ -17,5 +17,5 @@ flatpak install flathub com.jetpackduba.Gitnuro
 
 run gitnuroo:
 
-flatpak run com.jetpackduba.Gitnuro
+flatpak run com.jetpackduba.Gitnuro & (ou juste on double-click dessus)
 

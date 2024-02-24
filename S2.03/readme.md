@@ -231,9 +231,11 @@ hppa (HP PA-RISC)
 * Qu’est-ce que le logiciel gitk ? Comment se lance-t-il ?  
   > gitk est un navigateur de dépôt graphique, le premier de son genre. Il peut être considéré comme un encapsuleur graphique pour git log. Il permet         d'explorer et de visualiser l'historique d'un dépôt.
   
-  **Source :** []()  
+  **Source :** [ATLASSIAN](https://www.atlassian.com/fr/git/tutorials/gitk)
+  > Il se lance en rentrant dans un terminal la commande 'gitk &'  
   &nbsp;
 * Qu’est-ce que le logiciel git-gui ? Comment se lance-t-il ?
+  >
   >
 
   **Source :** []()  

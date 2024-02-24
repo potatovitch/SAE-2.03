@@ -236,7 +236,10 @@ hppa (HP PA-RISC)
   
   &nbsp;
 * Qu’est-ce que le logiciel git-gui ? Comment se lance-t-il ?
-  >
+  > Git-gui est une interface graphique de Git basée sur Tcl/Tk. git gui permet aux utilisateurs d’apporter des modifications à leur dépôt en faisant de      nouveaux commits, en modifiant les commits existants, en créant des branches, en effectuant des fusions locales, et en récupérant/poussant vers des       dépôts distants.
+
+    Contrairement à gitk, git gui se concentre sur la génération de commit et l’annotation de fichiers uniques et n’affiche pas l’historique du projet.       Il fournit cependant des actions de menu pour démarrer une session gitk à partir de git gui.
+
   >
 
   **Source :** []()  

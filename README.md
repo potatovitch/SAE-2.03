@@ -21,10 +21,11 @@
 
 &nbsp;  
 &nbsp;  
-**ps :**  
+**ps :** 
+  * install gitnuro pour le git gui, y a les cmd pour le dl sous debian dans 'install gitnuro'.
   * toc.py c'est un programme qui gère automatiquement les tables des matières,  
     mais vsi ça me casse les couilles y a moyen ça sert à rien.
-  * mon entête est cassé touche y pas
-  * en vrai nique toc.py ça dégage
-  * bite en crabe
+  * mon entête est cassé touche y pas.
+  * en vrai nique toc.py ça dégage.
+  * bite en crabe.
 

@@ -241,7 +241,8 @@ hppa (HP PA-RISC)
   > Contrairement à gitk, git gui se concentre sur la génération de commit et l’annotation de fichiers uniques et n’affiche pas l’historique du projet.       Il fournit cependant des actions de menu pour démarrer une session gitk à partir de git gui.
 
   **Source :** [git-scm.com](https://git-scm.com/docs/git-gui/fr)
-  > il se lance en rentrant dans un terminal la commande `git-gui &`  
+  > il se lance en rentrant dans un terminal la commande `git-gui &`
+  
   &nbsp;
 
 ### 1.3. Installons autre chose et comparons

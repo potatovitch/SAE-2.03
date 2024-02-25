@@ -1,17 +1,9 @@
 # SAE-2.03  
 
-1. faire la partie VM
-2. faire la partie Markdown
-3. faire la partie git
-4. introduire chaque parties et sous-parties
+fini, c'est envoyé.
 
-5. faire le readme.md
-
-6. rendre l'archive en .zip/.tar.gz avec
-   * version pdf
-   * version html
-   * fichier sources pour la conversion
-   * readme.md
+* le rapport n'est plus dans le readme.md mais dans rapport.md
+* readme.md c'est les instructions pour convertir le rapport.md en rapport.pdf/html
 
 # links doc Markdoc
 * [tuto markdown](https://www.markdowntutorial.com/fr/lesson/1/)
@@ -23,9 +15,4 @@
 &nbsp;  
 **ps :** 
   * install gitnuro pour le git gui, y a les cmd pour le dl sous debian dans 'install gitnuro'.
-  * toc.py c'est un programme qui gère automatiquement les tables des matières,  
-    mais vsi ça me casse les couilles y a moyen ça sert à rien.
-  * mon entête est cassé touche y pas.
-  * en vrai nique toc.py ça dégage.
-  * bite en crabe.
 

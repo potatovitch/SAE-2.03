@@ -375,6 +375,7 @@ GIT
 
 |                | voir l'historique | modifier/créer des repository | gratuit |
 | :---           |       :---:       |             :---:             |  :---:  | 
-| gitk + git gui |        [x]        |              [ ]              |   [x]   |
+| gitk           |        [x]        |              [ ]              |   [x]   |
+| git gui        |        [ ]        |              [x]              |   [x]   |
 | gitkraken      |        [x]        |              [x]              |   [ ]   |
 | gitnuro        |        [x]        |              [x]              |   [x]   |

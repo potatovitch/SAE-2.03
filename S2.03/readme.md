@@ -259,10 +259,10 @@ hppa (HP PA-RISC)
     * `sudo add-apt-repository ppa:flatpak/stable`
     * `sudo apt update`
     * `sudo apt install flatpak`  
-
-  > ensuite, on doit ajouter le flathub repoository pour avoir accès à la librairie d'application de flathub
+&nbsp;  
+  > ensuite, on doit ajouter le flathub repoository pour avoir accès à la librairie d'application de flathub  
     * `flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo`
-
+&nbsp;  
   > 
     * ``
     * ``

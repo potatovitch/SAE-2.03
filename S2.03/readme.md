@@ -16,7 +16,7 @@ STIEVENARD Adam -- CHAUMETTE Thomas -- Leclercq Hugo
   &nbsp;  
 [Rapport Technique](#rt)
   &nbsp;  
-[Partie GIT](#git)
+[GIT](#git)
 
 ***
 <a name="qr">

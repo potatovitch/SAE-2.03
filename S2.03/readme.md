@@ -9,14 +9,16 @@ font-size : 16pt
 
 STIEVENARD Adam -- CHAUMETTE Thomas -- Leclercq Hugo
 
----
+***
 # table des matières
 
-[Partie VM](#vm)  
-[Partie Rapport Technique](#rt)  
-[Partie GIT](#git)  
+[Partie VM](#vm)
+  &nbsp;  
+[Partie Rapport Technique](#rt)
+  &nbsp;  
+[Partie GIT](#git)
 
----
+***
 <a name="vm">
 Partie VM
 </a>

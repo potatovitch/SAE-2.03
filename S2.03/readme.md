@@ -11,7 +11,7 @@ STIEVENARD Adam -- CHAUMETTE Thomas -- Leclercq Hugo
 
 ---
 <a name="vm">
-# Partie VM
+Partie VM
 </a>
 
 ### Question(s) 1 : Configuration matérielle dans VirtualBox 
@@ -223,13 +223,17 @@ hppa (HP PA-RISC)
         > `su -`
         `apt install neofetch`  
 ---
-# Partie Markdown {#mkw}  
+<a name="mkw">
+Partie Markdown
+</a>
 
 &nbsp; &nbsp; &nbsp; blabla en crabe 🦀🦀🦀  
 &nbsp; &nbsp; &nbsp; faite le tableau de marckdown en marckdown allez loulou tu peux le faire   
 
 ---
-# Partie GIT {#git}
+<a name="git">
+Partie GIT
+</a>
 
 ### 1.2. Les interfaces graphiques pour git
 * Qu’est-ce que le logiciel gitk ? Comment se lance-t-il ?  

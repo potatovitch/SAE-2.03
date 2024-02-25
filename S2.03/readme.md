@@ -260,14 +260,12 @@ hppa (HP PA-RISC)
     * `sudo apt update`
     * `sudo apt install flatpak`  
 &nbsp;  
-  > ensuite, on doit ajouter le flathub repoository pour avoir accès à la librairie d'application de flathub  
+  > ensuite, on doit ajouter le flathub repository pour avoir accès à la librairie d'application de flathub  
     * `flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo`
 &nbsp;  
-  > 
-    * ``
-    * ``
-  
-  
+  > ensuite, il faut installer gitnuro depuis la librairie de flathub  
+    * `flatpak install flathub com.jetpackduba.Gitnuro`
+&nbsp;
 
     **Source :** []()  
   &nbsp;

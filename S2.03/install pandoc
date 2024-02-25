@@ -1,2 +1,0 @@
-sudo apt install texlive-latex-base 		# install pdflatex
-sudo apt install weasyprint			# install weasyprint

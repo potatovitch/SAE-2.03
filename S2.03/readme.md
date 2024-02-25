@@ -270,7 +270,11 @@ hppa (HP PA-RISC)
   &nbsp;
 * Comparer-le aux outils inclus avec git (et installé précédemment) ainsi qu’avec ce qui serait fait
     en ligne de commande pure : fonctionnalités avantages, inconvénients
-  > parler de gitk et gitkraken .....................IOJIJO
+  > gitk ne peut que montrer les changements sur un repository, pas le modifier. Il a cependant l'avantage d'être installé en même temps que git.
+    &nbsp;
+  > gitkraken permet lui de voir les modification d'un repository et de le modifier, mais il a très peu de fonctionnalité sur la version gratuit comme l'impossibilité d'acceder au repository privés et la version d'essai ne dure qu'un semaine. Cependant la version payant est relativement abordable pour les particuliers et avec des tarifs spéciaux pour groupes et entreprises. De plus cette version payante à beaucoup de fonctionnalitées pratiques comme la génération de clé ssh automatique et des outils pour les travaux de groupe.
+     &nbsp;
+  > gitnuro permet de voir l'historique et de modifier un repository tout en étant totalement gratuit.
 
     **Source :** []()  
   &nbsp;

@@ -239,16 +239,16 @@ Partie Rapport Technique
 
 ### Création d'un nouvelle marchine virtuelle avec le logiciel Virtual Box 
 * Nous avons créé un machine virtuelle grâce au logiciel Virtual Box au quel on lui a donner certaine caratéristique
-[center]
+
 ![nouvelle_machine](img/nouvelle_machine.PNG)
 ![nouvelle_machine2](img/nouvelle_machine2.PNG)
 ![nouvelle_machine3](img/nouvelle_machine3.PNG)
-[/center]
+
 * Télécharger le fichier iso de Debian 12
   > grace au site de [Debian](https://www.debian.org/download) nous avons pu télécharger le fichier iso puis l'insérer dans le lecteur disque de la machine virtuel
-[center]
+
 ![iso](img/iso.PNG)
-![disque](img/disque.PNG)[/center]
+![disque](img/disque.PNG)  
 * Configuration de la machine
   > Nom de marchine : serveur
   

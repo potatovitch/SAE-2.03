@@ -264,7 +264,7 @@ hppa (HP PA-RISC)
     * `flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo`
 &nbsp;  
   > ensuite, il faut installer gitnuro depuis la librairie de flathub  
-    * `flatpak install flathub com.jetpackduba.Gitnuro`
+    * `flatpak install flathub com.jetpackduba.Gitnuro`  
 &nbsp;   
 
     **Source :** []()  

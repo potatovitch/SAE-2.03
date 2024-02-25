@@ -1,3 +1,10 @@
+---
+title : "RAPPORT SEMAINE 08"
+papersize : a4
+lang : fr
+font-size : 16pt
+---
+
 ### SAE 2.03 : RAPPORT SEMAINE 08
 
 STIEVENARD Adam -- CHAUMETTE Thomas -- Leclercq Hugo

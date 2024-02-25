@@ -6,7 +6,7 @@ STIEVENARD Adam -- CHAUMETTE Thomas -- Leclercq Hugo
 # table des matières
 
 [Partie VM](#vm)  
-[Partie Markdown](#rt)  
+[Partie Rapport Technique](#rt)  
 [Partie GIT](#git)  
 
 ---

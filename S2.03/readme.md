@@ -276,9 +276,9 @@ hppa (HP PA-RISC)
   > Ils ont cependant l'avantage d'être installé en même temps que git et de pouvoir fonctionner ensemble.
     &nbsp;
   
-  > gitkraken permet de voir les modification d'un repository et de le modifier, mais il a très peu de fonctionnalité sur la version gratuit comme l'impossibilité d'acceder au repository privés.
+  > gitkraken permet de voir les modification d'un repository et de le modifier, mais il a très peu de fonctionnalité sur la version gratuit comme l'impossibilité d'acceder au repository privés.  
   > La version d'essai ne dure qu'un semaine, cependant la version payante est relativement abordable pour les particuliers et avec des tarifs spéciaux pour groupes et entreprises.  
-  > De plus cette version payante à beaucoup de fonctionnalitées pratiques comme la génération de clé ssh automatique et des outils pour les travaux de groupe.
+  > De plus cette version payante à beaucoup de fonctionnalitées pratiques comme la génération de clé ssh automatique et des outils pour les travaux de groupe.  
      &nbsp;
   
   > gitnuro permet de voir l'historique et de modifier un repository tout en étant totalement gratuit.  

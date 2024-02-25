@@ -265,7 +265,7 @@ hppa (HP PA-RISC)
 &nbsp;  
   > ensuite, il faut installer gitnuro depuis la librairie de flathub  
     * `flatpak install flathub com.jetpackduba.Gitnuro`
-&nbsp;
+&nbsp;   
 
     **Source :** []()  
   &nbsp;

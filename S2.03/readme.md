@@ -2,7 +2,7 @@
 title : "RAPPORT SEMAINE 08"
 papersize : a4
 lang : fr
-font-size : 16pt
+font-size : 12pt
 ---
 
 ### SAE 2.03 : RAPPORT SEMAINE 08

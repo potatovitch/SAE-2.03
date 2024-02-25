@@ -1,4 +1,4 @@
-### SAE 2.03 : RAPPORT SEMAINE 08
+****### SAE 2.03 : RAPPORT SEMAINE 08
 
 STIEVENARD Adam -- CHAUMETTE Thomas -- Leclercq Hugo
 
@@ -249,12 +249,25 @@ hppa (HP PA-RISC)
 
 ### 1.3. Installons autre chose et comparons
 * Pourquoi avez-vous choisi ce logiciel ?
-  >
+  > nous avons premièrement cherché un logiciel avec une interface graphiquqe attirante et simple, puis en avons cherché un qui était totalement gratuit, ce qui qui nous à tourné vers gitnuro
 
     **Source :** []()  
   &nbsp;
 * Comment l’avez vous installé ?
-  >
+  > tout d'abord, il faut ouvrir un terminal, puis installer flatpak
+    * `sudo apt install flatpak`
+    * `sudo add-apt-repository ppa:flatpak/stable`
+    * `sudo apt update`
+    * `sudo apt install flatpak`  
+
+ > ensuite, on doit ajouter le flathub repoository pour avoir accès à la librairie d'application de flathub
+    * `flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo`
+
+ > 
+    * ``
+    * ``
+  
+  
 
     **Source :** []()  
   &nbsp;

@@ -224,8 +224,8 @@ hppa (HP PA-RISC)
         `apt install neofetch`  
 ---
 <a name="mkw">
-Partie Markdown
-</a>  
+Partie Markdown  
+</a>
 
 &nbsp; &nbsp; &nbsp; blabla en crabe 🦀🦀🦀  
 &nbsp; &nbsp; &nbsp; faite le tableau de marckdown en marckdown allez loulou tu peux le faire   

@@ -12,15 +12,15 @@ STIEVENARD Adam -- CHAUMETTE Thomas -- Leclercq Hugo
 ***
 # table des matières
 
-[Partie VM](#vm)
+[Question/réponses](#qr)
   &nbsp;  
-[Partie Rapport Technique](#rt)
+[Rapport Technique](#rt)
   &nbsp;  
 [Partie GIT](#git)
 
 ***
-<a name="vm">
-Partie VM
+<a name="qr">
+Question/réponses
 </a>
 
 ### Question(s) 1 : Configuration matérielle dans VirtualBox 
@@ -259,7 +259,7 @@ Partie VM
         
 ***
 <a name="rt">  
-Partie Rapport Technique  
+Rapport Technique  
 </a>    
 
 
@@ -304,7 +304,7 @@ Partie Rapport Technique
   
 ***
 <a name="git">
-Partie GIT
+GIT
 </a>
 
 ### 1.2. Les interfaces graphiques pour git

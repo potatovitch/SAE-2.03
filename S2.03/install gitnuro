@@ -13,9 +13,3 @@ flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.f
 install gitnuro: 
 
 flatpak install flathub com.jetpackduba.Gitnuro
-
-
-run gitnuroo:
-
-flatpak run com.jetpackduba.Gitnuro & (ou juste on double-click dessus)
-

@@ -1,0 +1,11 @@
+install pdflatex:
+		sudo apt install texlive-latex-base 
+		
+install weasyprint: 
+		sudo apt install weasyprint
+
+  
+convert:
+
+	pandoc readme.md -o readme.html
+	pandoc readme.md -o readme.pdf --pdf-engine=weasyprint

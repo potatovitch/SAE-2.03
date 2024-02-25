@@ -231,12 +231,12 @@ hppa (HP PA-RISC)
      7. neofetch : pas très utile mais c’est un classique dans son genre (essayez-le)
         > `su -`
         `apt install neofetch`  
----
+***
 <a name="rt">  
 Partie Rapport Technique  
 </a>    
 
----
+***
 <a name="git">
 Partie GIT
 </a>

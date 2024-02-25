@@ -6,7 +6,7 @@ STIEVENARD Adam -- CHAUMETTE Thomas -- Leclercq Hugo
 # table des matières
 
 [Partie VM](#vm)  
-[Partie Markdown](#mkw)  
+[Partie Markdown](#rt)  
 [Partie GIT](#git)  
 
 ---
@@ -223,12 +223,9 @@ hppa (HP PA-RISC)
         > `su -`
         `apt install neofetch`  
 ---
-<a name="mkw">  
-Partie Markdown  
-</a>  
-  
-&nbsp; &nbsp; &nbsp; blabla en crabe 🦀🦀🦀  
-&nbsp; &nbsp; &nbsp; faite le tableau de marckdown en marckdown allez loulou tu peux le faire   
+<a name="rt">  
+Partie Rapport Technique  
+</a>    
 
 ---
 <a name="git">

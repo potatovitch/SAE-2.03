@@ -266,7 +266,7 @@ hppa (HP PA-RISC)
     * `flatpak install flathub com.jetpackduba.Gitnuro`  
 &nbsp;   
 
-    **Source :** []()  
+    **Source :** [pour setup flatpak et flathub](https://flathub.org/setup) et [installer gitnuro](https://flathub.org/apps/com.jetpackduba.Gitnuro)
   &nbsp;
 * Comparer-le aux outils inclus avec git (et installé précédemment) ainsi qu’avec ce qui serait fait
     en ligne de commande pure : fonctionnalités avantages, inconvénients

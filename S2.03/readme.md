@@ -65,7 +65,7 @@ Question/réponses
     > Un serveur web est un logiciel informatique conçu pour recevoir, traiter et répondre aux requêtes HTTP (Hypertext Transfer Protocol) provenant des clients, généralement des navigateurs web, et pour fournir des ressources web, telles que des pages HTML, des images, des fichiers CSS et JavaScript, en réponse à ces requêtes.  
     En termes simples, un serveur web permet de rendre les sites web accessibles sur Internet.
 
-    :![](img/sch_http.png):
+    ![](img/sch_http.png)
   
     **Source :** [Mozilla.org](https://developer.mozilla.org/fr/docs/Learn/Common_questions/Web_mechanics/What_is_a_web_server)  
   &nbsp;  
@@ -74,8 +74,8 @@ Question/réponses
     > Un serveur SSH (Secure Shell) est un logiciel qui permet à un utilisateur de se connecter de manière sécurisée à un ordinateur distant sur un réseau, généralement Internet.  
     Le protocole SSH fournit un moyen crypté et sécurisé pour accéder à des systèmes distants et exécuter des commandes à distance, transférer des fichiers et gérer des systèmes à distance.  
 
-    :![sch ssh1](img/sch_ssh1.png):  
-    :[sch ssh2](img/sch_ssh2.png):  
+    ![sch ssh1](img/sch_ssh1.png)  
+    ![sch ssh2](img/sch_ssh2.png)  
 
     **Source :** [It-Connect.fr](https://www.it-connect.fr/chapitres/quest-ce-que-ssh/)
 
@@ -267,16 +267,16 @@ Rapport Technique
 
 * Nous avons créé un machine virtuelle grâce au logiciel Virtual Box au quel on lui a donner certaine caratéristique  
 
-:![nouvelle_machine](img/nouvelle_machine.PNG):
-:![nouvelle_machine2](img/nouvelle_machine2.PNG):
-:![nouvelle_machine3](img/nouvelle_machine3.PNG):  
+![nouvelle_machine](img/nouvelle_machine.PNG)
+![nouvelle_machine2](img/nouvelle_machine2.PNG)
+![nouvelle_machine3](img/nouvelle_machine3.PNG)  
 
 * Télécharger le fichier iso de Debian 12  
 
   > grace au site de [Debian](https://www.debian.org/download) nous avons pu télécharger le fichier iso puis l'insérer dans le lecteur disque de la machine virtuel  
 
-:![iso](img/iso.PNG):
-:![disque](img/disque.PNG):  
+![iso](img/iso.PNG)
+![disque](img/disque.PNG)  
 
 * Configuration de la machine  
 

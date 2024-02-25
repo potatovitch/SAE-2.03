@@ -176,6 +176,7 @@ Question/réponses
     m68k (Motorola 680x0)
     alpha (DEC Alpha)
     hppa (HP PA-RISC)  
+    
   &nbsp;  
 
 * Quelle a était le premier nom de code utilisé ?  

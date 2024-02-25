@@ -271,7 +271,7 @@ hppa (HP PA-RISC)
   &nbsp;
 * Comparer-le aux outils inclus avec git (et installé précédemment) ainsi qu’avec ce qui serait fait
     en ligne de commande pure : fonctionnalités avantages, inconvénients
-  >
+  > parler de gitk et gitkraken .....................IOJIJO
 
     **Source :** []()  
   &nbsp;

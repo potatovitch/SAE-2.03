@@ -250,8 +250,7 @@ hppa (HP PA-RISC)
 ### 1.3. Installons autre chose et comparons
 * Pourquoi avez-vous choisi ce logiciel ?
   > nous avons premièrement cherché un logiciel avec une interface graphiquqe attirante et simple, puis en avons cherché un qui était totalement gratuit, ce qui qui nous à tourné vers gitnuro
-
-    **Source :** []()  
+  
   &nbsp;
 * Comment l’avez vous installé ?
   > tout d'abord, il faut ouvrir un terminal, puis installer flatpak

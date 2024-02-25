@@ -309,7 +309,8 @@ Rapport Technique
   
   > on se déplace dans le répertoire de la VM, puis on décompresse l'archive "autoinstall_Debian.zip".  
   
-  > on rentre la commande `sed -i -E "s/(--iprt-iso-maker-file-marker-bourne-sh).*$/\1=$(cat/proc/sys/kernel/random/uuid)/" S203-Debian12.viso`  
+  > on rentre la commande  
+  > `sed -i -E "s/(--iprt-iso-maker-file-marker-bourne-sh).*$/\1=$(cat/proc/sys/kernel/random/uuid)/" S203-Debian12.viso`  
     
   > on met le fichier "S203_Debian12.viso" dans le lecteur CD de la VM, puis on la démare.  
   

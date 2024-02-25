@@ -244,7 +244,7 @@ Partie Rapport Technique
 ![nouvelle_machine3](img/nouvelle_machine3.PNG) 
 * Télécharger le fichier iso de Debian 12
   > grace au site de [Debian](https://www.debian.org/download) nous avons pu télécharger le fichier iso puis l'insérer dans le lecteur disque de la machine virtuel
-![iso](img/iso.PNG)
+[center]![iso](img/iso.PNG)[/center]
 ![disque](img/disque.PNG) 
 * Configuration de la machine
   > Nom de marchine : serveur

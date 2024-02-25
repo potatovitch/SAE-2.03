@@ -372,4 +372,9 @@ GIT
   
   > gitnuro permet de voir l'historique et de modifier un repository tout en étant totalement gratuit.
   &nbsp;
-  
+
+|                | voir l'historique | modifier/créer des repository | gratuit |
+| :---           |       :---:       |             :---:             |   ---:  | 
+| gitk + git gui |       -[x]        |             -[ ]              |  -[x]   |
+| gitkraken      |       -[x]        |             -[x]              |  -[ ]   |
+| gitnuro        |       -[x]        |             -[x]              |  -[x]   |

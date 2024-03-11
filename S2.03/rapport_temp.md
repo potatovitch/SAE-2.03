@@ -23,6 +23,7 @@ font-size : 12pt
 
 
     > **Source :** [gitea.com](https://about.gitea.com/) et [wikipedia.org](https://fr.wikipedia.org/wiki/Gitea)  
+    
       &nbsp;  
 
   * À quels logiciels bien connus dans ce domaine peut-on le comparer (en citer au moins 2) ?

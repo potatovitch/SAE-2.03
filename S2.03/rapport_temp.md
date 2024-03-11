@@ -9,11 +9,13 @@ font-size : 12pt
 ### Gitea
 
   * Qu’est-ce que Gitea ?
-    > temp  
+    > temp
+    
       &nbsp;  
 
   * À quels logiciels bien connus dans ce domaine peut-on le comparer (en citer au moins 2) ?
-    > temp  
+    > temp
+    
       &nbsp;  
       &nbsp;  
 
@@ -21,11 +23,13 @@ font-size : 12pt
 
 
   * Quelle version du binaire avez-vous installé ? Donnez la version et la commande permettant d’obtenir cette information.
-    > temp  
+    > temp
+    
       &nbsp;  
 
   * Comment faire pour mettre à jour le binaire de votre service sans devoir tout reconfigurer ? Essayez en mettant à jour vers la version 1.22-dev.
-    > temp  
+    > temp
+    
       &nbsp;  
 
 

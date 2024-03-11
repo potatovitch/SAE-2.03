@@ -6,7 +6,7 @@ font-size : 12pt
 ---
 
 
-### Gitea
+### Gitea
 
   * Qu’est-ce que Gitea ?
       &nbsp;  

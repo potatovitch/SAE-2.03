@@ -9,7 +9,11 @@ font-size : 12pt
 ### Gitea
 
   * Qu’est-ce que Gitea ?
-    > temp
+    > Gitea est git gui libre en Go (un language de programmation dévellopé par google et inspiré de C et Pascal) sous licence MIT.
+    > il comporte :
+    > 1. un système de suivi des bugs
+    > 2. un wiki, ainsi que des outils pour la relecture de code
+    > 3. un système d'extension, fournissant notamment de l'intégration continue ainsi que de la livraison continue.
     
       &nbsp;  
 

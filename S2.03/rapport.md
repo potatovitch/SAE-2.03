@@ -72,7 +72,7 @@ Question/réponses
 * Qu’est-ce qu’un serveur ssh ?  
 
     > Un serveur SSH (Secure Shell) est un logiciel qui permet à un utilisateur de se connecter de manière sécurisée à un ordinateur distant sur un réseau, généralement Internet.  
-    Le protocole SSH fournit un moyen crypté et sécurisé pour accéder à des systèmes distants et exécuter des commandes à distance, transférer des fichiers et gérer des systèmes à distance.  
+    Le protocole SSH fourniQu’est-ce que Gitea ?t un moyen crypté et sécurisé pour accéder à des systèmes distants et exécuter des commandes à distance, transférer des fichiers et gérer des systèmes à distance.  
 
     ![sch ssh1](img/sch_ssh1.png)  
     ![sch ssh2](img/sch_ssh2.png)  
@@ -395,3 +395,9 @@ GIT
 | git gui        |        [ ]        |              [x]              |   [x]   |
 | gitkraken      |        [x]        |              [x]              |   [ ]   |
 | gitnuro        |        [x]        |              [x]              |   [x]   |
+  &nbsp;
+***
+
+<a name="gitea">
+### Gitea 
+</a>

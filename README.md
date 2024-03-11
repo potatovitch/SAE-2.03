@@ -1,9 +1,18 @@
 # SAE-2.03  
 
-fini, c'est envoyé.
+* étoffer la part I:  
+    1. rajouter du contenu sur les questions  
+    2. center et resize les imgs  
+    3. enlever le giga rond bleu moche et le changer par un highlight
+&nbsp;  
 
-* le rapport n'est plus dans le readme.md mais dans rapport.md
-* readme.md c'est les instructions pour convertir le rapport.md en rapport.pdf/html
+* installer gitea:  
+    * pas oublier de notter les cmds  
+    * commencer à préparer des comparaison avec des logiciels similaires comme guithub, gitkraken, ...  
+&nbsp;  
+
+* répondre aux questions de la part II  
+&nbsp;  
 
 # links doc Markdoc
 * [tuto markdown](https://www.markdowntutorial.com/fr/lesson/1/)

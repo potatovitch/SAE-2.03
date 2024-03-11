@@ -19,9 +19,3 @@
 * [doc markdown](https://commonmark.org/help/)
 * [full doc markdown](https://docs.framasoft.org/fr/grav/markdown.html)
 * [stack edit](https://stackedit.io)
-
-&nbsp;  
-&nbsp;  
-**ps :** 
-  * install gitnuro pour le git gui, y a les cmd pour le dl sous debian dans 'install gitnuro'.
-

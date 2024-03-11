@@ -12,7 +12,8 @@ font-size : 12pt
       &nbsp;  
 
   * À quels logiciels bien connus dans ce domaine peut-on le comparer (en citer au moins 2) ?  
-      &nbsp;  
+      &nbsp;
+      &nbsp; 
 
 
 

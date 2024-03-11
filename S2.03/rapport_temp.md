@@ -18,7 +18,7 @@ font-size : 12pt
 
     > Sa première version est sortie le 17 octobre 2016 et est toujours mis à jour régulièrement.  
     > Il est dévellopé par Jiahua Chen et Lunny Xiao et est disponible sur Windows, Mac et Linux.
-    > Leur travail est déposé sur [ce repository](github.com/go-gitea/gitea).  
+    > Leur travail est déposé sur [ce repository](https://github.com/go-gitea/gitea).  
     
       &nbsp;  
 

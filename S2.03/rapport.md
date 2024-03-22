@@ -419,11 +419,23 @@ GIT
 </a>
 
 ### 2.1. Installons de Gitea
-* Qu’est-ce que Gitea ?
-  > Gitea est un site de développement logiciel tout-en-un auto-herbergé et indolore. Il comprent comprend l'hébergement Git, la révision du code, la collaboration d'équipe, le registre des paquets et le CI/CD
-  
-  *Source :* [gitea.com](https://docs.gitea.com/next/)  
-&nbsp;
+  * Qu’est-ce que Gitea ?
+    > Gitea est git gui libre, gratuit et open-source écrit en Go (un language de programmation dévellopé par google et inspiré de C et Pascal) sous licence MIT.
+    > il comporte :
+    > 1. un système de suivi des bugs
+    > 2. un wiki, ainsi que des outils pour la relecture de code
+    > 3. un système d'extension, fournissant notamment de l'intégration continue ainsi que de la livraison continue.  
+    > &nbsp;
+
+    > Sa première version est sortie le 17 octobre 2016 et est toujours mis à jour régulièrement.  
+    > Il est dévellopé par Jiahua Chen et Lunny Xiao et est disponible sur Windows, Mac et Linux.
+    > Leur travail est déposé dans [ce repository](https://github.com/go-gitea/gitea).  
+    > &nbsp;  
+
+
+    > **Source :** [gitea.com](https://about.gitea.com/) et [wikipedia.org](https://fr.wikipedia.org/wiki/Gitea)  
+    
+      &nbsp; 
 * À quels logiciels bien connus dans ce domaine peut-on le comparer (en citer au moins 2) ?
   > Dans ce même domaine on peut le comparer à GitHub et GitLab.
 

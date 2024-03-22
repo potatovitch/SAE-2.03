@@ -445,7 +445,7 @@ GIT
 ### 2.1. Installons de Gitea
 * Opération faite
   * Opération faite
-  > git --version
+  > `git --version`
   # On Ubuntu/Debian:
   
   > `adduser \`  

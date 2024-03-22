@@ -186,7 +186,7 @@ Question/réponses
 
 * Quelle a était le premier nom de code utilisé ?  
 
-  > Le premier nom de code utilisé pour une version de Debian était « Buzz ».  
+  > Le premier nom de code utilisé pour une version de Debian était « Buzz ». À l'époque, le projet était dirigé par Ian Murdock, qui a décidé d'attribuer des noms de code aux versions du système d'exploitation Debian en utilisant des personnages de films de science-fiction .Le nom de code "Buzz" a été choisi en l'honneur du personnage Buzz Lightyear, un des personnages principaux du film d'animation de Pixar, "Toy Story", sorti en 1995.C'était un film très populaire à l'époque, et le personnage de Buzz Lightyear représentait l'aventure, l'exploration et l'innovation, des valeurs qui ont peut-être été considérées comme pertinentes pour cette version de Debian.
 
   **Source :** [Wiki.debian.org](https://wiki.debian.org/fr/DebianBuzz)
 

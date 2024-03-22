@@ -248,24 +248,22 @@ Question/réponses
   &nbsp;  
 * Ajouter les paquets suivants :  
 
-     1. sudo :
-
-        > `su -`
-        >`apt install sudo`  
-     3. git, sqlite3, curl :
-
-        > `su -`
-        >`apt install git`
-        >`apt install sqlite3`
-        >`apt install curl`  
+     1. sudo :  
+        > `su -`  
+        > `apt install sudo`  
+     3. git, sqlite3, curl :  
+        > `su -`  
+        > `apt install git`  
+        > `apt install sqlite3`  
+        > `apt install curl`  
+        
      5. bash-completion :
-
-        > `su -`
-        >`apt install bash-completion` 
+        > `su -`  
+        > `apt install bash-completion`  
+        
      7. neofetch :  
-
-        > `su -`
-        >`apt install neofetch`  
+        > `su -`  
+        > `apt install neofetch`  
         
 ***
 <a name="rt">  

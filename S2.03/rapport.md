@@ -338,18 +338,22 @@ GIT
   **Source :** [Atlassian.com](https://www.atlassian.com/fr/git/tutorials/gitk)  
 
   > Il se lance en rentrant dans un terminal la commande `gitk &`
-  
+
+![](img/gitk.png)
+
   &nbsp;
 * Qu’est-ce que le logiciel git-gui ? Comment se lance-t-il ?  
 
-  > Git-gui est une interface graphique de Git basée sur Tcl/Tk. git gui permet aux utilisateurs d’apporter des modifications à leur dépôt en faisant de      nouveaux commits, en modifiant les commits existants, en créant des branches, en effectuant des fusions locales, et en récupérant/poussant vers des       dépôts distants.
+  > Git-gui est une interface graphique de Git basée sur Tcl/Tk. git gui permet aux utilisateurs d’apporter des modifications à leur dépôt en faisant de      nouveaux commits, en modifiant les commits existants, en créant des branches, en effectuant des fusions locales, et en récupérant/poussant vers des dépôts distants.
 
   > Contrairement à gitk, git gui se concentre sur la génération de commit et l’annotation de fichiers uniques et n’affiche pas l’historique du projet.       Il fournit cependant des actions de menu pour démarrer une session gitk à partir de git gui.
 
   **Source :** [git-scm.com](https://git-scm.com/docs/git-gui/fr)  
 
   > il se lance en rentrant dans un terminal la commande `git gui &`
-  
+
+![](img/git-gui.png)
+
   &nbsp;
 
 ### 1.3. Installons autre chose et comparons
@@ -379,6 +383,8 @@ GIT
 
     * `flatpak install flathub com.jetpackduba.Gitnuro`  
 &nbsp;   
+
+![](img/Gitnuro.png)
 
     **Source :** [pour setup flatpak et flathub](https://flathub.org/setup) et [installer gitnuro](https://flathub.org/apps/com.jetpackduba.Gitnuro)
   &nbsp;

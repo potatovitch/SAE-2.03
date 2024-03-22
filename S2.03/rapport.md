@@ -1,9 +1,5 @@
----
-title : "RAPPORT SEMAINE 08"
-papersize : a4
-lang : fr
-font-size : 12pt
----
+<meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="style.css">
 
 ### SAE 2.03 : RAPPORT SEMAINE 08
 
@@ -76,8 +72,9 @@ Question/réponses
     > Un serveur SSH (Secure Shell) est un logiciel qui permet à un utilisateur de se connecter de manière sécurisée à un ordinateur distant sur un réseau, généralement Internet.  
     Le protocole SSH fourniQu’est-ce que Gitea ?t un moyen crypté et sécurisé pour accéder à des systèmes distants et exécuter des commandes à distance, transférer des fichiers et gérer des systèmes à distance.  
 
-    ![sch ssh1](img/sch_ssh1.png){ width: 200px }
-    ![sch ssh2](img/sch_ssh2.png){width: 200px}
+    ![](img/sch_ssh1.png)
+
+    ![](img/sch_ssh2.png)
 
     **Source :** [It-Connect.fr](https://www.it-connect.fr/chapitres/quest-ce-que-ssh/)
 
@@ -165,19 +162,19 @@ Question/réponses
   
 * L’un des atouts de Debian fut le nombre d’architecture (≈ processeurs) officiellement prises en charge. Combien et lesquelles sont prises en charge par la version Bullseye ?  
 
-  > 13 architecture -> amd64 (64-bit PC)
-    arm64 (ARM 64 bits)
-    armel (ARM Little Endian 32 bits)
-    armhf (ARM Hard Float 32 bits)
-    i386 (PC 32 bits)
-    mips (MIPS (big endian))
-    mips64el (MIPS (little endian))
-    ppc64el (PowerPC 64 bits Little Endian)
-    s390x (IBM System z)
-    riscv64 (RISC-V 64 bits)
-    m68k (Motorola 680x0)
-    alpha (DEC Alpha)
-    hppa (HP PA-RISC)  
+  > 13 architecture  -> amd64 (64-bit PC) </br>
+    &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;-> arm64 (ARM 64 bits) </br>
+    &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;-> armel (ARM Little Endian 32 bits) </br>
+    &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;-> armhf (ARM Hard Float 32 bits) </br>
+    &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;-> i386 (PC 32 bits) </br>
+    &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;-> mips (MIPS (big endian)) </br>
+    &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;-> mips64el (MIPS (little endian)) </br>
+    &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;-> ppc64el (PowerPC 64 bits Little Endian) </br>
+    &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;-> s390x (IBM System z) </br>
+    &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;-> riscv64 (RISC-V 64 bits) </br>
+    &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;-> m68k (Motorola 680x0) </br>
+    &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;-> alpha (DEC Alpha) </br>
+    &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;-> hppa (HP PA-RISC)   </br>
     
   &nbsp;  
 
@@ -270,16 +267,19 @@ Rapport Technique
 
 * Nous avons créé un machine virtuelle grâce au logiciel Virtual Box au quel on lui a donner certaine caratéristique  
 
-![nouvelle_machine](img/nouvelle_machine.PNG){width: 200px}
-![nouvelle_machine2](img/nouvelle_machine2.PNG){width: 200px}
-![nouvelle_machine3](img/nouvelle_machine3.PNG){width: 200px}
+![](img/nouvelle_machine.PNG)
+
+![](img/nouvelle_machine2.PNG)
+
+![](img/nouvelle_machine3.PNG)
 
 * Télécharger le fichier iso de Debian 12  
 
   > grace au site de [Debian](https://www.debian.org/download) nous avons pu télécharger le fichier iso puis l'insérer dans le lecteur disque de la machine virtuel  
 
-![iso](img/iso.PNG)
-![disque](img/disque.PNG)  
+![](img/iso.PNG)
+
+![](img/disque.PNG)  
 
 * Configuration de la machine  
 
@@ -312,6 +312,7 @@ Rapport Technique
   > on se déplace dans le répertoire de la VM, puis on décompresse l'archive "autoinstall_Debian.zip".  
   
   > on rentre la commande  
+  
   > `sed -i -E "s/(--iprt-iso-maker-file-marker-bourne-sh).*$/\1=$(cat/proc/sys/kernel/random/uuid)/" S203-Debian12.viso`  
     
   > on met le fichier "S203_Debian12.viso" dans le lecteur CD de la VM, puis on la démare.  
@@ -357,8 +358,11 @@ GIT
 
   > tout d'abord, il faut ouvrir un terminal, puis installer flatpak
     * `sudo apt install flatpak`
+
     * `sudo add-apt-repository ppa:flatpak/stable`
+
     * `sudo apt update`
+
     * `sudo apt install flatpak`  
 &nbsp;  
 

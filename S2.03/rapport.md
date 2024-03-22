@@ -404,3 +404,22 @@ GIT
   
 ### Gitea 
 </a>
+
+### 2.1. Installons de Gitea
+* Qu’est-ce que Gitea ?
+  > test
+&nbsp;
+* À quels logiciels bien connus dans ce domaine peut-on le comparer (en citer au moins 2) ?
+  > test
+&nbsp;
+### 2.1. Installons de Gitea
+* Opération faite
+  > test
+&nbsp;
+### 2.1.2. Mise à jour du binaire du service Gitea
+* Quelle version du binaire avez-vous installé ? Donnez la version et la commande permettant d’obtenir cette information.
+  > test
+&nbsp;
+* Comment faire pour mettre à jour le binaire de votre service sans devoir tout reconfigurer ? Essayez en mettant à jour vers la version 1.22-dev.
+  > test
+&nbsp;

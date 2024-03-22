@@ -6,4 +6,4 @@ Avant de convertir le fichier avec pandoc, il faut d'abord installer pdflatex et
 Ensuite, pour convertir le fichier en html/pdf, on utilise les commandes :
 
 > `pandoc rapport.md -o rapport.html`  
-> `pandoc readme.md -o readme.pdf --pdf-engine=weasyprint`  
+> `pandoc rapport.md -o rapport.pdf --pdf-engine=weasyprint`  

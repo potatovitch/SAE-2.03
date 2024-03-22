@@ -385,7 +385,7 @@ GIT
 &nbsp;   
 
 ![](img/Gitnuro.png)
-
+ &nbsp;
     **Source :** [pour setup flatpak et flathub](https://flathub.org/setup) et [installer gitnuro](https://flathub.org/apps/com.jetpackduba.Gitnuro)
   &nbsp;
   

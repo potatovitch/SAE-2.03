@@ -228,12 +228,15 @@ Question/réponses
 * Ajouter le droit d’utiliser sudo à l’utilisateur standard  
 
   > `su -`
-  `usermod -aG sudo utilisateur`  
+
+  >`usermod -aG sudo utilisateur`  
   &nbsp;  
 * Installer l’environnement MATE  
 
   > `su -`
-  `tasksel`
+
+  >`tasksel`
+  
   > Puis cocher la case MATE et appliquer 
   &nbsp;  
 * Ajouter les paquets suivants :  
@@ -241,21 +244,27 @@ Question/réponses
      1. sudo : sinon la gestion sudo est inutile  
 
         > `su -`
-        `apt install sudo`  
+
+        >`apt install sudo`  
      3. git, sqlite3, curl : pour préparer l’installation de la semaine prochaine  
 
         > `su -`
-        `apt install git`
-        `apt install sqlite3`
-        `apt install curl`  
+
+        >`apt install git`
+
+        >`apt install sqlite3`
+
+        >`apt install curl`  
      5. bash-completion : va vous simplifier grandement l’écriture des lignes de commande  
 
         > `su -`
-        `apt install bash-completion` 
+
+        >`apt install bash-completion` 
      7. neofetch : pas très utile mais c’est un classique dans son genre (essayez-le)  
 
         > `su -`
-        `apt install neofetch`  
+
+        >`apt install neofetch`  
         
 ***
 <a name="rt">  
@@ -312,7 +321,7 @@ Rapport Technique
   > on se déplace dans le répertoire de la VM, puis on décompresse l'archive "autoinstall_Debian.zip".  
   
   > on rentre la commande  
-  
+
   > `sed -i -E "s/(--iprt-iso-maker-file-marker-bourne-sh).*$/\1=$(cat/proc/sys/kernel/random/uuid)/" S203-Debian12.viso`  
     
   > on met le fichier "S203_Debian12.viso" dans le lecteur CD de la VM, puis on la démare.  

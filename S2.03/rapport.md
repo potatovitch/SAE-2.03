@@ -76,8 +76,8 @@ Question/réponses
     > Un serveur SSH (Secure Shell) est un logiciel qui permet à un utilisateur de se connecter de manière sécurisée à un ordinateur distant sur un réseau, généralement Internet.  
     Le protocole SSH fourniQu’est-ce que Gitea ?t un moyen crypté et sécurisé pour accéder à des systèmes distants et exécuter des commandes à distance, transférer des fichiers et gérer des systèmes à distance.  
 
-    ![sch ssh1](img/sch_ssh1.png)  
-    ![sch ssh2](img/sch_ssh2.png)  
+    ![sch ssh1](img/sch_ssh1.png){width: 200px}
+    ![sch ssh2](img/sch_ssh2.png){width: 200px}
 
     **Source :** [It-Connect.fr](https://www.it-connect.fr/chapitres/quest-ce-que-ssh/)
 
@@ -270,9 +270,9 @@ Rapport Technique
 
 * Nous avons créé un machine virtuelle grâce au logiciel Virtual Box au quel on lui a donner certaine caratéristique  
 
-![nouvelle_machine](img/nouvelle_machine.PNG)
-![nouvelle_machine2](img/nouvelle_machine2.PNG)
-![nouvelle_machine3](img/nouvelle_machine3.PNG)  
+![nouvelle_machine](img/nouvelle_machine.PNG){width: 200px}
+![nouvelle_machine2](img/nouvelle_machine2.PNG){width: 200px}
+![nouvelle_machine3](img/nouvelle_machine3.PNG){width: 200px}
 
 * Télécharger le fichier iso de Debian 12  
 

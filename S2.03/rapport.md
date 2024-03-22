@@ -448,9 +448,9 @@ GIT
   > git --version
   # On Ubuntu/Debian:
   
-  > `adduser \`
-  >   `--system \`
-  >   `--shell /bin/bash \`
+  > `adduser \`  
+  >   `--system \`  
+  >   `--shell /bin/bash \`  
   >   `--gecos 'Git Version Control' \`  
   >   `--group \`  
   >   `--disabled-password \`  

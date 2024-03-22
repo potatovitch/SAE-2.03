@@ -41,7 +41,9 @@ Question/réponses
   > ce fichier s'appelle **sae203.vbox**.
   
   &nbsp;
-* Sauriez-vous le modifier directement ce fichier de configuration pour mettre 2 processeurs à votre machine ?
+* Sauriez-vous le modifier directement ce fichier de configuration pour mettre 2 processeurs à votre machine ?  
+  >pour modifier le nombre de processeurs du fichier **sae203.vbox**, il faut changer la valeur de CPU count à 2.  
+  
   &nbsp;  
   &nbsp;  
 

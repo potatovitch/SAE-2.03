@@ -139,7 +139,7 @@ Question/réponses
   
 * Il existe 3 durées de prise en charge (support) de ces versions : la durée minimale, la durée en support long terme (LTS) et la durée en support long terme étendue (ELTS). Quelle sont les durées de ces prises en charge ?  
 
-  > La durée en support long terme (LTS) est de 5ans quand à la durée en support long terme étendue est de 10ans.
+  > La durée minimal correspond à la période pendant laquelle le fournisseur garantit la disponibilité des correctifs de sécurité et des mises à jour de la version logicielle. Cette période peut varier, mais elle est souvent d'au moins quelques mois à un an après la sortie de la version. Il y a aussi la durée en support long terme, le systeme d'exploitation peut donc bénéficier d'une prise en charge à long terme. Cela signifie que le fournisseur s'engage à fournir des mises à jour de sécurité et des correctifs de bugs pour une période prolongée, souvent plusieurs années après la sortie initiale de la version, dans notre cas c'est 5 ans. Et enfin il y a aussi la durée en support long terme étendue, c'est a dire qu'ils continueront à fournir des correctifs de sécurité et des mises à jour critiques sur une longue période, dans notre cas 10ans.
   
   **Source :** [Wiki.debian.org](https://wiki.debian.org/fr/LTS/)  
   &nbsp;  

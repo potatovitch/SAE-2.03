@@ -407,10 +407,14 @@ GIT
 
 ### 2.1. Installons de Gitea
 * Qu’est-ce que Gitea ?
-  > test
+  > Gitea est un site de développement logiciel tout-en-un auto-herbergé et indolore. Il comprent comprend l'hébergement Git, la révision du code, la collaboration d'équipe, le registre des paquets et le CI/CD
+  
+  *Source :* [gitea.com](https://docs.gitea.com/next/)  
 &nbsp;
 * À quels logiciels bien connus dans ce domaine peut-on le comparer (en citer au moins 2) ?
-  > test
+  > Dans ce même domaine on peut le comparer à GitHub et GitLab.
+
+  *Source :* [gitea.com](https://docs.gitea.com/next/)  
 &nbsp;
 ### 2.1. Installons de Gitea
 * Opération faite

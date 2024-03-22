@@ -249,29 +249,23 @@ Question/réponses
   &nbsp;  
 * Ajouter les paquets suivants :  
 
-     1. sudo : sinon la gestion sudo est inutile  
+     1. sudo :
 
         > `su -`
-
         >`apt install sudo`  
-     3. git, sqlite3, curl : pour préparer l’installation de la semaine prochaine  
+     3. git, sqlite3, curl :
 
         > `su -`
-
         >`apt install git`
-
         >`apt install sqlite3`
-
         >`apt install curl`  
-     5. bash-completion : va vous simplifier grandement l’écriture des lignes de commande  
+     5. bash-completion :
 
         > `su -`
-
         >`apt install bash-completion` 
-     7. neofetch : pas très utile mais c’est un classique dans son genre (essayez-le)  
+     7. neofetch :  
 
         > `su -`
-
         >`apt install neofetch`  
         
 ***

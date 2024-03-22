@@ -112,7 +112,7 @@ Question/réponses
 
 ### Question(s) 4. Suppléments invités 
 * Quel est la version du noyau Linux utilisé par votre VM ? 
-  &nbsp;
+  &nbsp;  
 * À quoi servent les suppléments invités ? Donner 2 principales raisons de les installer.  
 
   > Meilleures performances graphiques : les pilotes graphiques personnalisés qui sont installés avec les additions invité vous offrent de meilleures performances graphiques pour un système plus fluide. Vous pourrez aussi redimensionner la fenêtre de la machine virtuelle, la résolution d’écran de l’invité sera automatiquement ajustée.
@@ -134,23 +134,22 @@ Question/réponses
 
   >Le Projet Debian est une organisation communautaire qui développe le système d'exploitation Debian. Debian est une distribution Linux très populaire, connue pour sa stabilité, sa fiabilité et son engagement envers les principes du logiciel libre. Son nom "Debian" est une fusion des prénoms du fondateur du projet, Ian Murdock, et de celui de son épouse.  
 
-  **Source :** [Debian.org](https://www.debian.org/doc/manuals/project-history/intro.fr.html#:~:text=La%20prononciation%20officielle%20de%20Debian,et%20de%20son%20épouse%2C%20Debra)
+  **Source :** [Debian.org](https://www.debian.org/doc/manuals/project-history/intro.fr.html#:~:text=La%20prononciation%20officielle%20de%20Debian,et%20de%20son%20épouse%2C%20Debra)  
     &nbsp;  
   
 * Il existe 3 durées de prise en charge (support) de ces versions : la durée minimale, la durée en support long terme (LTS) et la durée en support long terme étendue (ELTS). Quelle sont les durées de ces prises en charge ?  
 
   > La durée en support long terme (LTS) est de 5ans quand à la durée en support long terme étendue est de 10ans.
   
-  **Source :** [Wiki.debian.org](https://wiki.debian.org/fr/LTS/)
-  &nbsp; 
+  **Source :** [Wiki.debian.org](https://wiki.debian.org/fr/LTS/)  
+  &nbsp;  
 * Pendant combien de temps les mises à jour de sécurité seront-elles fournies ?  
 
   > L'équipe en charge de la sécurité prend en charge la distribution stable pendant trois années après sa publication. Il n'est pas possible de prendre en charge trois distributions, c'est déjà bien assez difficile avec deux.
   
 
-  **Source :** [Debian.org](https://www.debian.org/security/faq.fr.html#lifespan)
-
-    &nbsp; 
+  **Source :** [Debian.org](https://www.debian.org/security/faq.fr.html#lifespan)  
+    &nbsp;  
 * Combien de version au minimum sont activement maintenues par Debian ? Donnez leur nom générique (= les types de distribution).  
 
   > Debian maintient généralement trois versions en même temps : Stable : C'est la version principale et la plus récente, conçue pour être stable et fiable. C'est la version recommandée pour la plupart des utilisateurs, car elle bénéficie d'un support complet, y compris les mises à jour de sécurité et les correctifs de bogues.

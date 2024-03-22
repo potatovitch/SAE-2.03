@@ -39,6 +39,7 @@ Question/réponses
   &nbsp;
 * Quel est le nom du fichier XML contenant la configuration de votre machine ?  
   > ce fichier s'appelle **sae203.vbox**.
+  
   &nbsp;
 * Sauriez-vous le modifier directement ce fichier de configuration pour mettre 2 processeurs à votre machine ?
   &nbsp;  

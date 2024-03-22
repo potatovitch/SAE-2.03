@@ -442,14 +442,14 @@ GIT
   > git --version
   # On Ubuntu/Debian:
   
-  > adduser \
+  > ``adduser \
   >   --system \
   >   --shell /bin/bash \
   >   --gecos 'Git Version Control' \
   >   --group \
   >   --disabled-password \
   >   --home /home/git \
-  >   git
+  >   git``
   
   > mkdir -p /var/lib/gitea/{custom,data,log}
   >   chown -R git:git /var/lib/gitea/

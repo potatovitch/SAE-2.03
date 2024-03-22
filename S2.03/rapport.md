@@ -24,8 +24,8 @@ Question/réponses
 ### Question(s) 1 : Configuration matérielle dans VirtualBox 
 * Que signifie “64-bit” dans “Debian 64-bit” ?
     
-    > "64-bit" fait référence à l'architecture du processeur utilisée par le système d'exploitation Debian.  
-    Dans le contexte de "Debian 64-bit", cela signifie que la version de Debian est conçue pour fonctionner sur des processeurs 64 bits.  
+    > "64-bit" fait référence à **l'architecture du processeur** utilisée par le système d'exploitation Debian.  
+    Dans le contexte de "Debian 64-bit", cela signifie que **la version** de Debian est conçue pour fonctionner sur des processeurs 64 bits.  
     Les processeurs 64 bits sont capables de traiter des instructions en blocs de 64 bits à la fois, ce qui peut offrir des performances et une capacité de mémoire supérieures par rapport aux processeurs 32 bits.  
     Ainsi, une version 64 bits de Debian est optimisée pour fonctionner sur des systèmes équipés de processeurs 64 bits, offrant potentiellement des performances améliorées et une meilleure gestion de la mémoire pour les applications et les systèmes qui exigent une grande puissance de calcul ou une grande capacité mémoire.
     

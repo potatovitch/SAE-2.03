@@ -145,7 +145,7 @@ Question/réponses
   &nbsp;  
 * Pendant combien de temps les mises à jour de sécurité seront-elles fournies ?  
 
-  > L'équipe en charge de la sécurité prend en charge la distribution stable pendant trois années après sa publication. Il n'est pas possible de prendre en charge trois distributions, c'est déjà bien assez difficile avec deux.
+  > L'équipe en charge de la sécurité prend en charge la distribution stable pendant trois années après sa publication. Il n'est pas possible de prendre en charge trois distributions, ils ne pourraient pas gérer les 3 de manière efficace.
   
 
   **Source :** [Debian.org](https://www.debian.org/security/faq.fr.html#lifespan)  

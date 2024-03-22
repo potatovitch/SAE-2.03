@@ -194,7 +194,7 @@ Question/réponses
   
 * Quand a-t-il été annoncé ?  
 
-  > Elle a été annoncé le 17 juin 1996  
+  > Debian sous le nom de code "Buzz" a été annoncé le 17 juin 1996 soit 3 ans après la première version.
 
   **Source :** [Wiki.debian.org](https://wiki.debian.org/fr/DebianBuzz)
 
@@ -202,11 +202,11 @@ Question/réponses
 
 * Quelle était le numéro de version de cette distribution ?  
 
-  > C'est la version 1.1 de Debian.  
+  > Le numéro de version pour la première disribution de Debian sous le nom de code "Buzz" est 1.1 .  
 
   **Source :** [Wiki.debian.org](https://wiki.debian.org/fr/DebianBuzz)
 
-    &nbsp;  
+    &nbsp;   
   
 * Quel est le dernier nom de code annoncée à ce jour ?  
 

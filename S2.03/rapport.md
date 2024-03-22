@@ -127,7 +127,7 @@ Question/réponses
   > La commande mount permet de demander au système d'exploitation de rendre un système de fichiers accessible, à un emplacement spécifié (le point de montage). La commande mount monte un système de fichiers indiqué comme répertoire à l'aide du paramètre Noeud:Répertoire, sur le répertoire spécifié par le paramètre Répertoire. Une fois la commande mount exécutée, le répertoire indiqué devient le répertoire racine du nouveau système de fichiers monté.
 
   **Source :** [ibm.com](https://www.ibm.com/docs/fr/power9?topic=commands-mount-command)
-  &nbsp;
+  &nbsp;  
   
 ### 4.2. Quelques Questions
 * Qu’est-ce que le Projet Debian ? D’où vient le nom Debian ?  

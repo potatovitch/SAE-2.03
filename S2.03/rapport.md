@@ -457,15 +457,15 @@ GIT
   > `  --home /home/git \`  
   > `  git`
   
-  > `mkdir -p /var/lib/gitea/{custom,data,log}`
-  > `  chown -R git:git /var/lib/gitea/`
-  > `  chmod -R 750 /var/lib/gitea/`
-  > `  mkdir /etc/gitea`
-  > `  chown root:git /etc/gitea`
-  > `  chmod 770 /etc/gitea`
+  > `mkdir -p /var/lib/gitea/{custom,data,log}`  
+  > `  chown -R git:git /var/lib/gitea/`  
+  > `  chmod -R 750 /var/lib/gitea/`  
+  > `  mkdir /etc/gitea`  
+  > `  chown root:git /etc/gitea`  
+  > `  chmod 770 /etc/gitea`  
   
-  > `chmod 750 /etc/gitea`
-  > `chmod 640 /etc/gitea/app.ini`
+  > `chmod 750 /etc/gitea`  
+  > `chmod 640 /etc/gitea/app.ini`  
   
   > GITEA_WORK_DIR=/var/lib/gitea/ /usr/local/bin/gitea web -c /etc/gitea/app.ini
 &nbsp;

@@ -232,12 +232,12 @@ Question/réponses
   
   &nbsp;
   
-### Question(s) 5. Ajustement de la pré-configuration
+### Question(s) 5. Ajustement de la pré-configuration  
 * Ajouter le droit d’utiliser sudo à l’utilisateur standard  
-
-  > `su -`
-
-  >`usermod -aG sudo utilisateur`  
+  #+BEGIN_SRC cfg  
+  su -  
+  usermod -aG sudo utilisateur  
+  #+END_SRC  
   &nbsp;  
 * Installer l’environnement MATE  
 

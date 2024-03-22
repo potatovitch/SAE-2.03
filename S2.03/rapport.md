@@ -111,8 +111,7 @@ Question/réponses
 &nbsp;  
 
 ### Question(s) 4. Suppléments invités 
-* Quel est la version du noyau Linux utilisé par votre VM ? N’oubliez pas, comme pour toutes les questions, de justifier votre réponse.
-  mettre 'uname -r' dans le terminal
+* Quel est la version du noyau Linux utilisé par votre VM ? 
   &nbsp;
 * À quoi servent les suppléments invités ? Donner 2 principales raisons de les installer.  
 
@@ -120,7 +119,7 @@ Question/réponses
 
   > Dossiers partagés : permet d’échanger des fichiers entre l’hôte et l’invité.
 
-  **Source :** [Lecrabeinfo.net](https://lecrabeinfo.net/virtualbox-installer-les-additions-invite-guest-additions.html)
+  **Source :** [Lecrabeinfo.net](https://lecrabeinfo.net/virtualbox-installer-les-additions-invite-guest-additions.html)  
   &nbsp;
 * À quoi sert la commande mount (dans notre cas de figure et dans le cas général) ?  
 

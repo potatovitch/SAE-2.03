@@ -239,10 +239,8 @@ Question/réponses
   
     &nbsp;  
 * Installer l’environnement MATE  
-
-  > `su -`
-
-  >`tasksel`
+  > `su -`  
+  > `tasksel`  
   
   > Puis cocher la case MATE et appliquer 
   &nbsp;  

@@ -449,13 +449,13 @@ GIT
   # On Ubuntu/Debian:
   
   > `adduser \`  
-  >   `--system \`  
-  >   `--shell /bin/bash \`  
-  >   `--gecos 'Git Version Control' \`  
-  >   `--group \`  
-  >   `--disabled-password \`  
-  >   `--home /home/git \`  
-  >   `git`
+  > `  --system \`  
+  > `  --shell /bin/bash \`  
+  > `  --gecos 'Git Version Control' \`  
+  > `  --group \`  
+  > `  --disabled-password \`  
+  > `  --home /home/git \`  
+  > `  git`
   
   > mkdir -p /var/lib/gitea/{custom,data,log}
   >   chown -R git:git /var/lib/gitea/

@@ -31,7 +31,9 @@ Question/réponses
     
   **Source :** [Lemagit.fr](https://www.lemagit.fr/definition/64-bits)  
   &nbsp;
-* Quelle est la configuration réseau utilisée par défaut ?  
+* Quelle est la configuration réseau utilisée par défaut ?
+  > la configuration réseau par défaut **l’Interface NAT**.  
+  C'est un processus de modification des adresses IP, des ports source et de destination qui permet aux machines de communiquer avec une seule adresse ip publique
   &nbsp;
 * Quel est le nom du fichier XML contenant la configuration de votre machine ?  
   &nbsp;

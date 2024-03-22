@@ -32,17 +32,17 @@ Question/réponses
   **Source :** [Lemagit.fr](https://www.lemagit.fr/definition/64-bits)  
   &nbsp;
 * Quelle est la configuration réseau utilisée par défaut ?
-  > la configuration réseau par défaut **l’Interface NAT**.  
+  > La configuration réseau par défaut **l’Interface NAT**.  
   C'est un processus de modification des adresses IP, des ports source et de destination qui permet aux machines de communiquer avec une seule adresse ip publique.  
 
   **Source :** [Fortinet.com](https://www.fortinet.com/fr/resources/cyberglossary/network-address-translation)  
   &nbsp;
 * Quel est le nom du fichier XML contenant la configuration de votre machine ?  
-  > ce fichier s'appelle **sae203.vbox**.
+  > Ce fichier s'appelle **sae203.vbox**.
   
   &nbsp;
 * Sauriez-vous le modifier directement ce fichier de configuration pour mettre 2 processeurs à votre machine ?  
-  >pour modifier le nombre de processeurs du fichier **sae203.vbox**, il faut changer la valeur de CPU count à 2.  
+  > Pour modifier le nombre de processeurs du fichier **sae203.vbox**, il faut changer la valeur de CPU count à 2.  
   
   &nbsp;  
   &nbsp;  

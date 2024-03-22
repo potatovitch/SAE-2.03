@@ -467,7 +467,7 @@ GIT
   > `chmod 750 /etc/gitea`  
   > `chmod 640 /etc/gitea/app.ini`  
   
-  > GITEA_WORK_DIR=/var/lib/gitea/ /usr/local/bin/gitea web -c /etc/gitea/app.ini
+  > `GITEA_WORK_DIR=/var/lib/gitea/ /usr/local/bin/gitea web -c /etc/gitea/app.ini`
 &nbsp;
 ### 2.1.2. Mise à jour du binaire du service Gitea
 * Quelle version du binaire avez-vous installé ? Donnez la version et la commande permettant d’obtenir cette information.

@@ -481,5 +481,7 @@ GIT
     
   &nbsp;
   * Comment faire pour mettre à jour le binaire de votre service sans devoir tout reconfigurer ? Essayez en mettant à jour vers la version 1.22-dev.
-    > test
+    > Il faut remplacer le binaire de `/usr/local/bin/gitea` par la nouvelle version.
+    > Ensuite, il faut relancer gitea avec `systemctl restart gitea`.  
+    
   &nbsp;

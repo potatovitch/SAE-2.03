@@ -1,4 +1,4 @@
-### <mark>Question(s) 1 : Configuration matérielle dans VirtualBox</mark>
+### Question(s) 1 : Configuration matérielle dans VirtualBox
 * Que signifie “64-bit” dans “Debian 64-bit” ?
     
     > "64-bit" fait référence à **l'architecture du processeur** utilisée par le système d'exploitation Debian.  
@@ -24,7 +24,7 @@
   &nbsp;  
   &nbsp;  
 
-### ==Question(s) 2. Installation OS de base== 
+### Question(s) 2. Installation OS de base 
 * Qu’est-ce qu’un fichier iso bootable ?
 
     > Un fichier ISO bootable est une image disque qui contient l'ensemble des fichiers et des données nécessaires pour installer un système d'exploitation ou un logiciel. Le terme "bootable" signifie que cette image est configurée de manière à ce qu'elle puisse être utilisée pour démarrer un ordinateur directement à partir de cette image, sans avoir besoin d'un système d'exploitation déjà installé.
@@ -75,7 +75,7 @@
   &nbsp;
   &nbsp;  
 
-### ==Question(s) 3. sudo==
+### Question(s) 3. sudo
 * Comment peux-ton savoir à quels groupes appartient l'utilisateur user ?  
 
   > Pour savoir à quels groupes l'utilisateur user appartient, il suffit juste de se connecter en administrateur avec la commade :
@@ -87,7 +87,7 @@
     
 &nbsp;  
 
-### ==Question(s) 4. Suppléments invités== 
+### Question(s) 4. Suppléments invités 
 * Quel est la version du noyau Linux utilisé par votre VM ? 
   &nbsp;  
 * À quoi servent les suppléments invités ? Donner 2 principales raisons de les installer.  
@@ -106,7 +106,7 @@
   &nbsp;  
   &nbsp;  
   
-### ==4.2. Quelques Questions==
+### 4.2. Quelques Questions
 * Qu’est-ce que le Projet Debian ? D’où vient le nom Debian ?  
 
   >Le Projet Debian est une organisation communautaire qui développe le système d'exploitation Debian. Debian est une distribution Linux très populaire, connue pour sa stabilité, sa fiabilité et son engagement envers les principes du logiciel libre. Son nom "Debian" est une fusion des prénoms du fondateur du projet, Ian Murdock, et de celui de son épouse.  
@@ -207,7 +207,7 @@
   
   &nbsp;
   
-### ==Question(s) 5. Ajustement de la pré-configuration==  
+### Question(s) 5. Ajustement de la pré-configuration  
 * Ajouter le droit d’utiliser sudo à l’utilisateur standard
   > `su -`  
   > `usermod -aG sudo utilisateur`  

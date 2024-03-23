@@ -1,3 +1,5 @@
+<link href="style.css" rel="stylesheet"></link>
+
 ### Question(s) 1 : Configuration matérielle dans VirtualBox
 * Que signifie “64-bit” dans “Debian 64-bit” ?
     

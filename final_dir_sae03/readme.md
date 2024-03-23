@@ -7,7 +7,6 @@ Ensuite, pour convertir le fichier en html/pdf, on utilise export.sh :
 > `./export.sh`
 
 &nbsp;  
-&nbsp;  
 
 Pour le rendu final, il manque encore :
   * Table des matières automatique

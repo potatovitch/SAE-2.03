@@ -27,7 +27,7 @@
     verifier que la version de git est **supérieur ou égal à la 2.0**  
     > `git --version`  
 
-    #### On Ubuntu/Debian:  
+    #### Pour Ubuntu/Debian:  
     1. _Créer un user pour run gitea_  
       > `adduser \`  
       > `  --system \`  

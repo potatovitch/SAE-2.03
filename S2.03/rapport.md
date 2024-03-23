@@ -478,6 +478,7 @@ GIT
 ### 2.1.2. Mise à jour du binaire du service Gitea
   * Quelle version du binaire avez-vous installé ? Donnez la version et la commande permettant d’obtenir cette information.
     > Pour connaitre la version, il faut utiliser `gitea --version` ou `gitea -v`  
+    
   &nbsp;
   * Comment faire pour mettre à jour le binaire de votre service sans devoir tout reconfigurer ? Essayez en mettant à jour vers la version 1.22-dev.
     > test

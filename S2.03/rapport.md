@@ -443,36 +443,43 @@ GIT
   *Source :* [gitea.com](https://docs.gitea.com/next/)  
 &nbsp;
 ### 2.1. Installons de Gitea
-* Opération faite
-  * Opération faite
-  > `git --version`
-  # On Ubuntu/Debian:
-  
-  > `adduser \`  
-  > `  --system \`  
-  > `  --shell /bin/bash \`  
-  > `  --gecos 'Git Version Control' \`  
-  > `  --group \`  
-  > `  --disabled-password \`  
-  > `  --home /home/git \`  
-  > `  git`
-  
-  > `mkdir -p /var/lib/gitea/{custom,data,log}`  
-  > `  chown -R git:git /var/lib/gitea/`  
-  > `  chmod -R 750 /var/lib/gitea/`  
-  > `  mkdir /etc/gitea`  
-  > `  chown root:git /etc/gitea`  
-  > `  chmod 770 /etc/gitea`  
-  
-  > `chmod 750 /etc/gitea`  
-  > `chmod 640 /etc/gitea/app.ini`  
-  
-  > `GITEA_WORK_DIR=/var/lib/gitea/ /usr/local/bin/gitea web -c /etc/gitea/app.ini`
-&nbsp;
+
+  * 2.1.1. Installation du binaire  
+    verifier que la version de git est **supérieur ou égal à la 2.0**  
+    > `git --version`  
+
+    &nbsp;  
+    # On Ubuntu/Debian:  
+    1. _Créer un user pour run gitea_  
+      > `adduser \`  
+      > `  --system \`  
+      > `  --shell /bin/bash \`  
+      > `  --gecos 'Git Version Control' \`  
+      > `  --group \`  
+      > `  --disabled-password \`  
+      > `  --home /home/git \`  
+      > `  git`  
+
+    2. _Créer les répertoires pour gitea_  
+      > `mkdir -p /var/lib/gitea/{custom,data,log}`  
+      > `  chown -R git:git /var/lib/gitea/`  
+      > `  chmod -R 750 /var/lib/gitea/`  
+      > `  mkdir /etc/gitea`  
+      > `  chown root:git /etc/gitea`  
+      > `  chmod 770 /etc/gitea`  
+
+    3. _changer les permissions en read only après l'installation_  
+      > `chmod 750 /etc/gitea`  
+      > `chmod 640 /etc/gitea/app.ini`  
+
+    4. _lancer gitea_
+      > `GITEA_WORK_DIR=/var/lib/gitea/ /usr/local/bin/gitea web -c /etc/gitea/app.ini`  
+      
+    &nbsp;
 ### 2.1.2. Mise à jour du binaire du service Gitea
-* Quelle version du binaire avez-vous installé ? Donnez la version et la commande permettant d’obtenir cette information.
-  > test
-&nbsp;
-* Comment faire pour mettre à jour le binaire de votre service sans devoir tout reconfigurer ? Essayez en mettant à jour vers la version 1.22-dev.
-  > test
-&nbsp;
+  * Quelle version du binaire avez-vous installé ? Donnez la version et la commande permettant d’obtenir cette information.
+    > test
+  &nbsp;
+  * Comment faire pour mettre à jour le binaire de votre service sans devoir tout reconfigurer ? Essayez en mettant à jour vers la version 1.22-dev.
+    > test
+  &nbsp;

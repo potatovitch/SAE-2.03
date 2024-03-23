@@ -449,7 +449,7 @@ GIT
     > `git --version`  
 
     &nbsp;  
-    # On Ubuntu/Debian:  
+    #### On Ubuntu/Debian:  
     1. _Créer un user pour run gitea_  
       > `adduser \`  
       > `  --system \`  

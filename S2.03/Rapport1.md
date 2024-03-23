@@ -11,7 +11,7 @@
   **Source :** [Lemagit.fr](https://www.lemagit.fr/definition/64-bits)  
   &nbsp;
 * Quelle est la configuration réseau utilisée par défaut ?
-  > La configuration réseau par défaut **l’Interface NAT**.  
+  > La configuration réseau par défaut **l’Interface NAT**[^1].  
   C'est un processus de modification des adresses IP, des ports source et de destination qui permet aux machines de communiquer avec une seule adresse ip publique.  
 
   **Source :** [Fortinet.com](https://www.fortinet.com/fr/resources/cyberglossary/network-address-translation)  
@@ -173,7 +173,7 @@
   
 * Quand a-t-il été annoncé ?  
 
-  > Debian sous le nom de code =="Buzz"== a été annoncé le 17 juin 1996 soit 3 ans après la première version.
+  > Debian sous le nom de code "Buzz" a été annoncé le 17 juin 1996 soit 3 ans après la première version.
 
   **Source :** [Wiki.debian.org](https://wiki.debian.org/fr/DebianBuzz)
 
@@ -238,4 +238,7 @@
         
      7. neofetch :  
         > `su -`  
-        > `apt install neofetch` 
+        > `apt install neofetch`
+
+
+  [^1]: Network Address Translation

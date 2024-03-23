@@ -145,7 +145,7 @@
   
 * L’un des atouts de Debian fut le nombre d’architecture (≈ processeurs) officiellement prises en charge. Combien et lesquelles sont prises en charge par la version Bullseye ?  
 
-  > ==13 architecture==  -> amd64 (64-bit PC) </br>
+  > 13 architecture  -> amd64 (64-bit PC) </br>
     &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;-> arm64 (ARM 64 bits) </br>
     &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;-> armel (ARM Little Endian 32 bits) </br>
     &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;-> armhf (ARM Hard Float 32 bits) </br>
@@ -171,7 +171,7 @@
   
 * Quand a-t-il été annoncé ?  
 
-  > Debian sous le nom de code "Buzz" a été annoncé le 17 juin 1996 soit 3 ans après la première version.
+  > Debian sous le nom de code =="Buzz"== a été annoncé le 17 juin 1996 soit 3 ans après la première version.
 
   **Source :** [Wiki.debian.org](https://wiki.debian.org/fr/DebianBuzz)
 

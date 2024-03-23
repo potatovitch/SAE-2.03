@@ -3,7 +3,13 @@ Avant de convertir le fichier avec pandoc, il faut d'abord installer pdflatex et
 > `sudo apt install texlive-latex-base`  
 > `sudo apt install weasyprint`  
 
-Ensuite, pour convertir le fichier en html/pdf, on utilise les commandes :
+Ensuite, pour convertir le fichier en html/pdf, on utilise export.sh :
+> `./export.sh`
 
-> `pandoc rapport.md -o rapport.html`  
-> `pandoc rapport.md -o rapport.pdf --pdf-engine=weasyprint`  
+&nbsp;  
+&nbsp;  
+&nbsp;  
+
+Pour le rendu final, il manque encore :
+  * Table des matières automatique
+  * Numérotation automatique des sections

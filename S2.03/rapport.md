@@ -461,11 +461,11 @@ GIT
 
     2. _Créer les répertoires pour gitea_  
       > `mkdir -p /var/lib/gitea/{custom,data,log}`  
-      > `  chown -R git:git /var/lib/gitea/`  
-      > `  chmod -R 750 /var/lib/gitea/`  
-      > `  mkdir /etc/gitea`  
-      > `  chown root:git /etc/gitea`  
-      > `  chmod 770 /etc/gitea`  
+      > `chown -R git:git /var/lib/gitea/`  
+      > `chmod -R 750 /var/lib/gitea/`  
+      > `mkdir /etc/gitea`  
+      > `chown root:git /etc/gitea`  
+      > `chmod 770 /etc/gitea`  
 
     3. _changer les permissions en read only après l'installation_  
       > `chmod 750 /etc/gitea`  

@@ -1,4 +1,4 @@
-### == Question(s) 1 : Configuration matérielle dans VirtualBox == 
+### <mark>Question(s) 1 : Configuration matérielle dans VirtualBox</mark>
 * Que signifie “64-bit” dans “Debian 64-bit” ?
     
     > "64-bit" fait référence à **l'architecture du processeur** utilisée par le système d'exploitation Debian.  

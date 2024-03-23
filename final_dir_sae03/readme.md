@@ -8,6 +8,6 @@ Ensuite, pour convertir le fichier en html/pdf, on utilise export.sh :
 
 &nbsp;  
 
-Pour le rendu final, il manque encore :
+Pour le rendu final, il <mark>manque</mark> encore :
   * Table des matières automatique
   * Numérotation automatique des sections

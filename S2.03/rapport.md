@@ -437,7 +437,7 @@ GIT
     > **Source :** [gitea.com](https://about.gitea.com/) et [wikipedia.org](https://fr.wikipedia.org/wiki/Gitea)  
     
       &nbsp; 
-* À quels logiciels bien connus dans ce domaine peut-on le comparer (en citer au moins 2) ?
+* À quels logiciels bien connus dans ce domaine peut-on le comparer ?
   > Dans ce même domaine on peut le comparer à GitHub et GitLab.
 
   *Source :* [gitea.com](https://docs.gitea.com/next/)  

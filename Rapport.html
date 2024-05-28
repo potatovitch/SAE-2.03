@@ -1,0 +1,700 @@
+<p><link href="style.css" rel="stylesheet"></link></p>
+<h3
+id="questions-1-configuration-matérielle-dans-virtualbox">Question(s) 1
+: Configuration matérielle dans VirtualBox</h3>
+<ul>
+<li><p>Que signifie “64-bit” dans “Debian 64-bit” ?</p>
+<blockquote>
+<p>“64-bit” fait référence à <strong>l’architecture du
+processeur</strong> utilisée par le système d’exploitation Debian.<br />
+Dans le contexte de “Debian 64-bit”, cela signifie que <strong>la
+version</strong> de Debian est conçue pour fonctionner sur des
+processeurs 64 bits.<br />
+Les processeurs 64 bits sont capables de traiter des instructions en
+blocs de 64 bits à la fois, ce qui peut offrir des performances et une
+capacité de mémoire supérieures par rapport aux processeurs 32
+bits.<br />
+Ainsi, une version 64 bits de Debian est optimisée pour fonctionner sur
+des systèmes équipés de processeurs 64 bits, offrant potentiellement des
+performances améliorées et une meilleure gestion de la mémoire pour les
+applications et les systèmes qui exigent une grande puissance de calcul
+ou une grande capacité mémoire.</p>
+</blockquote>
+<p><strong>Source :</strong> <a
+href="https://www.lemagit.fr/definition/64-bits">Lemagit.fr</a><br />
+ </p></li>
+<li><p>Quelle est la configuration réseau utilisée par défaut ? &gt; La
+configuration réseau par défaut <strong>l’Interface NAT</strong><a
+href="#fn1" class="footnote-ref" id="fnref1"
+role="doc-noteref"><sup>1</sup></a>.<br />
+C’est un processus de modification des adresses IP, des ports source et
+de destination qui permet aux machines de communiquer avec une seule
+adresse ip publique.</p>
+<p><strong>Source :</strong> <a
+href="https://www.fortinet.com/fr/resources/cyberglossary/network-address-translation">Fortinet.com</a><br />
+ </p></li>
+<li><p>Quel est le nom du fichier XML contenant la configuration de
+votre machine ?<br />
+&gt; Ce fichier s’appelle <strong>sae203.vbox</strong>.</p>
+<p> </p></li>
+<li><p>Sauriez-vous le modifier directement ce fichier de configuration
+pour mettre 2 processeurs à votre machine ?<br />
+&gt; Pour modifier le nombre de processeurs du fichier
+<strong>sae203.vbox</strong>, il faut changer la valeur de CPU count à
+2.</p>
+<p> <br />
+ </p></li>
+</ul>
+<h3 id="questions-2.-installation-os-de-base">Question(s) 2.
+Installation OS de base</h3>
+<ul>
+<li><p>Qu’est-ce qu’un fichier iso bootable ?</p>
+<blockquote>
+<p>Un fichier ISO bootable est une image disque qui contient l’ensemble
+des fichiers et des données nécessaires pour installer un système
+d’exploitation ou un logiciel. Le terme “bootable” signifie que cette
+image est configurée de manière à ce qu’elle puisse être utilisée pour
+démarrer un ordinateur directement à partir de cette image, sans avoir
+besoin d’un système d’exploitation déjà installé.</p>
+</blockquote>
+<p><strong>Source :</strong> <a
+href="https://www.ionos.fr/digitalguide/serveur/know-how/quest-ce-quun-fichier-iso/">Ionos.fr</a></p>
+<p> <br />
+</p></li>
+<li><p>Qu’est-ce que MATE ? GNOME ?</p>
+<blockquote>
+<p>MATE et GNOME sont deux environnements de bureau pour les systèmes
+d’exploitation Linux et Unix, offrant des interfaces graphiques pour
+interagir avec le système et les applications.</p>
+</blockquote>
+<blockquote>
+<p>MATE est un environnement de bureau léger et intuitif qui est un fork
+de GNOME 2. L’objectif principal de MATE est de fournir une expérience
+utilisateur familière pour les utilisateurs de Linux, en particulier
+ceux qui préféraient l’ancien environnement GNOME 2. Il offre une
+interface utilisateur traditionnelle avec un menu d’applications, une
+barre des tâches et une gestion des fenêtres classiques. MATE est conçu
+pour être rapide, stable et hautement personnalisable.</p>
+</blockquote>
+<blockquote>
+<p>GNOME est un environnement de bureau moderne et convivial pour les
+systèmes d’exploitation basés sur Linux et Unix. GNOME met l’accent sur
+l’ergonomie, l’accessibilité et l’expérience utilisateur. Il propose une
+interface utilisateur épurée et intuitive avec un lanceur
+d’applications, un gestionnaire de fichiers intégré et une multitude
+d’applications intégrées pour les activités quotidiennes telles que la
+navigation sur le Web, la gestion des courriels et la retouche d’images.
+GNOME est hautement personnalisable et extensible grâce à des extensions
+et des thèmes.</p>
+</blockquote>
+<p><strong>Sources :</strong> <a
+href="https://www.gnome.org/">Gnome.org</a> et <a
+href="https://mate-desktop.org/">mate-desktop.org</a></p>
+<p> <br />
+</p></li>
+<li><p>Qu’est-ce qu’un serveur web ?</p>
+<blockquote>
+<p>Un serveur web est un logiciel informatique conçu pour recevoir,
+traiter et répondre aux requêtes HTTP (Hypertext Transfer Protocol)
+provenant des clients, généralement des navigateurs web, et pour fournir
+des ressources web, telles que des pages HTML, des images, des fichiers
+CSS et JavaScript, en réponse à ces requêtes.<br />
+En termes simples, un serveur web permet de rendre les sites web
+accessibles sur Internet.</p>
+</blockquote>
+<p><img src="img/sch_http.png" /></p>
+<p><strong>Source :</strong> <a
+href="https://developer.mozilla.org/fr/docs/Learn/Common_questions/Web_mechanics/What_is_a_web_server">Mozilla.org</a><br />
+ <br />
+</p></li>
+<li><p>Qu’est-ce qu’un serveur ssh ?</p>
+<blockquote>
+<p>Un serveur SSH (Secure Shell) est un logiciel qui permet à un
+utilisateur de se connecter de manière sécurisée à un ordinateur distant
+sur un réseau, généralement Internet.<br />
+Le protocole SSH fournit un moyen chiffré et sécurisé pour accéder à des
+systèmes distants et exécuter des commandes à distance, transférer des
+fichiers et gérer des systèmes à distance.</p>
+</blockquote>
+<p><img src="img/sch_ssh1.png" /></p>
+<p><img src="img/sch_ssh2.png" /></p>
+<p><strong>Source :</strong> <a
+href="https://www.it-connect.fr/chapitres/quest-ce-que-ssh/">It-Connect.fr</a></p>
+<p> <br />
+</p></li>
+<li><p>Qu’est-ce qu’un serveur mandataire ?</p>
+<blockquote>
+<p>Un serveur mandataire, également connu sous le nom de serveur proxy,
+est un serveur informatique qui agit comme un intermédiaire entre les
+clients et d’autres serveurs.<br />
+Son rôle principal est de recevoir les requêtes des clients, telles que
+des demandes de pages web, des fichiers, ou d’autres ressources, et de
+les transmettre aux serveurs appropriés. En retour, il renvoie les
+réponses des serveurs aux clients.</p>
+</blockquote>
+<p><strong>Source :</strong> <a
+href="https://www.techno-science.net/definition/3812.html">Techno-Science.net</a></p>
+<p>   </p></li>
+</ul>
+<h3 id="questions-3.-sudo">Question(s) 3. sudo</h3>
+<ul>
+<li><p>Comment peux-ton savoir à quels groupes appartient l’utilisateur
+user ?</p>
+<blockquote>
+<p>Pour savoir à quels groupes l’utilisateur user appartient, il suffit
+juste de se connecter en administrateur avec la commade :
+<code>su -</code><br />
+Puis mettre de mettre la commande : <code>groups user</code><br />
+Si l’utilisateur au quel vous êtes connecté possède les droits sudo pas
+besoins de mettre le mode administrateur, il suffit juste de mettre :
+<code>sudo groups user</code></p>
+</blockquote></li>
+</ul>
+<p> </p>
+<h3 id="questions-4.-suppléments-invités">Question(s) 4. Suppléments
+invités</h3>
+<ul>
+<li><p>Quel est la version du noyau Linux utilisé par votre VM ?  <br />
+</p></li>
+<li><p>À quoi servent les suppléments invités ? Donner 2 principales
+raisons de les installer.</p>
+<blockquote>
+<p>Meilleures performances graphiques : les pilotes graphiques
+personnalisés qui sont installés avec les additions invité vous offrent
+de meilleures performances graphiques pour un système plus fluide. Vous
+pourrez aussi redimensionner la fenêtre de la machine virtuelle, la
+résolution d’écran de l’invité sera automatiquement ajustée.</p>
+</blockquote>
+<blockquote>
+<p>Dossiers partagés : permet d’échanger des fichiers entre l’hôte et
+l’invité.</p>
+</blockquote>
+<p><strong>Source :</strong> <a
+href="https://lecrabeinfo.net/virtualbox-installer-les-additions-invite-guest-additions.html">Lecrabeinfo.net</a><br />
+ </p></li>
+<li><p>À quoi sert la commande mount (dans notre cas de figure et dans
+le cas général) ?</p>
+<blockquote>
+<p>La commande mount permet de demander au système d’exploitation de
+rendre un système de fichiers accessible, à un emplacement spécifié (le
+point de montage). La commande mount monte un système de fichiers
+indiqué comme répertoire à l’aide du paramètre Noeud:Répertoire, sur le
+répertoire spécifié par le paramètre Répertoire. Une fois la commande
+mount exécutée, le répertoire indiqué devient le répertoire racine du
+nouveau système de fichiers monté.</p>
+</blockquote>
+<p><strong>Source :</strong> <a
+href="https://www.ibm.com/docs/fr/power9?topic=commands-mount-command">ibm.com</a>
+ <br />
+ </p></li>
+</ul>
+<h3 id="quelques-questions">4.2. Quelques Questions</h3>
+<ul>
+<li><p>Qu’est-ce que le Projet Debian ? D’où vient le nom Debian ?</p>
+<blockquote>
+<p>Le Projet Debian est une organisation communautaire qui développe le
+système d’exploitation Debian. Debian est une distribution Linux très
+populaire, connue pour sa stabilité, sa fiabilité et son engagement
+envers les principes du logiciel libre. Son nom “Debian” est une fusion
+des prénoms du fondateur du projet, Ian Murdock, et de celui de son
+épouse.</p>
+</blockquote>
+<p><strong>Source :</strong> <a
+href="https://www.debian.org/doc/manuals/project-history/intro.fr.html#:~:text=La%20prononciation%20officielle%20de%20Debian,et%20de%20son%20épouse%2C%20Debra">Debian.org</a><br />
+ </p></li>
+<li><p>Il existe 3 durées de prise en charge (support) de ces versions :
+la durée minimale, la durée en support long terme (LTS) et la durée en
+support long terme étendue (ELTS). Quelle sont les durées de ces prises
+en charge ?</p>
+<blockquote>
+<p>La durée minimal correspond à la période pendant laquelle le
+fournisseur garantit la disponibilité des correctifs de sécurité et des
+mises à jour de la version logicielle. Cette période peut varier, mais
+elle est souvent d’au moins quelques mois à un an après la sortie de la
+version. Il y a aussi la durée en support long terme, le systeme
+d’exploitation peut donc bénéficier d’une prise en charge à long terme.
+Cela signifie que le fournisseur s’engage à fournir des mises à jour de
+sécurité et des correctifs de bugs pour une période prolongée, souvent
+plusieurs années après la sortie initiale de la version, dans notre cas
+c’est 5 ans. Et enfin il y a aussi la durée en support long terme
+étendue, c’est a dire qu’ils continueront à fournir des correctifs de
+sécurité et des mises à jour critiques sur une longue période, dans
+notre cas 10ans.</p>
+</blockquote>
+<p><strong>Source :</strong> <a
+href="https://wiki.debian.org/fr/LTS/">Wiki.debian.org</a><br />
+ <br />
+</p></li>
+<li><p>Pendant combien de temps les mises à jour de sécurité
+seront-elles fournies ?</p>
+<blockquote>
+<p>L’équipe en charge de la sécurité prend en charge la distribution
+stable pendant trois années après sa publication. Il n’est pas possible
+de prendre en charge trois distributions, ils ne pourraient pas gérer
+les 3 de manière efficace.</p>
+</blockquote>
+<p><strong>Source :</strong> <a
+href="https://www.debian.org/security/faq.fr.html#lifespan">Debian.org</a><br />
+ <br />
+</p></li>
+<li><p>Combien de version au minimum sont activement maintenues par
+Debian ? Donnez leur nom générique (= les types de distribution).</p>
+<blockquote>
+<p>Debian maintient généralement trois versions en même temps : Stable :
+C’est la version principale et la plus récente, conçue pour être stable
+et fiable. C’est la version recommandée pour la plupart des
+utilisateurs, car elle bénéficie d’un support complet, y compris les
+mises à jour de sécurité et les correctifs de bogues. Testing :
+Également connue sous le nom de “Testing”, cette version est en cours de
+développement et contient des logiciels plus récents que la version
+stable, mais elle peut être moins stable car elle est sujette à des
+changements fréquents. Cette version est destinée aux utilisateurs qui
+souhaitent accéder aux dernières fonctionnalités et qui sont prêts à
+accepter un certain niveau de risque.<br />
+Unstable : Aussi appelée “Unstable” ou “Sid”, cette version est le
+terrain de jeu pour les développeurs Debian. Elle contient les dernières
+versions de logiciels qui sont en cours de préparation pour inclusion
+dans la prochaine version stable. Cette version est instable par nature
+et n’est pas recommandée pour une utilisation en production, mais elle
+est utile pour les tests et le développement.</p>
+</blockquote>
+<p><strong>Source :</strong> <a
+href="https://www.debian.org/releases/index.fr.html#:~:text=Debian%20a%20toujours%20au%20moins,%3A%20stable%20%2C%20testing%20et%20unstable%20">Debian.org</a></p>
+<p> <br />
+</p></li>
+<li><p>Chaque distribution majeur possède un nom de code différent. Par
+exemple, la version majeur actuelle (Debian 12) se nomme bookworm. D’où
+viennent les noms de code données aux distributions ? &gt; Les noms de
+code donnés aux distributions majeures de Debian (et à de nombreuses
+autres distributions Linux) sont généralement tirés des noms de
+personnages du film d’animation « Toy Story » de Pixar. Cela remonte aux
+premiers jours du projet Debian lorsque Ian Murdock, le fondateur de
+Debian, a décidé de nommer les versions de manière ludique et amusante.
+Les développeurs de Debian ont adopté cette tradition et continuent de
+nommer les versions de Debian d’après les personnages de Toy Story.</p>
+<p><strong>Source :</strong> <a
+href="https://www.debian.org/doc/manuals/debian-faq/ftparchives.fr.html">Debian.org</a></p>
+<p> </p></li>
+<li><p>L’un des atouts de Debian fut le nombre d’architecture (≈
+processeurs) officiellement prises en charge. Combien et lesquelles sont
+prises en charge par la version Bullseye ?</p>
+<blockquote>
+<p>13 architecture -&gt; amd64 (64-bit PC) </br>         -&gt; arm64
+(ARM 64 bits) </br>         -&gt; armel (ARM Little Endian 32 bits)
+</br>         -&gt; armhf (ARM Hard Float 32 bits) </br>         -&gt;
+i386 (PC 32 bits) </br>         -&gt; mips (MIPS (big endian)) </br>
+        -&gt; mips64el (MIPS (little endian)) </br>         -&gt;
+ppc64el (PowerPC 64 bits Little Endian) </br>         -&gt; s390x (IBM
+System z) </br>         -&gt; riscv64 (RISC-V 64 bits) </br>
+        -&gt; m68k (Motorola 680x0) </br>         -&gt; alpha (DEC
+Alpha) </br>         -&gt; hppa (HP PA-RISC) </br></p>
+</blockquote>
+<p> </p></li>
+<li><p>Quelle a était le premier nom de code utilisé ?</p>
+<blockquote>
+<p>Le premier nom de code utilisé pour une version de Debian était «
+Buzz ». À l’époque, le projet était dirigé par Ian Murdock, qui a décidé
+d’attribuer des noms de code aux versions du système d’exploitation
+Debian en utilisant des personnages de films de science-fiction .Le nom
+de code “Buzz” a été choisi en l’honneur du personnage Buzz Lightyear,
+un des personnages principaux du film d’animation de Pixar, “Toy Story”,
+sorti en 1995.C’était un film très populaire à l’époque, et le
+personnage de Buzz Lightyear représentait l’aventure, l’exploration et
+l’innovation, des valeurs qui ont peut-être été considérées comme
+pertinentes pour cette version de Debian.</p>
+</blockquote>
+<p><strong>Source :</strong> <a
+href="https://wiki.debian.org/fr/DebianBuzz">Wiki.debian.org</a></p>
+<p> </p></li>
+<li><p>Quand a-t-il été annoncé ?</p>
+<blockquote>
+<p>Debian sous le nom de code “Buzz” a été annoncé le 17 juin 1996 soit
+3 ans après la première version.</p>
+</blockquote>
+<p><strong>Source :</strong> <a
+href="https://wiki.debian.org/fr/DebianBuzz">Wiki.debian.org</a></p>
+<p> </p></li>
+<li><p>Quelle était le numéro de version de cette distribution ?</p>
+<blockquote>
+<p>Le numéro de version pour la première disribution de Debian sous le
+nom de code “Buzz” est 1.1 .</p>
+</blockquote>
+<p><strong>Source :</strong> <a
+href="https://wiki.debian.org/fr/DebianBuzz">Wiki.debian.org</a></p>
+<p> </p></li>
+<li><p>Quel est le dernier nom de code annoncée à ce jour ?</p>
+<blockquote>
+<p>Le dernier nom de code annocée à ce jour est Bookworm</p>
+</blockquote>
+<p><strong>Source :</strong> <a
+href="https://www.debian.org/releases/index.fr.html#:~:text=Actuellement%2C%20la%20distribution%20stable%20de,publiée%20le%2010%20février%202024.">Debian.org</a></p>
+<p> <br />
+</p></li>
+<li><p>Quand a-t-il été annoncé ?</p>
+<blockquote>
+<p>Elle à été publié 10 juin 2023</p>
+</blockquote>
+<p><strong>Source :</strong> <a
+href="https://www.debian.org/releases/index.fr.html#:~:text=Actuellement%2C%20la%20distribution%20stable%20de,publiée%20le%2010%20février%202024.">Debian.org</a></p>
+<p> <br />
+</p></li>
+<li><p>Quelle est la version de cette distribution ?</p>
+<blockquote>
+<p>Elle possède la version 12, sa dernière version est le 12.5 en
+février 2024</p>
+</blockquote>
+<p><strong>Source :</strong> <a
+href="https://www.debian.org/releases/index.fr.html#:~:text=Actuellement%2C%20la%20distribution%20stable%20de,publiée%20le%2010%20février%202024.">Debian.org</a></p>
+<p> </p></li>
+</ul>
+<h3 id="questions-5.-ajustement-de-la-pré-configuration">Question(s) 5.
+Ajustement de la pré-configuration</h3>
+<ul>
+<li><p>Ajouter le droit d’utiliser sudo à l’utilisateur standard &gt;
+<code>su -</code><br />
+&gt; <code>usermod -aG sudo utilisateur</code></p>
+<p> <br />
+</p></li>
+<li><p>Installer l’environnement MATE<br />
+&gt; <code>su -</code><br />
+&gt; <code>tasksel</code></p>
+<blockquote>
+<p>Puis cocher la case MATE et appliquer  </p>
+</blockquote></li>
+<li><p>Ajouter les paquets suivants :</p>
+<ol type="1">
+<li><p>sudo :<br />
+&gt; <code>su -</code><br />
+&gt; <code>apt install sudo</code><br />
+</p></li>
+<li><p>git, sqlite3, curl :<br />
+&gt; <code>su -</code><br />
+&gt; <code>apt install git</code><br />
+&gt; <code>apt install sqlite3</code><br />
+&gt; <code>apt install curl</code></p></li>
+<li><p>bash-completion : &gt; <code>su -</code><br />
+&gt; <code>apt install bash-completion</code></p></li>
+<li><p>neofetch :<br />
+&gt; <code>su -</code><br />
+&gt; <code>apt install neofetch</code></p></li>
+</ol></li>
+</ul>
+<h3
+id="création-dun-nouvelle-marchine-virtuelle-avec-le-logiciel-virtual-box">Création
+d’un nouvelle marchine virtuelle avec le logiciel Virtual Box</h3>
+<ul>
+<li>Nous avons créé un machine virtuelle grâce au logiciel Virtual Box
+au quel on lui a donner certaine caratéristique</li>
+</ul>
+<p><img src="img/nouvelle_machine.PNG" /></p>
+<p><img src="img/nouvelle_machine2.PNG" /></p>
+<p><img src="img/nouvelle_machine3.PNG" /></p>
+<ul>
+<li><p>Télécharger le fichier iso de Debian 12</p>
+<blockquote>
+<p>grace au site de <a href="https://www.debian.org/download">Debian</a>
+nous avons pu télécharger le fichier iso puis l’insérer dans le lecteur
+disque de la machine virtuel</p>
+</blockquote></li>
+</ul>
+<p><img src="img/iso.PNG" /></p>
+<p><img src="img/disque.PNG" /></p>
+<ul>
+<li><p>Configuration de la machine</p>
+<blockquote>
+<p>Nom de marchine : serveur</p>
+</blockquote>
+<blockquote>
+<p>Langue : Français</p>
+</blockquote>
+<blockquote>
+<p>miroir : http://debian.polytech-lille.fr</p>
+</blockquote>
+<blockquote>
+<p>Compte administrateur : nom -&gt; root / mot de passe -&gt; root</p>
+</blockquote>
+<blockquote>
+<p>Compte utilisateur : nom -&gt; user / mot de passe -&gt; user</p>
+</blockquote>
+<blockquote>
+<p>On coche -&gt; environnement de bureau Debian</p>
+</blockquote>
+<blockquote>
+<pre><code>     -&gt; Mate</code></pre>
+</blockquote>
+<blockquote>
+<pre><code>     -&gt; serveur Web</code></pre>
+</blockquote>
+<blockquote>
+<pre><code>     -&gt; serveur ssh</code></pre>
+</blockquote>
+<blockquote>
+<pre><code>     -&gt; utilitaire usuels du système</code></pre>
+</blockquote>
+<blockquote>
+<p>Et on décoche Gnome</p>
+</blockquote></li>
+<li><p>Création automatique d’une VM sans interface graphique</p>
+<blockquote>
+<p>on recréé une VM avec les mêmes caractéristiques que la
+précédente.</p>
+</blockquote>
+<blockquote>
+<p>on se déplace dans le répertoire de la VM, puis on décompresse
+l’archive “autoinstall_Debian.zip”.</p>
+</blockquote>
+<blockquote>
+<p>on rentre la commande</p>
+</blockquote>
+<blockquote>
+<p><code>sed -i -E "s/(--iprt-iso-maker-file-marker-bourne-sh).*$/\1=$(cat/proc/sys/kernel/random/uuid)/" S203-Debian12.viso</code></p>
+</blockquote>
+<blockquote>
+<p>on met le fichier “S203_Debian12.viso” dans le lecteur CD de la VM,
+puis on la démare.</p>
+</blockquote></li>
+<li><p>Problèmes rencontrés</p>
+<blockquote>
+<p>nous n’avons pas rencontrés de problèmes autre que des erreurs
+d’inattention, comme lors de l’installation des logiciels pendant
+l’installation de Debian.</p>
+</blockquote></li>
+</ul>
+<h3 id="les-interfaces-graphiques-pour-git">1.2. Les interfaces
+graphiques pour git</h3>
+<ul>
+<li><p>Qu’est-ce que le logiciel gitk ? Comment se lance-t-il ?</p>
+<blockquote>
+<p>gitk est un navigateur de dépôt graphique, le premier de son genre.
+Il peut être considéré comme un encapsuleur graphique pour git log. Il
+permet d’explorer et de visualiser l’historique d’un dépôt.</p>
+</blockquote>
+<p><strong>Source :</strong> <a
+href="https://www.atlassian.com/fr/git/tutorials/gitk">Atlassian.com</a></p>
+<blockquote>
+<p>Il se lance en rentrant dans un terminal la commande
+<code>gitk &amp;</code></p>
+</blockquote></li>
+</ul>
+<p><img src="img/gitk.png" /></p>
+<p>  * Qu’est-ce que le logiciel git-gui ? Comment se lance-t-il ?</p>
+<blockquote>
+<p>Git-gui est une interface graphique de Git basée sur Tcl/Tk<a
+href="#fn2" class="footnote-ref" id="fnref2"
+role="doc-noteref"><sup>2</sup></a>. git gui permet aux utilisateurs
+d’apporter des modifications à leur dépôt en faisant de nouveaux
+commits, en modifiant les commits existants, en créant des branches, en
+effectuant des fusions locales, et en récupérant/poussant vers des
+dépôts distants.</p>
+</blockquote>
+<blockquote>
+<p>Contrairement à gitk, git gui se concentre sur la génération de
+commit et l’annotation de fichiers uniques et n’affiche pas l’historique
+du projet. Il fournit cependant des actions de menu pour démarrer une
+session gitk à partir de git gui.</p>
+</blockquote>
+<p><strong>Source :</strong> <a
+href="https://git-scm.com/docs/git-gui/fr">git-scm.com</a></p>
+<blockquote>
+<p>il se lance en rentrant dans un terminal la commande
+<code>git gui &amp;</code></p>
+</blockquote>
+<p><img src="img/git-gui.png" /></p>
+<p> </p>
+<h3 id="installons-autre-chose-et-comparons">1.3. Installons autre chose
+et comparons</h3>
+<ul>
+<li><p>Pourquoi avez-vous choisi ce logiciel ?</p>
+<blockquote>
+<p>nous avons premièrement cherché un logiciel avec une interface
+graphiquqe attirante et simple, puis en avons cherché un qui était
+totalement gratuit, ce qui qui nous à tourné vers gitnuro</p>
+</blockquote>
+<p> </p></li>
+<li><p>Comment l’avez vous installé ?</p>
+<blockquote>
+<p>tout d’abord, il faut ouvrir un terminal, puis installer flatpak</p>
+</blockquote>
+<ul>
+<li><p><code>sudo apt install flatpak</code></p></li>
+<li><p><code>sudo add-apt-repository ppa:flatpak/stable</code></p></li>
+<li><p><code>sudo apt update</code></p></li>
+<li><p><code>sudo apt install flatpak</code><br />
+ </p></li>
+</ul>
+<blockquote>
+<p>ensuite, on doit ajouter le flathub repository pour avoir accès à la
+librairie d’application de flathub</p>
+</blockquote>
+<ul>
+<li><code>flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo</code><br />
+ </li>
+</ul>
+<blockquote>
+<p>ensuite, il faut installer gitnuro depuis la librairie de flathub</p>
+</blockquote>
+<ul>
+<li><code>flatpak install flathub com.jetpackduba.Gitnuro</code><br />
+ </li>
+</ul></li>
+</ul>
+<p><img src="img/Gitnuro.png" />   <strong>Source :</strong> <a
+href="https://flathub.org/setup">pour setup flatpak et flathub</a> et <a
+href="https://flathub.org/apps/com.jetpackduba.Gitnuro">installer
+gitnuro</a>  </p>
+<ul>
+<li><p>Comparer-le aux outils inclus avec git (et installé précédemment)
+ainsi qu’avec ce qui serait fait en ligne de commande pure :
+fonctionnalités avantages, inconvénients</p>
+<blockquote>
+<p>gitk ne peut que montrer les changements sur un repository, pas le
+modifier.<br />
+git gui ne permet que de faire des modification ou de créer/cloner des
+repository.<br />
+Ils ont cependant l’avantage d’être installé en même temps que git et de
+pouvoir fonctionner ensemble.  </p>
+</blockquote>
+<blockquote>
+<p>gitkraken permet de voir les modification d’un repository et de le
+modifier, mais il a très peu de fonctionnalité sur la version gratuit
+comme l’impossibilité d’acceder au repository privés. La version d’essai
+ne dure qu’un semaine, cependant la version payante est relativement
+abordable pour les particuliers et avec des tarifs spéciaux pour groupes
+et entreprises. De plus cette version payante à beaucoup de
+fonctionnalitées pratiques comme la génération de clé ssh automatique et
+des outils pour les travaux de groupe.  </p>
+</blockquote>
+<blockquote>
+<p>gitnuro permet de voir l’historique et de modifier un repository tout
+en étant totalement gratuit.  </p>
+</blockquote></li>
+</ul>
+<table>
+<colgroup>
+<col style="width: 21%" />
+<col style="width: 26%" />
+<col style="width: 26%" />
+<col style="width: 26%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;"></th>
+<th style="text-align: center;">voir l’historique</th>
+<th style="text-align: center;">modifier/créer des repository</th>
+<th style="text-align: center;">gratuit</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">gitk</td>
+<td style="text-align: center;">[x]</td>
+<td style="text-align: center;">[ ]</td>
+<td style="text-align: center;">[x]</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">git gui</td>
+<td style="text-align: center;">[ ]</td>
+<td style="text-align: center;">[x]</td>
+<td style="text-align: center;">[x]</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">gitkraken</td>
+<td style="text-align: center;">[x]</td>
+<td style="text-align: center;">[x]</td>
+<td style="text-align: center;">[ ]</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">gitnuro</td>
+<td style="text-align: center;">[x]</td>
+<td style="text-align: center;">[x]</td>
+<td style="text-align: center;">[x]</td>
+</tr>
+</tbody>
+</table>
+<p> </p>
+<h3 id="installons-de-gitea">2.1. Installons de Gitea</h3>
+<ul>
+<li><p>Qu’est-ce que Gitea ? &gt; Gitea est git gui libre, gratuit et
+open-source écrit en Go (un language de programmation dévellopé par
+google et inspiré de C et Pascal) sous licence MIT. &gt; il comporte :
+&gt; 1. un système de suivi des bugs &gt; 2. un wiki, ainsi que des
+outils pour la relecture de code &gt; 3. un système d’extension,
+fournissant notamment de l’intégration continue ainsi que de la
+livraison continue.<br />
+&gt;  </p>
+<blockquote>
+<p>Sa première version est sortie le 17 octobre 2016 et est toujours mis
+à jour régulièrement.<br />
+Il est dévellopé par Jiahua Chen et Lunny Xiao et est disponible sur
+Windows, Mac et Linux. Leur travail est déposé dans <a
+href="https://github.com/go-gitea/gitea">ce repository</a>.<br />
+ </p>
+</blockquote>
+<blockquote>
+<p><strong>Source :</strong> <a
+href="https://about.gitea.com/">gitea.com</a> et <a
+href="https://fr.wikipedia.org/wiki/Gitea">wikipedia.org</a></p>
+</blockquote>
+<p> </p></li>
+<li><p>À quels logiciels bien connus dans ce domaine peut-on le comparer
+? &gt; Dans ce même domaine on peut le comparer à GitHub et GitLab.</p>
+<p><em>Source :</em> <a
+href="https://docs.gitea.com/next/">gitea.com</a><br />
+  ### 2.1. Installons de Gitea</p>
+<ul>
+<li><p>2.1.1. Installation du binaire<br />
+verifier que la version de git est <strong>supérieur ou égal à la
+2.0</strong><br />
+&gt; <code>git --version</code></p>
+<h4 id="pour-ubuntudebian">Pour Ubuntu/Debian:</h4>
+<ol type="1">
+<li><p><em>Créer un user pour run gitea</em><br />
+&gt; <code>adduser \</code><br />
+&gt; <code>--system \</code><br />
+&gt; <code>--shell /bin/bash \</code><br />
+&gt; <code>--gecos 'Git Version Control' \</code><br />
+&gt; <code>--group \</code><br />
+&gt; <code>--disabled-password \</code><br />
+&gt; <code>--home /home/git \</code><br />
+&gt; <code>git</code></p></li>
+<li><p><em>Créer les répertoires pour gitea</em><br />
+&gt; <code>mkdir -p /var/lib/gitea/{custom,data,log}</code><br />
+&gt; <code>chown -R git:git /var/lib/gitea/</code><br />
+&gt; <code>chmod -R 750 /var/lib/gitea/</code><br />
+&gt; <code>mkdir /etc/gitea</code><br />
+&gt; <code>chown root:git /etc/gitea</code><br />
+&gt; <code>chmod 770 /etc/gitea</code></p></li>
+<li><p><em>changer les permissions en read only après
+l’installation</em><br />
+&gt; <code>chmod 750 /etc/gitea</code><br />
+&gt; <code>chmod 640 /etc/gitea/app.ini</code></p></li>
+<li><p><em>lancer gitea</em> &gt;
+<code>GITEA_WORK_DIR=/var/lib/gitea/ /usr/local/bin/gitea web -c /etc/gitea/app.ini</code></p></li>
+</ol>
+<p>  ### 2.1.2. Mise à jour du binaire du service Gitea</p></li>
+<li><p>Quelle version du binaire avez-vous installé ? Donnez la version
+et la commande permettant d’obtenir cette information. &gt; Pour
+connaitre la version, il faut utiliser <code>gitea --version</code> ou
+<code>gitea -v</code></p></li>
+</ul>
+<p> </p>
+<ul>
+<li>Comment faire pour mettre à jour le binaire de votre service sans
+devoir tout reconfigurer ? Essayez en mettant à jour vers la version
+1.22-dev. &gt; Il faut remplacer le binaire de
+<code>/usr/local/bin/gitea</code> par la nouvelle version. &gt; Ensuite,
+il faut relancer gitea avec <code>systemctl restart gitea</code>.</li>
+</ul>
+<p> </p></li>
+</ul>
+<section class="footnotes footnotes-end-of-document"
+role="doc-endnotes">
+<hr />
+<ol>
+<li id="fn1" role="doc-endnote"><p>Network Address Translation<a
+href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn2" role="doc-endnote"><p>Tcl/Tk est un langage de
+programmation de type interprété (comme le python ou le perl)<a
+href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section>

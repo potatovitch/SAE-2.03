@@ -60,11 +60,11 @@ durées de ces prises en charge ?
 4. Pendant combien de temps les mises à jour de sécurité seront-elles fournies ?  
 Nom générique, nom de code et version  
 >
-[**source**]()  
+> [**source**]()  
 6. Combien de version au minimum sont activement maintenues par Debian ? Donnez leur nom  
 générique (= les types de distribution).  
 >
-[**source**]()  
+> [**source**]()  
 7. Chaque distribution majeur possède un nom de code différent. Par exemple, la version majeur  
 actuelle (Debian 12) se nomme bookworm. D’où viennent les noms de code données aux  
 distributions ?  

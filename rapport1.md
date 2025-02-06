@@ -61,16 +61,16 @@ durées de ces prises en charge ?
 Nom générique, nom de code et version  
 >
 [**source**]()  
-6. Combien de version au minimum sont activement maintenues par Debian ? Donnez leur nom
+6. Combien de version au minimum sont activement maintenues par Debian ? Donnez leur nom  
 générique (= les types de distribution).  
 >
 [**source**]()  
-7. Chaque distribution majeur possède un nom de code différent. Par exemple, la version majeur
-actuelle (Debian 12) se nomme bookworm. D’où viennent les noms de code données aux
+7. Chaque distribution majeur possède un nom de code différent. Par exemple, la version majeur  
+actuelle (Debian 12) se nomme bookworm. D’où viennent les noms de code données aux  
 distributions ?  
 >
 > [**source**]()  
-9. L’un des atouts de Debian fut le nombre d’architecture (≈ processeurs) officiellement prises en
+9. L’un des atouts de Debian fut le nombre d’architecture (≈ processeurs) officiellement prises en  
 charge. Combien et lesquelles sont prises en charge par la version Bullseye ?  
 >
 > [**source**]()  

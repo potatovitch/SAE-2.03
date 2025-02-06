@@ -8,3 +8,6 @@
 
 ## BlipBloup
 
+## rsc
+[tuto markdown](https://www.markdownguide.org/cheat-sheet/)  
+[page Moodle](https://moodle.univ-lille.fr/course/view.php?id=30827&sectionid=266881)  

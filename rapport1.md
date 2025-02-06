@@ -19,7 +19,7 @@ votre machine ?
 >
 > [**source**]()  
 - Qu’est-ce que MATE ? GNOME ?  
-> ce sont des interfaces graphiques
+> ce sont des interfaces graphiques  
 > [**source**]()  
 - Qu’est-ce qu’un serveur web ?  
 >

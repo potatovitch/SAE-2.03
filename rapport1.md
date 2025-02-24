@@ -56,17 +56,17 @@
 ## À propos de la distribution Debian
 
 1. Qu'est-ce que le Projet Debian ? D'où vient le nom Debian ?  
-> Debian est un projet communautaire qui développe et maintient un système d'exploitation libre basé sur Linux. Le nom "Debian" est une combinaison de "Deb" (de Debra, prénom de la femme du fondateur Ian Murdock) et "Ian".
+> Debian est un projet communautaire qui développe et maintient un système d'exploitation libre basé sur Linux. Le nom "Debian" est une combinaison de "Deb" (de Debra, prénom de la femme du fondateur Ian Murdock) et "Ian".  
 > [**source**](https://www.debian.org/doc/manuals/project-history/ch-intro.en.html)
 
 2. Il existe 3 durées de prise en charge (support) de ces versions :
-> - Support minimal : environ 2 ans
-> - Support long terme (LTS) : 5 ans
-> - Support long terme étendu (ELTS) : jusqu'à 10 ans
+> - Support minimal : environ 2 ans  
+> - Support long terme (LTS) : 5 ans  
+> - Support long terme étendu (ELTS) : jusqu'à 10 ans  
 > [**source**](https://wiki.debian.org/LTS)
 
 3. Pendant combien de temps les mises à jour de sécurité seront-elles fournies ?
-> Les mises à jour de sécurité sont fournies pendant environ 3 ans après la sortie de la version stable, ou 1 an après la sortie de la nouvelle version stable.
+> Les mises à jour de sécurité sont fournies pendant environ 3 ans après la sortie de la version stable, ou 1 an après la sortie de la nouvelle version stable.  
 > [**source**](https://www.debian.org/security/faq#lifespan)
 
 6. Combien de version au minimum sont activement maintenues par Debian ?

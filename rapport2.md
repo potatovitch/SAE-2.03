@@ -18,11 +18,9 @@ en ligne de commande pure : fonctionnalités avantages, inconvénients…
 - Comparer-le aux outils inclus avec git (et installé précédemment) ainsi qu’avec ce qui serait fait
 en ligne de commande pure : fonctionnalités avantages, inconvénients…
 
-## 1.2. Les interfaces graphiques pour git
+---
 
-### Choix de GitKraken
-
-J'ai choisi GitKraken pour plusieurs raisons :
+# Choix de GitKraken
 
 1. **Interface utilisateur intuitive**
    - Visualisation claire de l'historique des commits

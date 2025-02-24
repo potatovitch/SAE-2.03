@@ -45,7 +45,8 @@
 - À quoi servent les suppléments invités ? Donner 2 principales raisons de les installer.  
 > Les suppléments invités permettent :
 > 1. Une meilleure intégration avec le système hôte (copier-coller, glisser-déposer)  
-> 2. De meilleures performances graphiques avec le support de l'accélération 3D  
+> 2. De meilleures performances graphiques avec le support de l'accélération 3D
+>      
 > [**source**](https://www.virtualbox.org/manual/ch04.html#additions-windows)
 
 - À quoi sert la commande mount ?

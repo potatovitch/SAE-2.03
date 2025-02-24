@@ -21,8 +21,8 @@
 - Qu'est-ce qu'un fichier iso bootable ?  
 > C'est une image disque contenant un système d'exploitation qui peut démarrer directement au lancement de la machine.
 > [**source**](https://www.debian.org/CD/faq/#what-is)
-
 - Qu'est-ce que MATE ? GNOME ?  
+> MATE est un environnement de bureau fork de GNOME 2, maintenant la disposition et expérience traditionnelle. GNOME est un environnement de bureau moderne et populaire pour Linux, offrant une interface utilisateur intuitive.
 > [**source**]()  
 - Qu’est-ce qu’un serveur ssh ?  
 >
@@ -32,65 +32,60 @@
 > [**source**]()  
 
 ## Préparation du système
-Comment peux-ton savoir à quels groupes appartient l’utilisateur user ?  
->
-> [**source**]()  
-- Quel est la version du noyau Linux utilisé par votre VM ? N’oubliez pas, comme pour toutes les
-questions, de justifier votre réponse.  
->
-> [**source**]()  
-- À quoi servent les suppléments invités ? Donner 2 principales raisons de les installer.  
->
-> [**source**]()  
-- À quoi sert la commande mount (dans notre cas de figure et dans le cas général) ?  
->
-> [**source**]()  
+- Comment peux-ton savoir à quels groupes appartient l'utilisateur user ?  
+> La commande `groups user` ou `id user` permet d'afficher tous les groupes auxquels appartient un utilisateur.
+> [**source**](https://manpages.debian.org/bullseye/coreutils/groups.1.en.html)
+
+- Quel est la version du noyau Linux utilisé par votre VM ?
+> La commande `uname -r` affiche la version du noyau Linux en cours d'utilisation.
+> [**source**](https://manpages.debian.org/bullseye/procps/uname.1.en.html)
+
+- À quoi servent les suppléments invités ? Donner 2 principales raisons de les installer.
+> Les suppléments invités permettent :
+> 1. Une meilleure intégration avec le système hôte (copier-coller, glisser-déposer)
+> 2. De meilleures performances graphiques avec le support de l'accélération 3D
+> [**source**](https://www.virtualbox.org/manual/ch04.html#additions-windows)
+
+- À quoi sert la commande mount ?
+> La commande `mount` permet de monter un système de fichiers, rendant son contenu accessible dans l'arborescence du système. Dans notre cas, elle monte le CD virtuel des suppléments invités.
+> [**source**](https://manpages.debian.org/bullseye/mount/mount.8.en.html)
 
 ## À propos de la distribution Debian
 
-1. Qu’est-ce que le Projet Debian ? D’où vient le nom Debian ?  
-La maintenance  
->
-> [**source**]()  
-3. Il existe 3 durées de prise en charge (support) de ces versions : la durée minimale, la durée en
-support long terme (LTS) et la durée en support long terme étendue (ELTS). Quelle sont les
-durées de ces prises en charge ?  
->
-> [**source**]()  
-4. Pendant combien de temps les mises à jour de sécurité seront-elles fournies ?  
-Nom générique, nom de code et version  
->
-> [**source**]()  
-6. Combien de version au minimum sont activement maintenues par Debian ? Donnez leur nom  
-générique (= les types de distribution).  
->
-> [**source**]()  
-7. Chaque distribution majeur possède un nom de code différent. Par exemple, la version majeur  
-actuelle (Debian 12) se nomme bookworm. D’où viennent les noms de code données aux  
-distributions ?  
->
-> [**source**]()  
-9. L’un des atouts de Debian fut le nombre d’architecture (≈ processeurs) officiellement prises en  
-charge. Combien et lesquelles sont prises en charge par la version Bullseye ?  
->
-> [**source**]()  
-10. Première version avec un nom de code  
-- Quelle a était le premier nom de code utilisé ?  
->
-> [**source**]()  
-- Quand a-t-il été annoncé ?  
->
-> [**source**]()  
-- Quelle était le numéro de version de cette distribution ?  
->
-> [**source**]()  
-12. Dernière nom de code attribué  
-- Quel est le dernier nom de code annoncée à ce jour ?  
->
-> [**source**]()  
-- Quand a-t-il été annoncé ?  
-> 
-> [**source**]()  
-- Quelle est la version de cette distribution ?  
->
-> [**source**]()  
+1. Qu'est-ce que le Projet Debian ? D'où vient le nom Debian ?  
+> Debian est un projet communautaire qui développe et maintient un système d'exploitation libre basé sur Linux. Le nom "Debian" est une combinaison de "Deb" (de Debra, prénom de la femme du fondateur Ian Murdock) et "Ian".
+> [**source**](https://www.debian.org/doc/manuals/project-history/ch-intro.en.html)
+
+2. Il existe 3 durées de prise en charge (support) de ces versions :
+> - Support minimal : environ 2 ans
+> - Support long terme (LTS) : 5 ans
+> - Support long terme étendu (ELTS) : jusqu'à 10 ans
+> [**source**](https://wiki.debian.org/LTS)
+
+3. Pendant combien de temps les mises à jour de sécurité seront-elles fournies ?
+> Les mises à jour de sécurité sont fournies pendant environ 3 ans après la sortie de la version stable, ou 1 an après la sortie de la nouvelle version stable.
+> [**source**](https://www.debian.org/security/faq#lifespan)
+
+6. Combien de version au minimum sont activement maintenues par Debian ?
+> Debian maintient activement 3 distributions : stable, testing et unstable (sid)
+> [**source**](https://www.debian.org/releases/)
+
+7. D'où viennent les noms de code des distributions ?
+> Les noms de code des versions Debian sont tirés des personnages du film d'animation Toy Story
+> [**source**](https://wiki.debian.org/DebianReleases#Code_Names)
+
+9. Architecture prises en charge par Bullseye
+> Bullseye prend en charge 9 architectures : amd64, arm64, armel, armhf, i386, mips64el, mipsel, ppc64el, et s390x
+> [**source**](https://www.debian.org/releases/bullseye/releasenotes)
+
+10. Premier nom de code :
+- Le premier nom de code était "Buzz"
+- Annoncé en 1996
+- Version 1.1 de Debian
+> [**source**](https://www.debian.org/doc/manuals/project-history/releases.en.html)
+
+12. Dernier nom de code :
+- "Forky" est le dernier nom annoncé
+- Annoncé en avril 2023
+- Ce sera Debian 13
+> [**source**](https://lists.debian.org/debian-devel-announce/2023/04/msg00000.html)

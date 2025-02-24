@@ -1,28 +1,28 @@
 # Rapport semaine 1
 
-## Préparation d’une machine virtuelle Debian 
+## Préparation d'une machine virtuelle Debian 
 
-- Que signifie “64-bit” dans “Debian 64-bit” ?  
-> 
-> [**source**]()  
+- Que signifie "64-bit" dans "Debian 64-bit" ?  
+> 64-bit fait référence à l'architecture du processeur capable de traiter des données sur 64 bits à la fois, permettant notamment d'adresser plus de mémoire RAM que les systèmes 32-bit.
+> [**source**](https://www.debian.org/releases/stable/amd64/ch02s01.fr.html)
+
 - Quelle est la configuration réseau utilisée par défaut ?  
-> 
-> [**source**]()  
+> NAT (Network Address Translation) est la configuration réseau par défaut dans VirtualBox. Elle permet à la VM d'accéder à Internet via l'ordinateur hôte.
+> [**source**](https://www.virtualbox.org/manual/ch06.html#network_nat)
+
 - Quel est le nom du fichier XML contenant la configuration de votre machine ?  
-> 
-> [**source**]()  
-- Sauriez-vous le modifier directement ce fichier de configuration pour mettre 2 processeurs à
-votre machine ?  
->
-> [**source**]()  
-- Qu’est-ce qu’un fichier iso bootable ?  
->
-> [**source**]()  
-- Qu’est-ce que MATE ? GNOME ?  
-> ce sont des interfaces graphiques  
-> [**source**]()  
-- Qu’est-ce qu’un serveur web ?  
->
+> Le fichier de configuration se trouve dans `~/.config/VirtualBox/VirtualBox.xml`
+> [**source**](https://docs.oracle.com/en/virtualization/virtualbox/6.0/user/vboxconfigdata.html)
+
+- Sauriez-vous modifier directement ce fichier de configuration pour mettre 2 processeurs à votre machine ?  
+> Oui, dans le fichier XML, il faut modifier la balise `<CPU count="1">` en `<CPU count="2">`
+> [**source**](https://docs.oracle.com/en/virtualization/virtualbox/6.0/user/vboxmanage-modifyvm.html)
+
+- Qu'est-ce qu'un fichier iso bootable ?  
+> C'est une image disque contenant un système d'exploitation qui peut démarrer directement au lancement de la machine.
+> [**source**](https://www.debian.org/CD/faq/#what-is)
+
+- Qu'est-ce que MATE ? GNOME ?  
 > [**source**]()  
 - Qu’est-ce qu’un serveur ssh ?  
 >

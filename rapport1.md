@@ -35,21 +35,21 @@
 
 ## Préparation du système
 - Comment peux-ton savoir à quels groupes appartient l'utilisateur user ?  
-> La commande `groups user` ou `id user` permet d'afficher tous les groupes auxquels appartient un utilisateur.
+> La commande `groups user` ou `id user` permet d'afficher tous les groupes auxquels appartient un utilisateur.  
 > [**source**](https://manpages.debian.org/bullseye/coreutils/groups.1.en.html)
 
 - Quel est la version du noyau Linux utilisé par votre VM ?
-> La commande `uname -r` affiche la version du noyau Linux en cours d'utilisation.
+> La commande `uname -r` affiche la version du noyau Linux en cours d'utilisation.  
 > [**source**](https://manpages.debian.org/bullseye/procps/uname.1.en.html)
 
-- À quoi servent les suppléments invités ? Donner 2 principales raisons de les installer.
+- À quoi servent les suppléments invités ? Donner 2 principales raisons de les installer.  
 > Les suppléments invités permettent :
-> 1. Une meilleure intégration avec le système hôte (copier-coller, glisser-déposer)
-> 2. De meilleures performances graphiques avec le support de l'accélération 3D
+> 1. Une meilleure intégration avec le système hôte (copier-coller, glisser-déposer)  
+> 2. De meilleures performances graphiques avec le support de l'accélération 3D  
 > [**source**](https://www.virtualbox.org/manual/ch04.html#additions-windows)
 
 - À quoi sert la commande mount ?
-> La commande `mount` permet de monter un système de fichiers, rendant son contenu accessible dans l'arborescence du système. Dans notre cas, elle monte le CD virtuel des suppléments invités.
+> La commande `mount` permet de monter un système de fichiers, rendant son contenu accessible dans l'arborescence du système. Dans notre cas, elle monte le CD virtuel des suppléments invités.  
 > [**source**](https://manpages.debian.org/bullseye/mount/mount.8.en.html)
 
 ## À propos de la distribution Debian

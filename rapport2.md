@@ -1,5 +1,10 @@
 # 1. Analyse préliminaire de git et des outils graphiques associés
 ## 1.2. Les interfaces graphiques pour git
+- Qu’est-ce que le logiciel gitk ? Comment se lance-t-il ?
+  > gitk est un logiciel qui permet de visualiser le repository. On l'installe avec ...
+- Qu’est-ce que le logiciel git-gui ? Comment se lance-t-il ?
+
+## 1.3. Installons autre chose et comparons
 - Pourquoi avez-vous choisi ce logiciel ?
   > Nous avons choisit git Kraken car c'est un des gui les plus connu, et que nous avons accès à une version payante grâce au Github Student Developer Pack, qui le fournis gratuitement aux étudiants.
 - Comment l’avez vous installé ?
@@ -12,11 +17,6 @@ en ligne de commande pure : fonctionnalités avantages, inconvénients…
     2. **des fonctionnalités complètes**  
     3. **une compatibilité multi-plateforme**  
   > git kraken dispose de toutes les fonctionnalitées que proposent gitk et git gui, tout en ayant des fonctionnalitées supplémentaires.
-## 1.3. Installons autre chose et comparons
-- Pourquoi avez-vous choisi ce logiciel ?
-- Comment l’avez vous installé ?
-- Comparer-le aux outils inclus avec git (et installé précédemment) ainsi qu’avec ce qui serait fait
-en ligne de commande pure : fonctionnalités avantages, inconvénients…
 
 ---
 

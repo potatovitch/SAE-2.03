@@ -6,7 +6,7 @@
   > Nous l'avons installé 
 - Comparer-le aux outils inclus avec git (et installé précédemment) ainsi qu’avec ce qui serait fait
 en ligne de commande pure : fonctionnalités avantages, inconvénients…
-  - git est inclus avec gitk et git-gui, qui fonctionnent peuvent fonctionner en tandem.  
+  - git est inclus avec gitk et git-gui, qui peuvent fonctionner en tandem.  
   - git kraken a :  
     1. **une interface utilisateur intuitive**  
     2. **des fonctionnalités complètes**  

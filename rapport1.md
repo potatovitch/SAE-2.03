@@ -26,11 +26,11 @@
 > [**source**](https://mate-desktop.org/)
 
 - Qu'est-ce qu'un serveur ssh ?  
-> Un serveur SSH (Secure Shell) est un service permettant une connexion sécurisée à distance sur une machine, avec chiffrement des communications.
+> Un serveur SSH (Secure Shell) est un service permettant une connexion sécurisée à distance sur une machine, avec chiffrement des communications.  
 > [**source**](https://www.ssh.com/academy/ssh/protocol)
 
 - Qu'est-ce qu'un serveur mandataire ?  
-> Un serveur mandataire (proxy) est un intermédiaire entre les utilisateurs et Internet, pouvant filtrer les accès, mettre en cache des données et protéger l'anonymat.
+> Un serveur mandataire (proxy) est un intermédiaire entre les utilisateurs et Internet, pouvant filtrer les accès, mettre en cache des données et protéger l'anonymat.  
 > [**source**](https://www.rfc-editor.org/rfc/rfc2616#section-1.3)
 
 ## Préparation du système

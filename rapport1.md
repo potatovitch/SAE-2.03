@@ -19,7 +19,7 @@
 > [**source**](https://docs.oracle.com/en/virtualization/virtualbox/6.0/user/vboxmanage-modifyvm.html)
 
 - Qu'est-ce qu'un fichier iso bootable ?  
-> C'est une image disque contenant un système d'exploitation qui peut démarrer directement au lancement de la machine. 
+> C'est une image disque contenant un système d'exploitation qui peut démarrer directement au lancement de la machine.  
 > [**source**](https://www.debian.org/CD/faq/#what-is)
 - Qu'est-ce que MATE ? GNOME ?  
 > MATE est un environnement de bureau fork de GNOME 2, maintenant la disposition et expérience traditionnelle. GNOME est un environnement de bureau moderne et populaire pour Linux, offrant une interface utilisateur intuitive.  

@@ -11,7 +11,7 @@ en ligne de commande pure : fonctionnalités avantages, inconvénients…
   >   1. **une interface utilisateur intuitive**  
   >   2. **des fonctionnalités complètes**  
   >   3. **une compatibilité multi-plateforme**  
-  >  
+    
   > git kraken dispose de toutes les fonctionnalitées que proposent gitk et git gui, tout en ayant des fonctionnalitées supplémentaires.
 ## 1.3. Installons autre chose et comparons
 - Pourquoi avez-vous choisi ce logiciel ?

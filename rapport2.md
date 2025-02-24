@@ -7,7 +7,7 @@
 - Comparer-le aux outils inclus avec git (et installé précédemment) ainsi qu’avec ce qui serait fait
 en ligne de commande pure : fonctionnalités avantages, inconvénients…
   > git est inclus avec gitk et git-gui, qui fonctionnent peuvent fonctionner en tandem.
-  > 
+  > git kraken a ...
 ## 1.3. Installons autre chose et comparons
 - Pourquoi avez-vous choisi ce logiciel ?
 - Comment l’avez vous installé ?

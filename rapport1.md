@@ -23,13 +23,15 @@
 > [**source**](https://www.debian.org/CD/faq/#what-is)
 - Qu'est-ce que MATE ? GNOME ?  
 > MATE est un environnement de bureau fork de GNOME 2, maintenant la disposition et expérience traditionnelle. GNOME est un environnement de bureau moderne et populaire pour Linux, offrant une interface utilisateur intuitive.
-> [**source**]()  
-- Qu’est-ce qu’un serveur ssh ?  
->
-> [**source**]()  
-- Qu’est-ce qu’un serveur mandataire ?  
->
-> [**source**]()  
+> [**source**](https://mate-desktop.org/)
+
+- Qu'est-ce qu'un serveur ssh ?  
+> Un serveur SSH (Secure Shell) est un service permettant une connexion sécurisée à distance sur une machine, avec chiffrement des communications.
+> [**source**](https://www.ssh.com/academy/ssh/protocol)
+
+- Qu'est-ce qu'un serveur mandataire ?  
+> Un serveur mandataire (proxy) est un intermédiaire entre les utilisateurs et Internet, pouvant filtrer les accès, mettre en cache des données et protéger l'anonymat.
+> [**source**](https://www.rfc-editor.org/rfc/rfc2616#section-1.3)
 
 ## Préparation du système
 - Comment peux-ton savoir à quels groupes appartient l'utilisateur user ?  

@@ -85,11 +85,11 @@
 10. Premier nom de code :
 - Le premier nom de code était "Buzz"
 - Annoncé en 1996
-- Version 1.1 de Debian
-> [**source**](https://www.debian.org/doc/manuals/project-history/releases.en.html)
+- Version 1.1 de Debian  
+ [**source**](https://www.debian.org/doc/manuals/project-history/releases.en.html)
 
 12. Dernier nom de code :
 - "Forky" est le dernier nom annoncé
 - Annoncé en avril 2023
-- Ce sera Debian 13
-> [**source**](https://lists.debian.org/debian-devel-announce/2023/04/msg00000.html)
+- Ce sera Debian 13  
+ [**source**](https://lists.debian.org/debian-devel-announce/2023/04/msg00000.html)

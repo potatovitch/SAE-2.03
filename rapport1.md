@@ -64,9 +64,8 @@
 > - Support long terme (LTS) : 5 ans  
 > - Support long terme étendu (ELTS) : jusqu'à 10 ans  
 >   
-> [**source**]
-(https://wiki.debian.org/LTS)
-
+> [**source**](https://wiki.debian.org/LTS)
+ 
 3. Pendant combien de temps les mises à jour de sécurité seront-elles fournies ?
 > Les mises à jour de sécurité sont fournies pendant environ 3 ans après la sortie de la version stable, ou 1 an après la sortie de la nouvelle version stable.  
 > [**source**](https://www.debian.org/security/faq#lifespan)

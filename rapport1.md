@@ -79,7 +79,7 @@
 > [**source**](https://wiki.debian.org/DebianReleases#Code_Names)
 
 9. Architecture prises en charge par Bullseye
-> Bullseye prend en charge 9 architectures : amd64, arm64, armel, armhf, i386, mips64el, mipsel, ppc64el, et s390x
+> Bullseye prend en charge 9 architectures : amd64, arm64, armel, armhf, i386, mips64el, mipsel, ppc64el, et s390x  
 > [**source**](https://www.debian.org/releases/bullseye/releasenotes)
 
 10. Premier nom de code :

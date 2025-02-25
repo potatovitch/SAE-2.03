@@ -71,11 +71,11 @@
 > [**source**](https://www.debian.org/security/faq#lifespan)
 
 6. Combien de version au minimum sont activement maintenues par Debian ?
-> Debian maintient activement 3 distributions : stable, testing et unstable (sid)
+> Debian maintient activement 3 distributions : stable, testing et unstable (sid)  
 > [**source**](https://www.debian.org/releases/)
 
 7. D'où viennent les noms de code des distributions ?
-> Les noms de code des versions Debian sont tirés des personnages du film d'animation Toy Story
+> Les noms de code des versions Debian sont tirés des personnages du film d'animation Toy Story  
 > [**source**](https://wiki.debian.org/DebianReleases#Code_Names)
 
 9. Architecture prises en charge par Bullseye

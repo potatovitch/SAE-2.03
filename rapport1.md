@@ -70,25 +70,25 @@
 > Les mises à jour de sécurité sont fournies pendant environ 3 ans après la sortie de la version stable, ou 1 an après la sortie de la nouvelle version stable.  
 > [**source**](https://www.debian.org/security/faq#lifespan)
 
-6. Combien de version au minimum sont activement maintenues par Debian ?
+4. Combien de version au minimum sont activement maintenues par Debian ?
 > Debian maintient activement 3 distributions : stable, testing et unstable (sid)  
 > [**source**](https://www.debian.org/releases/)
 
-7. D'où viennent les noms de code des distributions ?
+5. D'où viennent les noms de code des distributions ?
 > Les noms de code des versions Debian sont tirés des personnages du film d'animation Toy Story  
 > [**source**](https://wiki.debian.org/DebianReleases#Code_Names)
 
-9. Architecture prises en charge par Bullseye
+6. Architecture prises en charge par Bullseye
 > Bullseye prend en charge 9 architectures : amd64, arm64, armel, armhf, i386, mips64el, mipsel, ppc64el, et s390x  
 > [**source**](https://www.debian.org/releases/bullseye/releasenotes)
 
-10. Premier nom de code :
+7. Premier nom de code :
 - Le premier nom de code était "Buzz"
 - Annoncé en 1996
 - Version 1.1 de Debian  
  [**source**](https://www.debian.org/doc/manuals/project-history/releases.en.html)
 
-12. Dernier nom de code :
+8. Dernier nom de code :
 - "Forky" est le dernier nom annoncé
 - Annoncé en avril 2023
 - Ce sera Debian 13  

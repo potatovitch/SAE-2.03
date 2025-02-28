@@ -60,7 +60,7 @@ L'installation de GitKraken s'est déroulée comme suit :
 
 Le processus d'installation est simple et guidé, ne nécessitant que quelques minutes pour être opérationnel.
 
-![GitKraken Interface](https://www.gitkraken.com/img/integrations/github-hero.jpg)
+![GitKraken Interface](https://www.linuxadictos.com/wp-content/uploads/gitkraken.png)
 
 ### Comparaison détaillée avec les outils Git natifs
 
@@ -104,7 +104,7 @@ Le processus d'installation est simple et guidé, ne nécessitant que quelques m
 - **Thèmes personnalisables** : Options de personnalisation visuelle pour adapter l'interface à vos préférences
 - **Tooltips explicatives** : Aide contextuelle pour comprendre les différentes fonctionnalités
 
-![GitKraken Graph View](https://www.gitkraken.com/img/index/gk-graph-full.png)
+![GitKraken Graph View](https://www.gitkraken.com/wp-content/uploads/2024/05/Group-19495-1024x577.png)
 
 ### Fonctionnalités avancées
 - **Intégration avec GitHub, GitLab, Bitbucket et Azure DevOps** : Gestion complète des pull requests et issues sans quitter l'application

@@ -1,0 +1,41 @@
+/* palette */
+:root {
+  --main-bg: #1e1e2e;
+  --main-text: #cdd6f4;
+  --title1: #f38ba8;
+  --title2: #fab387;
+  --title3: #f9e2af;
+  --title4: #a6e3a1;
+  --paragraph: #181825;
+  --link: ;
+}
+
+/* css */
+
+html {
+  color: var(--main-text);
+  background-color: var(--main-bg);
+}
+
+h1 {
+  color: var(--title1);
+}
+h2 {
+  color: var(--title2);
+}
+h3 {
+  color: var(--title3);
+}
+h4 {
+  color: var(--title4);
+}
+
+p {
+  background-color: var(--paragraph);
+}
+
+a,
+a:hover,
+a:visited {
+  color: var(--link);
+}

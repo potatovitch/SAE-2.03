@@ -5,7 +5,9 @@ authors:
   - Lecoester Martin
   - Stievenard Adam
 date: 28 février 2025
-css: style.css
+output:
+  html_document:
+    css: "style.css"
 ---
 
 # 1. Analyse préliminaire de git et des outils graphiques associés

@@ -1,5 +1,5 @@
 ---
-title: "Préparation d'une machine virtuelle et Fonctionnement de Debian"
+title: "Rapport SAE2.03"
 authors:
   - LELEU Benjamin
   - Lecoester Martin
@@ -7,7 +7,7 @@ authors:
 date: 28 février 2025
 ---
 
-# Rapport semaine 1
+# Préparation d'une machine virtuelle et Fonctionnement de Debian
 
 ## Préparation d'une machine virtuelle Debian
 
@@ -45,8 +45,9 @@ date: 28 février 2025
   > [**source**](https://www.ssh.com/academy/ssh/protocol)
 
 - Qu'est-ce qu'un serveur mandataire ?
+
   > Un serveur mandataire (proxy) est un intermédiaire entre les utilisateurs et Internet, pouvant filtrer les accès, mettre en cache des données et protéger l'anonymat.  
-  > [**source**](https://www.rfc-editor.org/rfc/rfc2616#section-1.3)
+  > [**source**](https://www.rfc-editor.org/rfc/rfc2616#section-1.3)  
 
 ## Préparation du système
 

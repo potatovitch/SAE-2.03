@@ -1,5 +1,4 @@
 ---
-title: "Analyse des outils Git et interfaces graphiques et choix de GitKraken"
 authors:
   - LELEU Benjamin
   - Lecoester Martin

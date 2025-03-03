@@ -5,9 +5,6 @@ authors:
   - Lecoester Martin
   - Stievenard Adam
 date: 28 février 2025
-output:
-  html_document:
-    css: "style.css"
 ---
 
 # Rapport semaine 1

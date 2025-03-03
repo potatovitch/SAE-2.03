@@ -33,7 +33,7 @@ h4 {
   color: var(--title4);
 }
 
-p {
+blockquote>p {
   background-color: var(--paragraph);
 }
 

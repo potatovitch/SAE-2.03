@@ -7,11 +7,13 @@ date: 28 février 2025
 output:
   html_document:
     css: style.css
+toc_min_heading_level: 1
+toc_max_heading_level: 4
 ---
 
 # 1. Analyse préliminaire de git et des outils graphiques associés
 
-![](https://git-scm.com/images/logos/downloads/Git-Logo-2Color.png)
+![&nbsp;](https://git-scm.com/images/logos/downloads/Git-Logo-2Color.png)
 
 ## 1.2. Les interfaces graphiques pour git
 
@@ -44,7 +46,7 @@ output:
 
 ## 1.3. Installons autre chose et comparons
 
-![](https://biz.prlog.org/GitKraken/logo.png)
+![&nbsp;](https://biz.prlog.org/GitKraken/logo.png)
 
 ### Pourquoi avez-vous choisi ce logiciel ?
 
@@ -69,7 +71,7 @@ L'installation de GitKraken s'est déroulée comme suit :
 
 Le processus d'installation est simple et guidé, ne nécessitant que quelques minutes pour être opérationnel.
 
-![](https://www.linuxadictos.com/wp-content/uploads/gitkraken.png)
+![&nbsp;](https://www.linuxadictos.com/wp-content/uploads/gitkraken.png)
 
 ### Comparaison détaillée avec les outils Git natifs
 
@@ -114,7 +116,7 @@ Le processus d'installation est simple et guidé, ne nécessitant que quelques m
 - **Thèmes personnalisables** : Options de personnalisation visuelle pour adapter l'interface à vos préférences
 - **Tooltips explicatives** : Aide contextuelle pour comprendre les différentes fonctionnalités
 
-![](https://www.gitkraken.com/wp-content/uploads/2024/05/Group-19495-1024x577.png)
+![&nbsp;](https://www.gitkraken.com/wp-content/uploads/2024/05/Group-19495-1024x577.png)
 
 ### Fonctionnalités avancées
 

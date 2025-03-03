@@ -47,16 +47,24 @@ blockquote>p {
   background-color: var(--paragraph);
   width: max-content;
   font-weight: normal;
+  border-radius: 8px;
+  padding: 4px;
 }
 
 img {
-  background-color: var(--img);
+
   width: max-content;
-  border-radius: 8px;
-  padding: 1%;
+  border-radius: 12px;
   width: auto;
   height: auto;
 }
+
+h1+figure>img,
+h2+figure>img {
+  background-color: var(--img);
+  padding: 1%;
+}
+
 
 th {
   background-color: var(--th);

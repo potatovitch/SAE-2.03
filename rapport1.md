@@ -8,6 +8,9 @@ date: 28 février 2025
 output:
   html_document:
     css: style.css
+
+toc_min_heading_level: 1
+toc_max_heading_level: 4
 ---
 
 # Préparation d'une machine virtuelle et Fonctionnement de Debian

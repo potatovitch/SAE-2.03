@@ -4,6 +4,9 @@ authors:
   - Lecoester Martin
   - Stievenard Adam
 date: 28 février 2025
+output:
+  html_document:
+    css: style.css
 ---
 
 # 1. Analyse préliminaire de git et des outils graphiques associés
@@ -66,7 +69,7 @@ L'installation de GitKraken s'est déroulée comme suit :
 
 Le processus d'installation est simple et guidé, ne nécessitant que quelques minutes pour être opérationnel.
 
-![GitKraken Interface](https://www.linuxadictos.com/wp-content/uploads/gitkraken.png)
+![](https://www.linuxadictos.com/wp-content/uploads/gitkraken.png)
 
 ### Comparaison détaillée avec les outils Git natifs
 
@@ -111,7 +114,7 @@ Le processus d'installation est simple et guidé, ne nécessitant que quelques m
 - **Thèmes personnalisables** : Options de personnalisation visuelle pour adapter l'interface à vos préférences
 - **Tooltips explicatives** : Aide contextuelle pour comprendre les différentes fonctionnalités
 
-![GitKraken Graph View](https://www.gitkraken.com/wp-content/uploads/2024/05/Group-19495-1024x577.png)
+![](https://www.gitkraken.com/wp-content/uploads/2024/05/Group-19495-1024x577.png)
 
 ### Fonctionnalités avancées
 

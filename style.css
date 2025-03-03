@@ -8,6 +8,11 @@
   --title4: #a6e3a1;
   --paragraph: #313244;
   --link: #cba6f7;
+  --img: #a6adc8;
+  --th: #fab387;
+  --td: #f9e2af;
+  --t-text: #1e1e2e;
+
 }
 
 /* css */
@@ -38,6 +43,32 @@ h4 {
 blockquote>p {
   background-color: var(--paragraph);
   width: max-content;
+}
+
+img {
+  background-color: var(--img);
+  width: max-content;
+  border-radius: 8px;
+  padding: 1%;
+  width: auto;
+  height: auto;
+}
+
+th {
+  background-color: var(--th);
+}
+
+td {
+  background-color: var(--td);
+}
+
+th,
+td {
+  color: var(--t-text);
+}
+
+table {
+  width: fit-content;
 }
 
 a,

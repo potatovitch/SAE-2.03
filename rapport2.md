@@ -8,7 +8,7 @@ date: 28 février 2025
 
 # 1. Analyse préliminaire de git et des outils graphiques associés
 
-![Git Logo](https://git-scm.com/images/logos/downloads/Git-Logo-2Color.png)
+![](https://git-scm.com/images/logos/downloads/Git-Logo-2Color.png)
 
 ## 1.2. Les interfaces graphiques pour git
 
@@ -41,7 +41,7 @@ date: 28 février 2025
 
 ## 1.3. Installons autre chose et comparons
 
-![GitKraken Logo](https://biz.prlog.org/GitKraken/logo.png)
+![](https://biz.prlog.org/GitKraken/logo.png)
 
 ### Pourquoi avez-vous choisi ce logiciel ?
 

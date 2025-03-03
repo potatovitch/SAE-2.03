@@ -82,7 +82,7 @@ td {
 }
 
 table {
-  width: fit-content;
+  width: fit-content !important;
 }
 
 a,

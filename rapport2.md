@@ -1,4 +1,5 @@
 ---
+title: "Rapport SAE2.03"
 authors:
   - LELEU Benjamin
   - Lecoester Martin
@@ -11,11 +12,11 @@ toc_min_heading_level: 1
 toc_max_heading_level: 4
 ---
 
-# 1. Analyse préliminaire de git et des outils graphiques associés
+## 1. Analyse préliminaire de git et des outils graphiques associés
 
 ![&nbsp;](https://git-scm.com/images/logos/downloads/Git-Logo-2Color.png)
 
-## 1.2. Les interfaces graphiques pour git
+### 1.2. Les interfaces graphiques pour git
 
 - **Qu'est-ce que le logiciel gitk ? Comment se lance-t-il ?**
   Gitk est un outil de visualisation graphique intégré avec Git qui permet d'explorer l'historique d'un dépôt. C'est essentiellement un navigateur graphique d'historique qui affiche le graphe des commits et leurs détails.
@@ -44,11 +45,11 @@ toc_max_heading_level: 4
 
 - **Qu'est-ce que le logiciel git-gui ? Comment se lance-t-il ?**
 
-## 1.3. Installons autre chose et comparons
+### 1.3. Installons autre chose et comparons
 
 ![&nbsp;](https://biz.prlog.org/GitKraken/logo.png)
 
-### Pourquoi avez-vous choisi ce logiciel ?
+#### Pourquoi avez-vous choisi ce logiciel ?
 
 Nous avons choisi **GitKraken** pour plusieurs raisons :
 
@@ -58,7 +59,7 @@ Nous avons choisi **GitKraken** pour plusieurs raisons :
 - Sa compatibilité multi-plateforme (Windows, macOS, Linux) facilite la collaboration entre différents systèmes d'exploitation
 - Les mises à jour régulières et le support actif garantissent une expérience stable et à jour
 
-### Comment l'avez-vous installé ?
+#### Comment l'avez-vous installé ?
 
 L'installation de GitKraken s'est déroulée comme suit :
 
@@ -73,9 +74,9 @@ Le processus d'installation est simple et guidé, ne nécessitant que quelques m
 
 ![&nbsp;](https://www.linuxadictos.com/wp-content/uploads/gitkraken.png)
 
-### Comparaison détaillée avec les outils Git natifs
+#### Comparaison détaillée avec les outils Git natifs
 
-#### GitKraken vs gitk
+##### GitKraken vs gitk
 
 | Fonctionnalité         | GitKraken                                      | gitk                                         |
 | ---------------------- | ---------------------------------------------- | -------------------------------------------- |
@@ -86,7 +87,7 @@ Le processus d'installation est simple et guidé, ne nécessitant que quelques m
 | Intégration            | Intégration native avec GitHub, GitLab, etc.   | Pas d'intégration avec les services en ligne |
 | Résolution de conflits | Outil de résolution intégré                    | Nécessite outils externes                    |
 
-#### GitKraken vs git-gui
+##### GitKraken vs git-gui
 
 | Fonctionnalité          | GitKraken                                                 | git-gui                                         |
 | ----------------------- | --------------------------------------------------------- | ----------------------------------------------- |
@@ -96,7 +97,7 @@ Le processus d'installation est simple et guidé, ne nécessitant que quelques m
 | Historique              | Visualisation intégrée et navigable                       | Nécessite le lancement séparé de gitk           |
 | Fonctions avancées      | Support natif du stashing, cherry-picking, etc.           | Fonctionnalités limitées aux opérations de base |
 
-#### GitKraken vs Ligne de commande Git
+##### GitKraken vs Ligne de commande Git
 
 | Critère                | GitKraken                                  | Ligne de commande                                  |
 | ---------------------- | ------------------------------------------ | -------------------------------------------------- |
@@ -107,9 +108,9 @@ Le processus d'installation est simple et guidé, ne nécessitant que quelques m
 | Ressources système     | Consommation plus élevée                   | Légère empreinte mémoire                           |
 | Personnalisation       | Limitée aux options disponibles            | Infiniment personnalisable                         |
 
-## Avantages détaillés de GitKraken
+### Avantages détaillés de GitKraken
 
-### Interface utilisateur intuitive
+#### Interface utilisateur intuitive
 
 - **Représentation graphique des branches** : Les branches sont représentées visuellement avec des couleurs distinctes pour faciliter la compréhension
 - **Système de drag-and-drop** : Permet de faire des merge, rebase et autres opérations complexes par simple glisser-déposer
@@ -118,7 +119,7 @@ Le processus d'installation est simple et guidé, ne nécessitant que quelques m
 
 ![&nbsp;](https://www.gitkraken.com/wp-content/uploads/2024/05/Group-19495-1024x577.png)
 
-### Fonctionnalités avancées
+#### Fonctionnalités avancées
 
 - **Intégration avec GitHub, GitLab, Bitbucket et Azure DevOps** : Gestion complète des pull requests et issues sans quitter l'application
 - **Système de profils** : Permet de gérer plusieurs comptes Git et de basculer facilement entre eux
@@ -127,7 +128,7 @@ Le processus d'installation est simple et guidé, ne nécessitant que quelques m
 - **Terminal intégré** : Pour les opérations nécessitant la ligne de commande sans changer d'application
 - **Détection automatique des repositories** : Scanne votre disque pour trouver les repositories existants
 
-### Productivité et flux de travail
+#### Productivité et flux de travail
 
 - **Actions rapides avec raccourcis clavier** : Personnalisation complète des raccourcis pour plus d'efficacité
 - **Timeline interactive** : Navigation temporelle dans l'historique du projet
@@ -135,7 +136,7 @@ Le processus d'installation est simple et guidé, ne nécessitant que quelques m
 - **Outil de fusion avancé** : Interface visuelle pour résoudre les conflits de merge
 - **Recherche puissante** : Localisation rapide des commits, branches ou fichiers spécifiques
 
-### Comparaison avec la ligne de commande Git
+#### Comparaison avec la ligne de commande Git
 
 | Opération                     | GitKraken                                                  | Ligne de commande Git                               |
 | ----------------------------- | ---------------------------------------------------------- | --------------------------------------------------- |
@@ -145,13 +146,13 @@ Le processus d'installation est simple et guidé, ne nécessitant que quelques m
 | Stashing                      | Interface visuelle du WIP                                  | Commandes `git stash`                               |
 | Apprentissage                 | Courbe d'apprentissage plus douce                          | Mémorisation des commandes nécessaire               |
 
-### Limites et inconvénients
+#### Limites et inconvénients
 
 - **Consommation de ressources** : Plus gourmand en mémoire et CPU que les outils en ligne de commande
 - **Version gratuite limitée** : Certaines fonctionnalités réservées à la version Pro (heureusement disponible via GitHub Student Developer Pack)
 - **Dépendance à l'interface** : Risque de moins bien maîtriser les commandes Git sous-jacentes
 
-## Expérience utilisateur et retours d'expérience
+### Expérience utilisateur et retours d'expérience
 
 Après plusieurs semaines d'utilisation intensive de GitKraken dans le cadre de nos projets universitaires, nous avons constaté une amélioration significative dans notre gestion des branches et notre compréhension des structures de nos repositories. Les membres de l'équipe moins familiers avec Git ont pu rapidement devenir productifs grâce à l'interface intuitive.
 
@@ -161,7 +162,7 @@ Notre workflow a été particulièrement amélioré grâce aux fonctionnalités 
 - L'intégration avec GitHub, qui nous permet de gérer nos pull requests sans changer de plateforme
 - L'outil de résolution de conflits, qui a considérablement simplifié la gestion des merges complexes
 
-## Conclusion
+### Conclusion
 
 L'utilisation de GitKraken représente un excellent compromis pour les développeurs souhaitant combiner puissance de Git et facilité d'utilisation. Si les outils natifs comme gitk et git-gui offrent des fonctionnalités de base et une faible empreinte système, GitKraken se démarque par son interface intuitive et ses capacités avancées qui réduisent considérablement la courbe d'apprentissage de Git.
 
@@ -171,22 +172,22 @@ Les inconvénients de GitKraken (consommation de ressources, version gratuite li
 
 ---
 
-## Références et ressources
+### Références et ressources
 
 - Documentation officielle de GitKraken : [https://support.gitkraken.com/](https://support.gitkraken.com/)
 - Documentation Git : [https://git-scm.com/doc](https://git-scm.com/doc)
 - GitHub Student Developer Pack : [https://education.github.com/pack](https://education.github.com/pack)
 
-## Annexes
+### Annexes
 
-### Configuration système recommandée pour GitKraken
+#### Configuration système recommandée pour GitKraken
 
 - **Système d'exploitation** : Windows 10/11, macOS 10.13+, Linux avec GLIBC 2.17+
 - **RAM** : 4 Go minimum, 8 Go recommandé
 - **Espace disque** : 300 Mo disponibles
 - **Processeur** : Multi-core recommandé pour les grands repositories
 
-### Équipe de projet
+#### Équipe de projet
 
 - LELEU Benjamin
 - Lecoester Martin

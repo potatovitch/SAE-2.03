@@ -13,9 +13,9 @@ toc_min_heading_level: 1
 toc_max_heading_level: 4
 ---
 
-# Préparation d'une machine virtuelle et Fonctionnement de Debian
+## Préparation d'une machine virtuelle et Fonctionnement de Debian
 
-## Préparation d'une machine virtuelle Debian
+### Préparation d'une machine virtuelle Debian
 
 - Que signifie "64-bit" dans "Debian 64-bit" ?
 
@@ -57,7 +57,7 @@ toc_max_heading_level: 4
   > Un serveur mandataire (proxy) est un intermédiaire entre les utilisateurs et Internet, pouvant filtrer les accès, mettre en cache des données et protéger l'anonymat.  
   > [**source**](https://www.rfc-editor.org/rfc/rfc2616#section-1.3)  
 
-## Préparation du système
+### Préparation du système
 
 - Comment peux-ton savoir à quels groupes appartient l'utilisateur user ?
 
@@ -83,7 +83,7 @@ toc_max_heading_level: 4
   > La commande `mount` permet de monter un système de fichiers, rendant son contenu accessible dans l'arborescence du système. Dans notre cas, elle monte le CD virtuel des suppléments invités.  
   > [**source**](https://manpages.debian.org/bullseye/mount/mount.8.en.html)
 
-## À propos de la distribution Debian
+### À propos de la distribution Debian
 
 1. Qu'est-ce que le Projet Debian ? D'où vient le nom Debian ?
 
@@ -94,8 +94,7 @@ toc_max_heading_level: 4
 
    > - Support minimal : environ 2 ans
    > - Support long terme (LTS) : 5 ans
-   > - Support long terme étendu (ELTS) : jusqu'à 10 ans
-   >
+   > - Support long terme étendu (ELTS) : jusqu'à 10 ans  
    > [**source**](https://wiki.debian.org/LTS)
 
 3. Pendant combien de temps les mises à jour de sécurité seront-elles fournies ?
@@ -120,14 +119,14 @@ toc_max_heading_level: 4
 
 7. Premier nom de code :
 
-- Le premier nom de code était "Buzz"
-- Annoncé en 1996
-- Version 1.1 de Debian  
-  [**source**](https://www.debian.org/doc/manuals/project-history/releases.en.html)
+   > - Le premier nom de code était "Buzz"
+   > - Annoncé en 1996
+   > - Version 1.1 de Debian  
+   >   [**source**](https://www.debian.org/doc/manuals/project-history/releases.en.html)
 
 8. Dernier nom de code :
 
-- "Forky" est le dernier nom annoncé
-- Annoncé en avril 2023
-- Ce sera Debian 13  
-  [**source**](https://lists.debian.org/debian-devel-announce/2023/04/msg00000.html)
+   > - "Forky" est le dernier nom annoncé
+   > - Annoncé en avril 2023
+   > - Ce sera Debian 13  
+   >   [**source**](https://lists.debian.org/debian-devel-announce/2023/04/msg00000.html)

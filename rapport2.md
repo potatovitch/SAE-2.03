@@ -24,9 +24,9 @@ toc_max_heading_level: 4
   **Fonctionnalités principales de gitk :**
 
   - Visualisation de l'arbre des commits avec représentation graphique des branches et des fusions
-  - Affichage des métadonnées des commits (auteur, date, message)
-  - Exploration des différences (diffs) introduites par chaque commit
-  - Recherche dans l'historique par divers critères (auteur, message, etc.)
+  - Affichage des métadonnées des commits _(auteur, date, message)_
+  - Exploration des différences _(diffs)_ introduites par chaque commit
+  - Recherche dans l'historique par divers critères _(auteur, message, etc.)_
 
   **Comment lancer gitk :**
 
@@ -56,7 +56,7 @@ Nous avons choisi **GitKraken** pour plusieurs raisons :
 - C'est l'un des clients Git graphiques les plus populaires et les mieux notés sur le marché
 - Il offre une interface utilisateur moderne et intuitive qui facilite la visualisation des branches et de l'historique
 - Nous avons accès à la version Pro gratuitement grâce au GitHub Student Developer Pack, ce qui nous permet d'utiliser toutes les fonctionnalités premium sans coût supplémentaire
-- Sa compatibilité multi-plateforme (Windows, macOS, Linux) facilite la collaboration entre différents systèmes d'exploitation
+- Sa compatibilité multi-plateforme _(Windows, macOS, Linux)_ facilite la collaboration entre différents systèmes d'exploitation
 - Les mises à jour régulières et le support actif garantissent une expérience stable et à jour
 
 #### Comment l'avez-vous installé ?
@@ -65,10 +65,10 @@ L'installation de GitKraken s'est déroulée comme suit :
 
 1. Nous avons d'abord activé notre GitHub Student Developer Pack sur [education.github.com](https://education.github.com/pack)
 2. Nous avons ensuite visité le site officiel de GitKraken [gitkraken.com](https://www.gitkraken.com/download)
-3. Téléchargement de l'installateur pour Windows (environ 100 Mo)
+3. Téléchargement de l'installateur pour Windows _(environ 100 Mo)_
 4. Exécution du fichier d'installation et suivi des instructions à l'écran
 5. Au premier démarrage, connexion avec notre compte GitHub pour activer la licence Pro
-6. Configuration des préférences de base (thème, éditeur par défaut)
+6. Configuration des préférences de base _(thème, éditeur par défaut)_
 
 Le processus d'installation est simple et guidé, ne nécessitant que quelques minutes pour être opérationnel.
 
@@ -102,9 +102,9 @@ Le processus d'installation est simple et guidé, ne nécessitant que quelques m
 | Critère                | GitKraken                                  | Ligne de commande                                  |
 | ---------------------- | ------------------------------------------ | -------------------------------------------------- |
 | Courbe d'apprentissage | Rapide, interface intuitive                | Plus abrupte, nécessite mémorisation des commandes |
-| Vitesse d'exécution    | Plus lente (démarrage, opérations lourdes) | Plus rapide pour utilisateurs expérimentés         |
-| Visualisation          | Représentation graphique claire            | Textuelle uniquement (sauf ajout d'alias)          |
-| Automatisation         | Limitée                                    | Excellente (scripts, hooks, etc.)                  |
+| Vitesse d'exécution    | Plus lente _(démarrage, opérations lourdes)_ | Plus rapide pour utilisateurs expérimentés         |
+| Visualisation          | Représentation graphique claire            | Textuelle uniquement _(sauf ajout d'alias)_         |
+| Automatisation         | Limitée                                    | Excellente _(scripts, hooks, etc.)_                  |
 | Ressources système     | Consommation plus élevée                   | Légère empreinte mémoire                           |
 | Personnalisation       | Limitée aux options disponibles            | Infiniment personnalisable                         |
 
@@ -123,7 +123,7 @@ Le processus d'installation est simple et guidé, ne nécessitant que quelques m
 
 - **Intégration avec GitHub, GitLab, Bitbucket et Azure DevOps** : Gestion complète des pull requests et issues sans quitter l'application
 - **Système de profils** : Permet de gérer plusieurs comptes Git et de basculer facilement entre eux
-- **WIP (Work In Progress)** : Permet de sauvegarder temporairement des modifications sans faire de commit
+- **WIP _(Work In Progress)_** : Permet de sauvegarder temporairement des modifications sans faire de commit
 - **Gestion des sous-modules Git** : Interface visuelle pour les sous-modules, simplifiant une fonctionnalité notoirement complexe
 - **Terminal intégré** : Pour les opérations nécessitant la ligne de commande sans changer d'application
 - **Détection automatique des repositories** : Scanne votre disque pour trouver les repositories existants
@@ -141,7 +141,7 @@ Le processus d'installation est simple et guidé, ne nécessitant que quelques m
 | Opération                     | GitKraken                                                  | Ligne de commande Git                               |
 | ----------------------------- | ---------------------------------------------------------- | --------------------------------------------------- |
 | Visualisation de l'historique | Graphique interactif avec code couleur                     | Sortie texte avec `git log`                         |
-| Gestion des branches          | Vue d'ensemble visuelle, création/fusion par drag-and-drop | Commandes multiples (`branch`, `checkout`, `merge`) |
+| Gestion des branches          | Vue d'ensemble visuelle, création/fusion par drag-and-drop | Commandes multiples _(`branch`, `checkout`, `merge`)_ |
 | Résolution de conflits        | Outil intégré avec comparaison côte à côte                 | Nécessite des outils externes                       |
 | Stashing                      | Interface visuelle du WIP                                  | Commandes `git stash`                               |
 | Apprentissage                 | Courbe d'apprentissage plus douce                          | Mémorisation des commandes nécessaire               |
@@ -149,7 +149,7 @@ Le processus d'installation est simple et guidé, ne nécessitant que quelques m
 #### Limites et inconvénients
 
 - **Consommation de ressources** : Plus gourmand en mémoire et CPU que les outils en ligne de commande
-- **Version gratuite limitée** : Certaines fonctionnalités réservées à la version Pro (heureusement disponible via GitHub Student Developer Pack)
+- **Version gratuite limitée** : Certaines fonctionnalités réservées à la version Pro _(heureusement disponible via GitHub Student Developer Pack)_
 - **Dépendance à l'interface** : Risque de moins bien maîtriser les commandes Git sous-jacentes
 
 ### Expérience utilisateur et retours d'expérience
@@ -168,7 +168,7 @@ L'utilisation de GitKraken représente un excellent compromis pour les développ
 
 Pour les étudiants et professionnels travaillant sur des projets collaboratifs, l'adoption de GitKraken permet d'accélérer le flux de travail tout en minimisant les erreurs fréquentes liées à la ligne de commande. La visualisation claire de l'historique et des branches facilite la compréhension des projets complexes et favorise une meilleure organisation du code.
 
-Les inconvénients de GitKraken (consommation de ressources, version gratuite limitée) sont largement compensés par ses avantages, particulièrement pour les étudiants bénéficiant du GitHub Student Developer Pack. À l'issue de notre analyse, nous recommandons GitKraken comme solution idéale pour les équipes de développement cherchant à optimiser leur utilisation de Git tout en maintenant un flux de travail visuel et intuitif.
+Les inconvénients de GitKraken _(consommation de ressources, version gratuite limitée)_ sont largement compensés par ses avantages, particulièrement pour les étudiants bénéficiant du GitHub Student Developer Pack. À l'issue de notre analyse, nous recommandons GitKraken comme solution idéale pour les équipes de développement cherchant à optimiser leur utilisation de Git tout en maintenant un flux de travail visuel et intuitif.
 
 ---
 

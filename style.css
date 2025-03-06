@@ -75,7 +75,6 @@ h3+figure>img {
 
 th {
   background-color: var(--th);
-
 }
 
 td {
@@ -90,7 +89,8 @@ td {
 
 table {
   margin: 0 auto;
-  width: fit-content;
+  padding-inline: 12.5%;
+  width: 100%;
 }
 
 a,

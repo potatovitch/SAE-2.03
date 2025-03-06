@@ -59,7 +59,7 @@ toc_max_heading_level: 4
 
 ### Préparation du système
 
-> **[!NOTE]**    
+> **[!NOTE]**  
 > Ces manipulations peuvent avoir des consequences irréversibles sur votre machine si mal appliquées.
 
 - Comment peux-ton savoir à quels groupes appartient l'utilisateur user ?

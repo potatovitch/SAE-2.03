@@ -46,7 +46,7 @@ h4 {
 
 blockquote>p {
   background-color: var(--paragraph);
-  width: fit-content !important;
+  width: fit-content;
   max-width: max-content;
   font-weight: normal;
   border-radius: 8px;
@@ -90,7 +90,7 @@ td {
 
 table {
   margin: 0 auto;
-  width: fit-content !important;
+  width: fit-content;
 }
 
 a,

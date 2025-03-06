@@ -59,6 +59,9 @@ toc_max_heading_level: 4
 
 ### Préparation du système
 
+> **[!NOTE]**    
+> Ces manipulations peuvent avoir des consequences irréversibles sur votre machine si mal appliquées.
+
 - Comment peux-ton savoir à quels groupes appartient l'utilisateur user ?
 
   > La commande `groups user` ou `id user` permet **d'afficher les groupes** auxquels appartient un utilisateur.  
@@ -83,7 +86,7 @@ toc_max_heading_level: 4
   > La commande `mount` permet de **monter un système de fichiers**, rendant son contenu accessible dans l'arborescence du système. Dans notre cas, elle monte le CD virtuel des suppléments invités.  
   > [**source**](https://manpages.debian.org/bullseye/mount/mount.8.en.html)
 
-### À propos de la distribution Debian
+## À propos de la distribution Debian
 
 1. Qu'est-ce que le Projet Debian ? D'où vient le nom Debian ?
 

@@ -9,7 +9,7 @@ output:
   html_document:
     css: style.css
 toc_min_heading_level: 1
-toc_max_heading_level: 4
+toc_max_heading_level: 3
 ---
 
 ## 1. Analyse préliminaire de git et des outils graphiques associés
@@ -172,22 +172,22 @@ Les inconvénients de GitKraken _(consommation de ressources, version gratuite l
 
 ---
 
-### Références et ressources
+## Références et ressources
 
 - Documentation officielle de GitKraken : [https://support.gitkraken.com/](https://support.gitkraken.com/)
 - Documentation Git : [https://git-scm.com/doc](https://git-scm.com/doc)
 - GitHub Student Developer Pack : [https://education.github.com/pack](https://education.github.com/pack)
 
-### Annexes
+## Annexes
 
-#### Configuration système recommandée pour GitKraken
+### Configuration système recommandée pour GitKraken
 
 - **Système d'exploitation** : Windows 10/11, macOS 10.13+, Linux avec GLIBC 2.17+
 - **RAM** : 4 Go minimum, 8 Go recommandé
 - **Espace disque** : 300 Mo disponibles
 - **Processeur** : Multi-core recommandé pour les grands repositories
 
-#### Équipe de projet
+### Équipe de projet
 
 - LELEU Benjamin
 - Lecoester Martin

@@ -45,13 +45,19 @@ C'est essentiellement un navigateur graphique d'historique qui affiche le graphe
 
 Gitk utilise l'interface graphique Tk et présente une apparence plus basique et fonctionnelle que d'autres outils modernes, mais reste efficace pour une visualisation rapide de l'historique.
 
-#### **Qu'est-ce que le logiciel git-gui ? Comment se lance-t-il ?**
+#### Qu'est-ce que le logiciel git-gui ? Comment se lance-t-il ?
 
-### 1.3. Installons autre chose et comparons
+##### Fonctionnalités principales de git-gui
+
+##### Comment lancer gitk-gui
+
+##### Variantes de lancement
+
+### 1.3. Comparaison avec d'autres gui
 
 ![ ](https://biz.prlog.org/GitKraken/logo.png)
 
-#### Pourquoi avez-vous choisi ce logiciel ?
+#### Quel logiciel avez-vous choisi et pourquoi ?
 
 Nous avons choisi **GitKraken** pour plusieurs raisons :
 
@@ -63,7 +69,7 @@ Nous avons choisi **GitKraken** pour plusieurs raisons :
 
 #### Comment l'avez-vous installé ?
 
-L'installation de GitKraken s'est déroulée comme suit :
+L'installation de GitKraken _(pour windows)_ s'est déroulée comme suit :
 
 1. Nous avons d'abord activé notre GitHub Student Developer Pack sur [education.github.com](https://education.github.com/pack)
 2. Nous avons ensuite visité le site officiel de GitKraken [gitkraken.com](https://www.gitkraken.com/download)

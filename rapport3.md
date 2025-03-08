@@ -11,11 +11,10 @@ output:
 toc_min_heading_level: 1
 toc_max_heading_level: 3
 ---
- 
 
-##  Qu’est-ce que Gitea ?
+## Qu’est-ce que Gitea ?
+
 Gitea est une plateforme légère, auto-hébergée et open-source pour la gestion de dépôts Git. Elle sert à gérer des projets Git sur son propre serveur.
-
 
 ## À quels logiciels bien connus dans ce domaine peut-on le comparer ?
 

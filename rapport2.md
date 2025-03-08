@@ -9,45 +9,47 @@ output:
   html_document:
     css: style.css
 toc_min_heading_level: 1
-toc_max_heading_level: 3
+toc_max_heading_level: 4
 ---
 
 ## 1. Analyse préliminaire de git et des outils graphiques associés
 
-![&nbsp;](https://git-scm.com/images/logos/downloads/Git-Logo-2Color.png)
+![ ](https://git-scm.com/images/logos/downloads/Git-Logo-2Color.png)
 
 ### 1.2. Les interfaces graphiques pour git
 
-- **Qu'est-ce que le logiciel gitk ? Comment se lance-t-il ?**
-  Gitk est un outil de visualisation graphique intégré avec Git qui permet d'explorer l'historique d'un dépôt. C'est essentiellement un navigateur graphique d'historique qui affiche le graphe des commits et leurs détails.
+#### Qu'est-ce que le logiciel gitk ? Comment se lance-t-il ?
 
-  **Fonctionnalités principales de gitk :**
+Gitk est un outil de visualisation graphique intégré avec Git qui permet d'explorer l'historique d'un dépôt.
+C'est essentiellement un navigateur graphique d'historique qui affiche le graphe des commits et leurs détails.
 
-  - Visualisation de l'arbre des commits avec représentation graphique des branches et des fusions
-  - Affichage des métadonnées des commits _(auteur, date, message)_
-  - Exploration des différences _(diffs)_ introduites par chaque commit
-  - Recherche dans l'historique par divers critères _(auteur, message, etc.)_
+##### Fonctionnalités principales de gitk
 
-  **Comment lancer gitk :**
+- Visualisation de l'arbre des commits avec représentation graphique des branches et des fusions
+- Affichage des métadonnées des commits _(auteur, date, message)_
+- Exploration des différences _(diffs)_ introduites par chaque commit
+- Recherche dans l'historique par divers critères _(auteur, message, etc.)_
 
-  1. Il est automatiquement installé avec Git sur la plupart des systèmes
-  2. Pour le lancer, il suffit d'ouvrir un terminal ou une invite de commande
-  3. Se placer dans le répertoire d'un dépôt Git
-  4. Exécuter la commande `gitk`
+##### Comment lancer gitk
 
-  **Variantes de lancement :**
+1. Il est automatiquement installé avec Git sur la plupart des systèmes
+2. Pour le lancer, il suffit d'ouvrir un terminal ou une invite de commande
+3. Se placer dans le répertoire d'un dépôt Git
+4. Exécuter la commande `gitk`
 
-  - `gitk --all` : pour afficher toutes les branches
-  - `gitk <nom-de-fichier>` : pour voir l'historique d'un fichier spécifique
-  - `gitk --since="2 weeks ago"` : pour filtrer les commits par date
+##### Variantes de lancement
 
-  Gitk utilise l'interface graphique Tk et présente une apparence plus basique et fonctionnelle que d'autres outils modernes, mais reste efficace pour une visualisation rapide de l'historique.
+- `gitk --all` : pour afficher toutes les branches
+- `gitk <nom-de-fichier>` : pour voir l'historique d'un fichier spécifique
+- `gitk --since="2 weeks ago"` : pour filtrer les commits par date
 
-- **Qu'est-ce que le logiciel git-gui ? Comment se lance-t-il ?**
+Gitk utilise l'interface graphique Tk et présente une apparence plus basique et fonctionnelle que d'autres outils modernes, mais reste efficace pour une visualisation rapide de l'historique.
+
+#### **Qu'est-ce que le logiciel git-gui ? Comment se lance-t-il ?**
 
 ### 1.3. Installons autre chose et comparons
 
-![&nbsp;](https://biz.prlog.org/GitKraken/logo.png)
+![ ](https://biz.prlog.org/GitKraken/logo.png)
 
 #### Pourquoi avez-vous choisi ce logiciel ?
 
@@ -72,7 +74,7 @@ L'installation de GitKraken s'est déroulée comme suit :
 
 Le processus d'installation est simple et guidé, ne nécessitant que quelques minutes pour être opérationnel.
 
-![&nbsp;](https://www.linuxadictos.com/wp-content/uploads/gitkraken.png)
+![ ](https://www.linuxadictos.com/wp-content/uploads/gitkraken.png)
 
 #### Comparaison détaillée avec les outils Git natifs
 
@@ -99,14 +101,14 @@ Le processus d'installation est simple et guidé, ne nécessitant que quelques m
 
 ##### GitKraken vs Ligne de commande Git
 
-| Critère                | GitKraken                                  | Ligne de commande                                  |
-| ---------------------- | ------------------------------------------ | -------------------------------------------------- |
-| Courbe d'apprentissage | Rapide, interface intuitive                | Plus abrupte, nécessite mémorisation des commandes |
+| Critère                | GitKraken                                    | Ligne de commande                                  |
+| ---------------------- | -------------------------------------------- | -------------------------------------------------- |
+| Courbe d'apprentissage | Rapide, interface intuitive                  | Plus abrupte, nécessite mémorisation des commandes |
 | Vitesse d'exécution    | Plus lente _(démarrage, opérations lourdes)_ | Plus rapide pour utilisateurs expérimentés         |
-| Visualisation          | Représentation graphique claire            | Textuelle uniquement _(sauf ajout d'alias)_         |
-| Automatisation         | Limitée                                    | Excellente _(scripts, hooks, etc.)_                  |
-| Ressources système     | Consommation plus élevée                   | Légère empreinte mémoire                           |
-| Personnalisation       | Limitée aux options disponibles            | Infiniment personnalisable                         |
+| Visualisation          | Représentation graphique claire              | Textuelle uniquement _(sauf ajout d'alias)_        |
+| Automatisation         | Limitée                                      | Excellente _(scripts, hooks, etc.)_                |
+| Ressources système     | Consommation plus élevée                     | Légère empreinte mémoire                           |
+| Personnalisation       | Limitée aux options disponibles              | Infiniment personnalisable                         |
 
 ### Avantages détaillés de GitKraken
 
@@ -117,7 +119,7 @@ Le processus d'installation est simple et guidé, ne nécessitant que quelques m
 - **Thèmes personnalisables** : Options de personnalisation visuelle pour adapter l'interface à vos préférences
 - **Tooltips explicatives** : Aide contextuelle pour comprendre les différentes fonctionnalités
 
-![&nbsp;](https://www.gitkraken.com/wp-content/uploads/2024/05/Group-19495-1024x577.png)
+![ ](https://www.gitkraken.com/wp-content/uploads/2024/05/Group-19495-1024x577.png)
 
 #### Fonctionnalités avancées
 
@@ -138,13 +140,13 @@ Le processus d'installation est simple et guidé, ne nécessitant que quelques m
 
 #### Comparaison avec la ligne de commande Git
 
-| Opération                     | GitKraken                                                  | Ligne de commande Git                               |
-| ----------------------------- | ---------------------------------------------------------- | --------------------------------------------------- |
-| Visualisation de l'historique | Graphique interactif avec code couleur                     | Sortie texte avec `git log`                         |
+| Opération                     | GitKraken                                                  | Ligne de commande Git                                 |
+| ----------------------------- | ---------------------------------------------------------- | ----------------------------------------------------- |
+| Visualisation de l'historique | Graphique interactif avec code couleur                     | Sortie texte avec `git log`                           |
 | Gestion des branches          | Vue d'ensemble visuelle, création/fusion par drag-and-drop | Commandes multiples _(`branch`, `checkout`, `merge`)_ |
-| Résolution de conflits        | Outil intégré avec comparaison côte à côte                 | Nécessite des outils externes                       |
-| Stashing                      | Interface visuelle du WIP                                  | Commandes `git stash`                               |
-| Apprentissage                 | Courbe d'apprentissage plus douce                          | Mémorisation des commandes nécessaire               |
+| Résolution de conflits        | Outil intégré avec comparaison côte à côte                 | Nécessite des outils externes                         |
+| Stashing                      | Interface visuelle du WIP                                  | Commandes `git stash`                                 |
+| Apprentissage                 | Courbe d'apprentissage plus douce                          | Mémorisation des commandes nécessaire                 |
 
 #### Limites et inconvénients
 

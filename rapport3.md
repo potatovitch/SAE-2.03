@@ -1,16 +1,4 @@
----
-title: "A propos de Guitea"
-authors:
-  - LELEU Benjamin
-  - Lecoester Martin
-  - Stievenard Adam
-date: 28 février 2025
-output:
-  html_document:
-    css: style.css
-toc_min_heading_level: 1
-toc_max_heading_level: 3
----
+
 
 ## Qu’est-ce que Gitea ?
 

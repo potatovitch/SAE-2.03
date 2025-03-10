@@ -37,7 +37,7 @@ toc_max_heading_level: 4
 > 3. Se placer dans le répertoire d'un dépôt Git
 > 4. Exécuter la commande `gitk`
 
-##### Variantes de lancement
+##### Variantes de lancement gitk
 
 > - `gitk --all` : pour afficher toutes les branches
 > - `gitk <nom-de-fichier>` : pour voir l'historique d'un fichier spécifique
@@ -51,7 +51,7 @@ toc_max_heading_level: 4
 
 ##### Comment lancer gitk-gui
 
-##### Variantes de lancement
+##### Variantes de lancement git-gui
 
 ### 1.3. Comparaison avec d'autres gui
 

@@ -7,7 +7,7 @@ pip install weasyprint
 weasyprint --info
 
 # convert to html with pandoc
-pandoc -s -c style.css rapport1.md rapport2.md -o rapport.html
+pandoc -s -c style.css rapport1.md rapport2.md -o rapport.html --toc
 # convert to pdf with pandoc using weasyprint as pdf engine
-pandoc -s --pdf-engine=weasyprint -c style.css rapport1.md rapport2.md -o rapport.pdf
+pandoc -s --pdf-engine=weasyprint -c style.css rapport1.md rapport2.md -o rapport.pdf --toc
  

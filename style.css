@@ -6,13 +6,14 @@
   --title2: #fab387;
   --title3: #f9e2af;
   --title4: #a6e3a1;
+  --title5: #7dc4e4;
   --paragraph: #313244;
   --link: #cba6f7;
   --img: #a6adc8;
   --th: #fab387;
   --td: #f9e2af;
   --t-text: #1e1e2e;
-
+  --nav: #b7bdf8;
 }
 
 /* css */
@@ -44,7 +45,13 @@ h4 {
   color: var(--title4);
 }
 
-blockquote>p {
+h5 {
+  color: var(--title5);
+}
+
+blockquote>p,
+blockquote>ul,
+blockquote>ol {
   background-color: var(--paragraph);
   width: fit-content;
   max-width: max-content;
@@ -98,4 +105,10 @@ a:hover,
 a:visited {
   color: var(--link);
   text-decoration: none;
+}
+
+nav * {
+  color: var(--nav);
+  font-weight: bold;
+  font-size: large;
 }

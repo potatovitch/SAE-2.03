@@ -3,7 +3,7 @@ title: "README SAE2.03"
 authors:
   - LELEU Claude
   - Lecoester GPT
-  - Stievenard Adam
+  - Stievenard CSS (C3-PO)
 date: 28 février 2025
 output:
   html_document:

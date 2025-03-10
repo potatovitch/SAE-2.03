@@ -1,8 +1,8 @@
 ---
 title: "README SAE2.03"
 authors:
-  - LELEU Benjamin
-  - Lecoester Martin
+  - LELEU Claude
+  - Lecoester GPT
   - Stievenard Adam
 date: 28 février 2025
 output:

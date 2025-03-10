@@ -11,3 +11,6 @@ pandoc -s -c style.css rapport1.md rapport2.md -o rapport.html --toc
 # convert to pdf with pandoc using weasyprint as pdf engine
 pandoc -s --pdf-engine=weasyprint -c style.css rapport1.md rapport2.md -o rapport.pdf --toc
  
+
+# -N : number dans toc
+# 

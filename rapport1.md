@@ -4,6 +4,7 @@ authors:
   - LELEU Benjamin
   - Lecoester Martin
   - Stievenard Adam
+lang: fr
 date: 28 février 2025
 output:
   html_document:

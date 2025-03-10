@@ -13,9 +13,25 @@ toc_min_heading_level: 1
 toc_max_heading_level: 4
 ---
 
-## Préparation d'une machine virtuelle et Fonctionnement de Debian
+## Préparation d'une machine virtuelle Debian
+
+### Prérequis matériel
+
+- 4 Go de RAM minimum
+- 20 Go d’espace disque disponible ou plus
+- VirtualBox installé avec son «extension pack» (VBoxGuestAddition.iso) sur la machine hôte
 
 ### Préparation d'une machine virtuelle Debian
+
+- Nom de la machine dans VirtualBox : sae203
+- Dossier de la machine : `/usr/local/virtual_machine/infoetu/login`
+- Type : Linux
+- Version : Debian 12 64-bit
+- Mémoire vive : 2048 Mo.
+- Disque dur : 20 Go sur une seule partition, ne pas cocher la case "Pre-allocate Full Size"
+- Cocher la case "Skip Unattended Installation" pour éviter que Virtualbox réalise des actions non souhaités.
+
+### Configuration matérielle dans Vbox
 
 - Que signifie "64-bit" dans "Debian 64-bit" ?
 
@@ -37,6 +53,25 @@ toc_max_heading_level: 4
   > Oui, dans le **fichier XML**, il faut modifier la balise `<CPU count="1">` en `<CPU count="2">`  
   > [**source**](https://docs.oracle.com/en/virtualization/virtualbox/6.0/user/vboxmanage-modifyvm.html)
 
+### Installation de l'OS
+
+- Nom de la machine : serveur
+- Domaine : Laisser vide
+- Pays/langue : France
+- Miroir : `http://debian.polytech-lille.fr`
+- Proxy : pas de proxy
+- Compte administrateur : root / root
+- Un compte utilisateur : User / user / user
+- Partition : 1 seule partition de la taille du disque
+- Sélection des logiciels de démarrage (Paquetages logiciels à préinstaller pour se simplifier la vie par la suite) :
+  a. environnement de bureau Debian
+  b. MATE (sans Gnome)
+  c. serveur web
+  d. serveur ssh
+  e. utilitaire usuels du système
+
+### Installation de l'OS de base
+
 - Qu'est-ce qu'un fichier iso bootable ?
 
   > C'est une **image disque** contenant un système d'exploitation qui peut démarrer directement au lancement de la machine.  
@@ -55,17 +90,31 @@ toc_max_heading_level: 4
 - Qu'est-ce qu'un serveur mandataire ?
 
   > Un serveur mandataire _(proxy)_ est un **intermédiaire** entre les utilisateurs et Internet, pouvant filtrer les accès, mettre en cache des données et protéger l'anonymat.  
-  > [**source**](https://www.rfc-editor.org/rfc/rfc2616#section-1.3)  
+  > [**source**](https://www.rfc-editor.org/rfc/rfc2616#section-1.3)
 
-### Préparation du système
+## Préparation du système
 
 > **[!NOTE]**  
 > Ces manipulations peuvent avoir des consequences irréversibles sur votre machine si mal appliquées.
+
+### Acces sudo
 
 - Comment peux-ton savoir à quels groupes appartient l'utilisateur user ?
 
   > La commande `groups user` ou `id user` permet **d'afficher les groupes** auxquels appartient un utilisateur.  
   > [**source**](https://manpages.debian.org/bullseye/coreutils/groups.1.en.html)
+
+### Installation des suppléments invités
+
+1. Insérer le cd des suppléments : Périphériques › Insérer l’image CD des additions invités…
+2. Monter le CD
+   `sudo mount /dev/cdrom /mnt`
+3. Installer les suppléments :
+   `sudo /mnt/VBoxLinuxAdditions.run`
+4. Rebooter et connecter-vous avec le compte user pour prendre en compte les suppléments.
+   Redimensionnez votre fenêtre pour vérifier que cela a bien fonctionné.
+
+### Suppléments invités
 
 - Quel est la version du noyau Linux utilisé par votre VM ?
 
@@ -98,7 +147,7 @@ toc_max_heading_level: 4
    > - Support minimal : environ 2 ans
    > - Support long terme _(LTS)_ : 5 ans
    > - Support long terme étendu _(ELTS)_ : jusqu'à 10 ans  
-   > [**source**](https://wiki.debian.org/LTS)
+   >   [**source**](https://wiki.debian.org/LTS)
 
 3. Pendant combien de temps les mises à jour de sécurité seront-elles fournies ?
 
@@ -133,3 +182,29 @@ toc_max_heading_level: 4
    > - Annoncé en **avril 2023**
    > - Ce sera **Debian 13**  
    >   [**source**](https://lists.debian.org/debian-devel-announce/2023/04/msg00000.html)
+
+## Installation préconfigurée
+
+### Récupérer et préparer les fichiers nécessaires
+
+1. Récupérer l’archive autoinstall_Debian.zip sur Moodle et décompresser-là dans le répertoire de
+   votre machine virtuelle.
+2. Remplacer la chaîne @@UUID@@ par un identifiant unique universel. Le plus simple est d’exécuter
+   la commande ci-dessous en étant placé dans le même répertoire que votre fichier S203-Debian12.viso.
+   `sed -i -E "s/(--iprt-iso-maker-file-marker-bourne-sh).\*$/\1=$(cat /proc/sys/kernel/random/uuid)/" S203-Debian12.viso`
+3. Insérer le fichier S203_Debian12.viso dans le lecteur optique (cd/dvd) de votre machine virtuelle ;
+4. Démarrer la machine virtuelle et laissez l’installation se dérouler jusqu’au reboot.
+5. Testez les ajouts invités en vous connectant (user/user, ou root/root) puis en modifiant la taille de la
+   fenêtre
+
+### Ajustement de la pré-configuration
+
+Modifier votre configuration (et recommencez l’installation) afin de :
+
+- Ajouter le droit d’utiliser sudo à l’utilisateur standard
+- Installer l’environnement MATE.
+- Ajouter les paquets suivants :
+  - sudo : sinon la gestion sudo est inutile
+  - git, sqlite3, curl : pour préparer l’installation de la semaine prochaine
+  - bash-completion : va vous simplifier grandement l’écriture des lignes de commande
+  - neofetch : pas très utile mais c’est un classique dans son genre (essayez-le

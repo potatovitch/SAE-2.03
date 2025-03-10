@@ -1,7 +1,7 @@
 ---
 title: "Rapport SAE2.03"
 authors:
-  - LELEU Benjamin
+  - LELEU Benjamin ()
   - Lecoester Martin
   - Stievenard Adam
 lang: fr
@@ -179,9 +179,9 @@ toc_max_heading_level: 4
 
 8. Dernier nom de code :
 
-   > - **"Forky"** est le dernier nom annoncé
-   > - Annoncé en **avril 2023**
-   > - Ce sera **Debian 13**  
+   > - **"Duke"** est le dernier nom annoncé
+   > - Annoncé en **...**
+   > - Ce sera **Debian 15**  
    >   [**source**](https://lists.debian.org/debian-devel-announce/2023/04/msg00000.html)
 
 ## Installation préconfigurée

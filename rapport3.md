@@ -333,8 +333,10 @@ La mise à jour s'est déroulée avec succès. La nouvelle version est installé
 
 > Qu'est-ce que l'intégration et la livraison continue ?
 > Le CI) et le CD sont des pratiques de développement logiciel qui visent à améliorer la qualité du code et à accélérer le déploiement des applications.  
-> **Intégration Continue (CI) :** C'est une pratique qui consiste à intégrer les modifications de code dans un dépôt central plusieurs fois par jour. Chaque intégration est vérifiée par des tests automatisés pour détecter rapidement les erreurs. L'objectif est de localiser et de résoudre les problèmes d'intégration le plus tôt possible dans le cycle de développement.  
-> **Livraison Continue (CD) :** C'est une extension de l'intégration continue qui automatise le processus de déploiement d'une application. Elle garantit que le code peut être rapidement et facilement déployé en production à tout moment. La livraison continue implique généralement des tests automatisés plus poussés et peut inclure des déploiements en environnement de test ou de préproduction.  
+> **Intégration Continue (CI)
+> :   C'est une pratique qui consiste à intégrer les modifications de code dans un dépôt central plusieurs fois par jour. Chaque intégration est vérifiée par des tests automatisés pour détecter rapidement les erreurs. L'objectif est de localiser et de résoudre les problèmes d'intégration le plus tôt possible dans le cycle de développement.  
+> Livraison Continue (CD)
+> :   C'est une extension de l'intégration continue qui automatise le processus de déploiement d'une application. Elle garantit que le code peut être rapidement et facilement déployé en production à tout moment. La livraison continue implique généralement des tests automatisés plus poussés et peut inclure des déploiements en environnement de test ou de préproduction.  
 >
 > Ensemble, CI/CD permet de :  
     > - Réduire les risques d'intégration

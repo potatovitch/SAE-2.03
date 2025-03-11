@@ -13,11 +13,11 @@ toc_min_heading_level: 1
 toc_max_heading_level: 4
 ---
 
-## 1. Analyse préliminaire de git et des outils graphiques associés
+## Analyse préliminaire de git et des outils graphiques associés
 
 ![ ](https://git-scm.com/images/logos/downloads/Git-Logo-2Color.png)
 
-### 1.2. Les interfaces graphiques pour git
+### Les interfaces graphiques pour git
 
 #### Qu'est-ce que le logiciel gitk ? Comment se lance-t-il ?
 
@@ -54,7 +54,7 @@ toc_max_heading_level: 4
 
 ##### Variantes de lancement git-gui
 
-### 1.3. Comparaison avec d'autres gui
+### Comparaison avec d'autres gui
 
 ![ ](https://biz.prlog.org/GitKraken/logo.png)
 

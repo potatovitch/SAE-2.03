@@ -337,12 +337,11 @@ La mise à jour s'est déroulée avec succès. La nouvelle version est installé
 > **Livraison Continue (CD) :** C'est une extension de l'intégration continue qui automatise le processus de déploiement d'une application. Elle garantit que le code peut être rapidement et facilement déployé en production à tout moment. La livraison continue implique généralement des tests automatisés plus poussés et peut inclure des déploiements en environnement de test ou de préproduction.  
 >
 > Ensemble, CI/CD permet de :  
->
-> - Réduire les risques d'intégration
-> - Détecter les bugs plus tôt
-> - Accélérer le temps de mise sur le marché
-> - Améliorer la qualité du code
-> - Faciliter le travail d'équipe
+    > - Réduire les risques d'intégration
+    > - Détecter les bugs plus tôt
+    > - Accélérer le temps de mise sur le marché
+    > - Améliorer la qualité du code
+    > - Faciliter le travail d'équipe
 
 ###  Configuration CI/CD dans Gitea
 

@@ -95,8 +95,8 @@ toc_max_heading_level: 4
 
 ## Préparation du système
 
-> **[!NOTE]**  
-> Ces manipulations peuvent avoir des consequences irréversibles sur votre machine si mal appliquées.
+[!NOTE]  
+Ces manipulations peuvent avoir des consequences irréversibles sur votre machine si mal appliquées.
 
 ### Acces sudo
 

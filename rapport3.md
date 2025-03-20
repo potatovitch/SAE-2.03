@@ -166,7 +166,7 @@ Une fois Gitea installé et le service démarré, nous avons procédé à la con
 
 #### Paramètres de base de données
 
-Conformément aux consignes, nous avons configuré Gitea pour utiliser SQLite3 comme base de données :
+Ensuite, nous avons configuré Gitea pour utiliser SQLite3 comme base de données :
 
 - Type de base de données : SQLite3
 - Chemin : `/var/lib/gitea/data/gitea.db`

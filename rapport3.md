@@ -162,18 +162,18 @@ sudo systemctl start gitea
 
 ###  Configuration initiale
 
-Une fois Gitea installé et le service démarré, j'ai procédé à la configuration initiale via l'interface web accessible à l'adresse <http://localhost:3000>.
+Une fois Gitea installé et le service démarré, nous avons procédé à la configuration initiale via l'interface web accessible à l'adresse <http://localhost:3000>.
 
 #### Paramètres de base de données
 
-Conformément aux consignes, j'ai configuré Gitea pour utiliser SQLite3 comme base de données :
+Conformément aux consignes, nous avons configuré Gitea pour utiliser SQLite3 comme base de données :
 
 - Type de base de données : SQLite3
 - Chemin : `/var/lib/gitea/data/gitea.db`
 
 #### Paramètres généraux
 
-Pour les paramètres généraux, j'ai configuré :
+Pour les paramètres généraux, nous avons configuré :
 
 - Nom du site : Gitea Service
 - URL du serveur : <http://localhost:3000/>
@@ -181,7 +181,7 @@ Pour les paramètres généraux, j'ai configuré :
 
 #### Création du compte administrateur
 
-J'ai créé le compte administrateur selon les consignes :
+Nous avons créé le compte administrateur selon les consignes :
 
 - Nom d'utilisateur : gitea
 - Adresse e-mail : git@localhost
@@ -189,7 +189,7 @@ J'ai créé le compte administrateur selon les consignes :
 
 Sécurisation des répertoires de configuration
 
-Après l'installation, j'ai suivi les recommandations pour sécuriser les répertoires de configuration :
+Après l'installation, nous avons suivi les recommandations pour sécuriser les répertoires de configuration :
 
 ```bash
 sudo chmod 750 /etc/gitea
@@ -198,11 +198,11 @@ sudo chmod 640 /etc/gitea/app.ini
 
 ###  Tests d'utilisation
 
-J'ai effectué plusieurs tests pour vérifier le bon fonctionnement de Gitea.
+Nous avons effectué plusieurs tests pour vérifier le bon fonctionnement de Gitea.
 
 #### Création d'un nouveau projet via l'interface web
 
-J'ai créé un nouveau dépôt appelé "test-project" directement depuis l'interface web de Gitea :
+Nous avons créé un nouveau dépôt appelé "test-project" directement depuis l'interface web de Gitea :
 
 1. Connexion avec le compte administrateur
 2. Clic sur le bouton "+" puis "Nouveau dépôt"
@@ -215,7 +215,7 @@ Clic sur "Créer le dépôt"
 
 ##### Téléchargement du rapport SAÉ
 
-J'ai créé un nouveau dépôt pour héberger le rapport de la SAÉ 2.03 :
+N9us avons créé un nouveau dépôt pour héberger le rapport de la SAÉ 2.03 :
 
 Création du dépôt "sae203-rapport" via l'interface web
 Clonage du dépôt vide en local :
@@ -242,7 +242,7 @@ git push origin main
 
 ##### Partage de codes sources et gestion des droits
 
-Pour tester le partage de code et la gestion des droits, j'ai :
+Pour tester le partage de code et la gestion des droits, nous 1vons :
 
 1. Créé deux utilisateurs supplémentaires ("user1" et "user2")
 2. Créé un dépôt "tp-developpement" pour partager du code
@@ -284,7 +284,7 @@ Résultat :
 
 #### Procédure de mise à jour
 
-Pour mettre à jour le binaire de Gitea sans reconfigurer l'installation, j'ai suivi les étapes suivantes :
+Pour mettre à jour le binaire de Gitea sans reconfigurer l'installation, nous avons suivi les étapes suivantes :
 
 ##### Arrêt du service Gitea
 
@@ -368,7 +368,7 @@ sudo systemctl restart gitea
 ```
 
 Création d'un workflow dans le dépôt.  
-J'ai créé un fichier .gitea/workflows/build.yml dans le dépôt "tp-developpement" avec le contenu suivant :
+Nous avons créé un fichier .gitea/workflows/build.yml dans le dépôt "tp-developpement" avec le contenu suivant :
 
 ```yaml
 name: Java CI

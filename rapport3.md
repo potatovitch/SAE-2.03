@@ -17,7 +17,7 @@ toc_max_heading_level: 4
 
 ###  Introduction
 
-Ce rapport détaille l'installation, la configuration et l'utilisation de Gitea sur une machine virtuelle Debian. Gitea est un service de gestion de code source basé sur Git qui sera installé à partir des binaires précompilés selon les consignes fournies dans la SAÉ 2.03. L'objectif est de mettre en place un système de gestion de versions fonctionnel et de réaliser plusieurs tests d'utilisation pour vérifier son bon fonctionnement.
+Gitea est un service de gestion de code source basé sur Git qui sera installé à partir des binaires précompilés selon les consignes fournies dans la SAÉ 2.03. L'objectif est de mettre en place un système de gestion de versions fonctionnel et de réaliser plusieurs tests d'utilisation pour vérifier son bon fonctionnement.
 
 ###  Préliminaire : Redirection de port
 
@@ -73,7 +73,7 @@ Gitea est un fork de Gogs (Go Git Service). Gogs existe toujours mais Gitea a co
 
 ###  Installation de Gitea
 
-Suivant les instructions de la documentation officielle, j'ai procédé à l'installation de Gitea à partir des binaires précompilés.
+Suivant les instructions de la documentation officielle, nous avons procédé à l'installation de Gitea à partir des binaires précompilés.
 
 #### Création d'un utilisateur dédié
 
@@ -85,7 +85,7 @@ sudo adduser --system --shell /bin/bash --gecos 'Git Version Control' --group --
 
 #### Création des répertoires nécessaires
 
-J'ai créé les répertoires nécessaires pour l'installation et la configuration de Gitea :
+Nous avons créé les répertoires nécessaires pour l'installation et la configuration de Gitea :
 
 ```bash
 sudo mkdir -p /var/lib/gitea/{custom,data,log}
@@ -98,7 +98,7 @@ sudo chmod 770 /etc/gitea
 
 #### Téléchargement du binaire
 
-J'ai téléchargé la dernière version stable de Gitea depuis le site officiel :
+Nous avons téléchargé la dernière version stable de Gitea depuis le site officiel :
 
 ```bash
 wget -O gitea <https://dl.gitea.io/gitea/1.23.0/gitea-1.23.0-linux-amd64>
@@ -108,7 +108,7 @@ sudo mv gitea /usr/local/bin/gitea
 
 #### Création du fichier de service systemd
 
-Pour permettre à Gitea de fonctionner comme un service, j'ai créé un fichier de service systemd :
+Pour permettre à Gitea de fonctionner comme un service, nous avons créé un fichier de service systemd :
 
 ```bash
 sudo nano /etc/systemd/system/gitea.service
@@ -152,7 +152,7 @@ WantedBy=multi-user.target
 
 #### Démarrage du service
 
-J'ai ensuite activé et démarré le service Gitea :
+Nous avons ensuite activé et démarré le service Gitea :
 
 ```bash
 sudo systemctl daemon-reload

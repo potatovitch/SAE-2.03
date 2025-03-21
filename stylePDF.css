@@ -1,0 +1,115 @@
+/* palette */
+:root {
+  --main-bg: #eff1f5;
+  --main-text: #4c4f69;
+  --title1: #e64553;
+  --title2: #fe640b;
+  --title3: #df8e1d;
+  --title4: #40a02b;
+  --title5: #179299;
+
+  --paragraph: #6c6f85;
+
+  --link: #cba6f7;
+  --img: #a6adc8;
+  --th: #fab387;
+  --td: #f9e2af;
+  --t-text: #1e1e2e;
+  --nav: #b7bdf8;
+}
+
+/* css */
+
+html {
+  color: var(--main-text);
+  background-color: var(--main-bg);
+
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-inline: 4%;
+
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+  color: var(--title1);
+}
+
+h2 {
+  color: var(--title2);
+}
+
+h3 {
+  color: var(--title3);
+}
+
+h4 {
+  color: var(--title4);
+}
+
+h5 {
+  color: var(--title5);
+}
+
+blockquote>p,
+blockquote>ul,
+blockquote>ol {
+  background-color: var(--paragraph);
+  width: fit-content;
+  max-width: max-content;
+  font-weight: normal;
+  border-radius: 8px;
+  padding: 4px;
+}
+
+figure {
+  display: flex;
+  justify-content: center;
+}
+
+
+img {
+  max-width: fit-content;
+  width: 100%;
+  height: auto;
+
+  border-radius: 12px;
+}
+
+h2+figure>img,
+h3+figure>img {
+  background-color: var(--img);
+  padding: 1%;
+}
+
+th {
+  background-color: var(--th);
+}
+
+td {
+  background-color: var(--td);
+}
+
+th,
+td {
+  color: var(--t-text);
+  font-weight: normal;
+}
+
+table {
+  margin: 0 auto;
+  padding-inline: 12.5%;
+  width: 100%;
+}
+
+a,
+a:hover,
+a:visited {
+  color: var(--link);
+  text-decoration: none;
+}
+
+nav * {
+  color: var(--nav);
+  font-weight: bold;
+}

@@ -181,15 +181,15 @@ Pour les paramètres généraux, nous avons configuré :
 
 #### Création du compte administrateur
 
-Nous avons créé le compte administrateur selon les consignes :
+Nous avons créé le compte administrateur :
 
 - Nom d'utilisateur : gitea
-- Adresse e-mail : git@localhost
+- Adresse e-mail : martin.lecoester.etu@univ-lille.fr
 - Mot de passe : gitea
 
 Sécurisation des répertoires de configuration
 
-Après l'installation, nous avons suivi les recommandations pour sécuriser les répertoires de configuration :
+Après l'installation, nous avons sécurisé les répertoires de configuration :
 
 ```bash
 sudo chmod 750 /etc/gitea
@@ -228,7 +228,7 @@ Ajout des fichiers du rapport
 Configuration de l'utilisateur Git :
 
 ```bash
-git config --global user.email "git@localhost"
+git config --global user.email "martin.lecoester.etu"
 git config --global user.name "Administrateur Gitea"
 ```
 
@@ -242,7 +242,7 @@ git push origin main
 
 ##### Partage de codes sources et gestion des droits
 
-Pour tester le partage de code et la gestion des droits, nous 1vons :
+Pour tester le partage de code et la gestion des droits, nous avons :
 
 1. Créé deux utilisateurs supplémentaires ("user1" et "user2")
 2. Créé un dépôt "tp-developpement" pour partager du code
@@ -336,8 +336,7 @@ Le CI) et le CD sont des pratiques de développement logiciel qui visent à amé
 
 Intégration Continue (CI)
 
-:   C'est une pratique qui consiste à intégrer les modifications de code dans un dépôt central plusieurs fois par jour. Chaque intégration est vérifiée par des tests automatisés pour détecter rapidement les erreurs. L'objectif est de localiser et de 
-résoudre les problèmes d'intégration le plus tôt possible dans le cycle de développement.  
+:   C'est une pratique qui consiste à intégrer les modifications de code dans un dépôt central plusieurs fois par jour. Chaque intégration est vérifiée par des tests automatisés pour détecter rapidement les erreurs. L'objectif est de localiser et de résoudre les problèmes d'intégration le plus tôt possible dans le cycle de développement.  
 
 Livraison Continue (CD)
 

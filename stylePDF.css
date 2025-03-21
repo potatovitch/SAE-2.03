@@ -1,6 +1,5 @@
 /* palette */
 :root {
-  --main-bg: #eff1f5;
   --main-text: #4c4f69;
   --title1: #e64553;
   --title2: #fe640b;
@@ -8,7 +7,7 @@
   --title4: #40a02b;
   --title5: #179299;
 
-  --paragraph: #6c6f85;
+  --paragraph: #eff1f5;
 
   --link: #cba6f7;
   --img: #a6adc8;
@@ -22,7 +21,6 @@
 
 html {
   color: var(--main-text);
-  background-color: var(--main-bg);
 
   padding-top: 20px;
   padding-bottom: 20px;

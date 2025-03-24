@@ -65,33 +65,33 @@ toc_max_heading_level: 4
 - Un compte utilisateur : User / user / user
 - Partition : 1 seule partition de la taille du disque
 - Sélection des logiciels de démarrage (Paquetages logiciels à préinstaller pour se simplifier la vie par la suite) :
-  a. environnement de bureau Debian
-  b. MATE (sans Gnome)
-  c. serveur web
-  d. serveur ssh
-  e. utilitaire usuels du système
+  1. environnement de bureau Debian
+  2. MATE (sans Gnome)
+  3. serveur web
+  4. serveur ssh
+  5. utilitaire usuels du système
 
 ### Installation de l'OS de base
 
 #### Qu'est-ce qu'un fichier iso bootable ?
 
 > C'est une **image disque** contenant un système d'exploitation qui peut démarrer directement au lancement de la machine.  
-> [**source**](https://www.debian.org/CD/faq/#what-is)
+> [**FAQ de Debian sur les images**](https://www.debian.org/CD/faq/#what-is)
 
 #### Qu'est-ce que MATE ? GNOME ?
 
 > MATE est un **environnement de bureau** fork de GNOME 2, maintenant la disposition et expérience traditionnelle. GNOME est un environnement de bureau moderne et populaire pour Linux, offrant une interface utilisateur intuitive.  
-> [**source**](https://mate-desktop.org/)
+> [**Site du projet MATE**](https://mate-desktop.org/)
 
 #### Qu'est-ce qu'un serveur ssh ?
 
 > Un serveur SSH _(Secure Shell)_ est un **service permettant une connexion sécurisée à distance** sur une machine, avec chiffrement des communications.  
-> [**source**](https://www.ssh.com/academy/ssh/protocol)
+> [**Guide de SSH Academy**](https://www.ssh.com/academy/ssh/protocol)
 
 #### Qu'est-ce qu'un serveur mandataire ?
 
 > Un serveur mandataire _(proxy)_ est un **intermédiaire** entre les utilisateurs et Internet, pouvant filtrer les accès, mettre en cache des données et protéger l'anonymat.  
-> [**source**](https://www.rfc-editor.org/rfc/rfc2616#section-1.3)
+> [**Page Wikipédia sur le Proxy**](https://fr.wikipedia.org/wiki/Proxy)
 
 ## Préparation du système
 
@@ -120,7 +120,7 @@ toc_max_heading_level: 4
 #### Quel est la version du noyau Linux utilisé par votre VM ?
 
 > La commande `uname -r` **affiche la version du noyau** Linux en cours d'utilisation.  
-> [**source**](https://manpages.debian.org/bullseye/procps/uname.1.en.html)
+> [**Pages de manuel des outils de surveillance système Debian**](https://manpages.debian.org/bullseye/manpages-fr/uname.1.fr.html)
 
 #### À quoi servent les suppléments invités ? Donner 2 principales raisons de les installer.
 
@@ -129,60 +129,60 @@ toc_max_heading_level: 4
 > 1. Une meilleure intégration avec le système hôte _(copier-coller, glisser-déposer)_
 > 2. De meilleures performances graphiques avec le support de l'accélération 3D
 >
-> [**source**](https://www.virtualbox.org/manual/ch04.html#additions-windows)
+> [**Documentation des fonctionnalités VirtualBox**](https://www.virtualbox.org/manual/ch04.html#additions-windows)
 
 #### À quoi sert la commande mount ?
 
 > La commande `mount` permet de **monter un système de fichiers**, rendant son contenu accessible dans l'arborescence du système. Dans notre cas, elle monte le CD virtuel des suppléments invités.  
-> [**source**](https://manpages.debian.org/bullseye/mount/mount.8.en.html)
+> [**manpage de mount**](https://manpages.debian.org/bullseye/mount/mount.8.en.html)
 
 ## À propos de la distribution Debian
 
 ### Qu'est-ce que le Projet Debian ? D'où vient le nom Debian ?
 
 > Debian est un **projet communautaire** qui développe et maintient un système d'exploitation libre basé sur Linux. Le nom "Debian" est **une combinaison** de "Deb" _(de Debra, prénom de la femme du fondateur Ian Murdock)_ et "Ian".  
-> [**source**](https://www.debian.org/doc/manuals/project-history/ch-intro.en.html)
+> [**Historique du projet Debian**](https://www.debian.org/doc/manuals/project-history/ch-intro.en.html)
 
 ### Il existe 3 durées de prise en charge (support) de ces versions :
 
 > - Support minimal : environ 2 ans
 > - Support long terme _(LTS)_ : 5 ans
 > - Support long terme étendu _(ELTS)_ : jusqu'à 10 ans  
->   [**source**](https://wiki.debian.org/LTS)
+>   [**Wiki des LTS de Debian**](https://wiki.debian.org/LTS)
 
 ### Pendant combien de temps les mises à jour de sécurité seront-elles fournies ?
 
 > **Les mises à jour de sécurité** sont fournies pendant environ **3 ans** après la sortie de la version stable, ou **1 an après** la sortie de la **nouvelle version stable**.  
-> [**source**](https://www.debian.org/security/faq#lifespan)
+> [**FAQ de sécurité de Debian**](https://www.debian.org/security/faq#lifespan)
 
 ### Combien de version au minimum sont activement maintenues par Debian ?
 
 > Debian maintient activement **3 distributions** : stable, testing et unstable _(sid)_  
-> [**source**](https://www.debian.org/releases/)
+> [**Page des releases de Debian**](https://www.debian.org/releases/)
 
 ### D'où viennent les noms de code des distributions ?
 
 > Les noms de code des versions Debian sont tirés **des personnages** du film d'animation **Toy Story**  
-> [**source**](https://wiki.debian.org/DebianReleases#Code_Names)
+> [**Wiki des noms de releases de Debian**](https://wiki.debian.org/DebianReleases#Code_Names)
 
 ### Architecture prises en charge par Bullseye
 
 > Bullseye prend en charge **9 architectures** : amd64, arm64, armel, armhf, i386, mips64el, mipsel, ppc64el, et s390x  
-> [**source**](https://www.debian.org/releases/bullseye/releasenotes)
+> [**Notes de releases de Debian Bullseye**](https://www.debian.org/releases/bullseye/releasenotes)
 
 ### Le premier nom de code de Debian :
 
 > - Le premier nom de code était **"Buzz"**
 > - Annoncé en **1996**
 > - Version **1.1 de Debian**  
->   [**source**](https://www.debian.org/doc/manuals/project-history/releases.en.html)
+>   [**Historique des versions de Debian**](https://www.debian.org/doc/manuals/project-history/releases.en.html)
 
 ### Le dernier nom de code :
 
 > - **"Duke"** est le dernier nom annoncé
 > - Annoncé en **...**
 > - Ce sera **Debian 15**  
->   [**source**](https://lists.debian.org/debian-devel-announce/2023/04/msg00000.html)
+>   [**Liste de diffusion officielle de Debian**](https://lists.debian.org/debian-devel-announce/2023/04/msg00000.html)
 
 ## Installation préconfigurée
 

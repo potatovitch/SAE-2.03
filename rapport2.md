@@ -33,10 +33,11 @@ toc_max_heading_level: 4
 
 ##### Comment lancer gitk
 
-> 1. Il est automatiquement installé avec Git sur la plupart des systèmes
-> 2. Pour le lancer, il suffit d'ouvrir un terminal ou une invite de commande
-> 3. Se placer dans le répertoire d'un dépôt Git
-> 4. Exécuter la commande `gitk`
+> Pour lancer gitk, suivez ces étapes :
+> 
+> 1. Ouvrez un terminal 
+> 2. Naviguez jusqu'au répertoire de votre dépôt Git local
+> 3. Exécutez la commande `gitk`
 
 ##### Variantes de lancement gitk
 
@@ -50,9 +51,32 @@ toc_max_heading_level: 4
 
 ##### Fonctionnalités principales de git-gui
 
-##### Comment lancer gitk-gui
+> Git-gui est un outil graphique léger fourni directement avec la distribution Git, spécifiquement conçu pour faciliter les opérations de staging et de commit.
+
+> Ses fonctionnalités principales incluent :
+> - Interface dédiée à la préparation et au commit des modifications
+> - Visualisation des fichiers modifiés et non suivis
+> - Sélection granulaire des parties de fichiers à commiter _(staging partiels)_
+> - Création et gestion des commits avec support des messages multi-lignes
+> - Exploration rapide des changements avant validation
+
+##### Comment lancer git-gui
+
+> Pour lancer git-gui, suivez ces étapes :
+> 
+> 1. Ouvrez un terminal 
+> 2. Naviguez jusqu'au répertoire de votre dépôt Git local
+> 3. Exécutez la commande `git gui`
 
 ##### Variantes de lancement git-gui
+
+> Quelques options de lancement avancées :
+> 
+> - `git gui citool` : Ouvre directement l'interface de commit
+> - `git gui blame <fichier>` : Lance l'outil de blame pour un fichier spécifique
+> - `git gui` dans un sous-répertoire Git : Ouvrira l'interface pour le dépôt parent
+
+> Git-gui offre une alternative simple aux interfaces graphiques plus complexes, idéale pour les utilisateurs recherchant une solution légère et native pour leurs opérations Git de base.
 
 ### Comparaison avec d'autres gui
 
@@ -179,15 +203,12 @@ toc_max_heading_level: 4
 >
 > Les inconvénients de GitKraken _(consommation de ressources, version gratuite limitée)_ sont largement compensés par ses avantages, particulièrement pour les étudiants bénéficiant du GitHub Student Developer Pack. À l'issue de notre analyse, nous recommandons GitKraken comme solution idéale pour les équipes de développement cherchant à optimiser leur utilisation de Git tout en maintenant un flux de travail visuel et intuitif.
 
----
-
 ## Références et ressources
 
 > - Documentation officielle de GitKraken : [https://support.gitkraken.com/](https://support.gitkraken.com/)
 > - Documentation Git : [https://git-scm.com/doc](https://git-scm.com/doc)
 > - GitHub Student Developer Pack : [https://education.github.com/pack](https://education.github.com/pack)
 
-## Annexes
 
 ### Configuration système recommandée pour GitKraken
 
@@ -196,8 +217,3 @@ toc_max_heading_level: 4
 > - **Espace disque** : 300 Mo disponibles
 > - **Processeur** : Multi-core recommandé pour les grands repositories
 
-### Équipe de projet
-
-> - LELEU Benjamin
-> - Lecoester Martin
-> - Stievenard Adam

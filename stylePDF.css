@@ -10,11 +10,20 @@
   --paragraph: #eff1f5;
 
   --link: #cba6f7;
-  --img: #a6adc8;
+  --img: #ddecf8;
   --th: #fab387;
   --td: #f9e2af;
   --t-text: #1e1e2e;
   --nav: #b7bdf8;
+
+  --span-at: #a6e3a1;
+  --span-dt: #f38ba8;
+  --span-co: #7dc4e4;
+  --span-fu: #5b9dd3;
+  --span-st: #4b7eca;
+  --span-kw: #a6e3a1;
+  --span-va: #4b7eca;
+  --code-bg:#222230;
 }
 
 /* css */

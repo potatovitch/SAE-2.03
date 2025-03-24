@@ -107,13 +107,19 @@ toc_max_heading_level: 4
 
 ### Installation des suppléments invités
 
-> 1. Insérer le cd des suppléments : Périphériques › Insérer l’image CD des additions invités…
-> 2. Monter le CD
->    `sudo mount /dev/cdrom /mnt`
-> 3. Installer les suppléments :
->    `sudo /mnt/VBoxLinuxAdditions.run`
-> 4. Rebooter et connecter-vous avec le compte user pour prendre en compte les suppléments.
->    Redimensionnez votre fenêtre pour vérifier que cela a bien fonctionné.
+#### Insérer le cd des suppléments
+  Dans Vbox, faites :  
+  Périphériques › Insérer l’image CD des additions invités…
+
+#### Monter le CD
+
+Pour monter le cd, rentrez la commande suivante
+`sudo mount /dev/cdrom /mnt`
+
+#### Installer les suppléments :
+
+Il faut installer les suppléments, faites
+`sudo /mnt/VBoxLinuxAdditions.run`
 
 ### Suppléments invités
 
@@ -188,15 +194,13 @@ toc_max_heading_level: 4
 
 ### Récupérer et préparer les fichiers nécessaires
 
-> 1. Récupérer l’archive autoinstall_Debian.zip et décompresser-là dans le répertoire de
+> 1. Récupérer l’archive autoinstall_Debian.zip, et décompresser-là dans le répertoire de
 >    votre machine virtuelle.
 > 2. Remplacer la chaîne @@UUID@@ par un identifiant unique universel. Le plus simple est d’exécuter
->    la commande ci-dessous en étant placé dans le même répertoire que votre fichier S203-Debian12.viso.
+>    la commande ci-dessous en étant placé dans le même répertoire que votre fichier S203-Debian12.viso.  
 >    `sed -i -E "s/(--iprt-iso-maker-file-marker-bourne-sh).\*$/\1=$(cat /proc/sys/kernel/random/uuid)/" S203-Debian12.viso`
 > 3. Insérer le fichier S203_Debian12.viso dans le lecteur optique (cd/dvd) de votre machine virtuelle.
 > 4. Démarrer la machine virtuelle et laissez l’installation se dérouler jusqu’au reboot.
-> 5. Testez les ajouts invités en vous connectant (user/user, ou root/root) puis en modifiant la taille de la
->    fenêtre.
 
 ### Ajustement de la pré-configuration
 

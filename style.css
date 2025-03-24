@@ -21,7 +21,7 @@
   --span-st: #4b7eca;
   --span-kw: #a6e3a1;
   --span-va: #4b7eca;
-  --code-bg:#222230;
+  --code-bg: #222230;
 }
 
 /* css */
@@ -57,9 +57,9 @@ h5 {
   color: var(--title5);
 }
 
-blockquote>p,
-blockquote>ul,
-blockquote>ol {
+blockquote > p,
+blockquote > ul,
+blockquote > ol {
   background-color: var(--paragraph);
   width: fit-content;
   max-width: max-content;
@@ -73,7 +73,6 @@ figure {
   justify-content: center;
 }
 
-
 img {
   max-width: fit-content;
   width: 100%;
@@ -82,8 +81,8 @@ img {
   border-radius: 12px;
 }
 
-h2+figure>img,
-h3+figure>img {
+h2 + figure > img,
+h3 + figure > img {
   background-color: var(--img);
   padding: 1%;
 }
@@ -120,7 +119,7 @@ nav * {
   font-weight: bold;
 }
 
-span.at{
+span.at {
   color: var(--span-at) !important;
 }
 

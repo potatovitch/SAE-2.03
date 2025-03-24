@@ -1,7 +1,7 @@
 ---
 title: "Rapport SAE2.03"
 authors:
-  - LELEU Benjamin ()
+  - LELEU Benjamin
   - Lecoester Martin
   - Stievenard Adam
 lang: fr

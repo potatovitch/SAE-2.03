@@ -37,22 +37,22 @@ toc_max_heading_level: 4
 #### Que signifie "64-bit" dans "Debian 64-bit" ?
 
 > 64-bit fait référence à **l'architecture du processeur** capable de traiter des données sur 64 bits à la fois, permettant notamment d'adresser plus de mémoire RAM que les systèmes 32-bit.  
-> [**source**](https://www.debian.org/releases/stable/amd64/ch02s01.fr.html)
+> [**architechture de Debian**](https://www.debian.org/releases/stable/amd64/ch02s01.fr.html)
 
 #### Quelle est la configuration réseau utilisée par défaut ?
 
 > NAT _(Network Address Translation)_ est la **configuration réseau** par défaut dans VirtualBox. Elle permet à la VM d'accéder à Internet via l'ordinateur hôte.  
-> [**source**](https://www.virtualbox.org/manual/ch06.html#network_nat)
+> [**NAT dans Vbox**](https://www.virtualbox.org/manual/ch06.html#network_nat)
 
 #### Quel est le nom du fichier XML contenant la configuration de votre machine ?
 
 > Le fichier de configuration se trouve dans `~/.config/VirtualBox/VirtualBox.xml`  
-> [**source**](https://docs.oracle.com/en/virtualization/virtualbox/6.0/user/vboxconfigdata.html)
+> [**stockage des données d'une VM Vbox**](https://docs.oracle.com/en/virtualization/virtualbox/6.0/admin/vboxconfigdata.html)
 
 #### Comment modifier ce fichier de configuration pour mettre 2 processeurs à votre machine ?
 
 > Dans le **fichier XML**, il faut modifier la balise `<CPU count="1">` en `<CPU count="2">`  
-> [**source**](https://docs.oracle.com/en/virtualization/virtualbox/6.0/user/vboxmanage-modifyvm.html)
+> [**Modification de Vbox**](https://docs.oracle.com/en/virtualization/virtualbox/6.0/user/vboxmanage-modifyvm.html)
 
 ### Installation de l'OS
 
@@ -108,18 +108,19 @@ toc_max_heading_level: 4
 ### Installation des suppléments invités
 
 #### Insérer le cd des suppléments
-  Dans Vbox, faites :  
-  Périphériques › Insérer l’image CD des additions invités…
+
+> Dans Vbox, faites :  
+>  `Périphériques › Insérer l’image CD des additions invités…`
 
 #### Monter le CD
 
-Pour monter le cd, rentrez la commande suivante
-`sudo mount /dev/cdrom /mnt`
+> Pour monter le cd, rentrez la commande suivante
+> `sudo mount /dev/cdrom /mnt`
 
 #### Installer les suppléments :
 
-Il faut installer les suppléments, faites
-`sudo /mnt/VBoxLinuxAdditions.run`
+> Il faut installer les suppléments, faites
+> `sudo /mnt/VBoxLinuxAdditions.run`
 
 ### Suppléments invités
 

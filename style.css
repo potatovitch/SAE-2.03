@@ -150,6 +150,9 @@ span.va {
 
 pre {
   background-color: var(--code-bg);
+  width: fit-content;
+  max-width: max-content;
+  font-weight: normal;
   border-radius: 8px;
-  padding: 2px;
+  padding: 4px;
 }

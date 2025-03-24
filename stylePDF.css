@@ -23,7 +23,7 @@
   --span-st: #4b7eca;
   --span-kw: #a6e3a1;
   --span-va: #4b7eca;
-  --code-bg:#222230;
+  --code-bg:#eef0f5;
 }
 
 /* css */
@@ -119,4 +119,41 @@ a:visited {
 nav * {
   color: var(--nav);
   font-weight: bold;
+}
+
+span.at{
+  color: var(--span-at) !important;
+}
+
+span.dt {
+  color: var(--span-dt) !important;
+}
+
+span.co {
+  color: var(--span-co) !important;
+}
+
+span.fu {
+  color: var(--span-fu) !important;
+}
+
+span.st {
+  color: var(--span-st) !important;
+}
+
+span.kw {
+  color: var(--span-kw) !important;
+}
+
+span.va {
+  color: var(--span-va) !important;
+}
+
+pre {
+  background-color: var(--code-bg);
+  width: fit-content;
+  max-width: max-content;
+  font-weight: normal;
+  border-radius: 8px;
+  padding: 4px;
 }

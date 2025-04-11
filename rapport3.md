@@ -32,12 +32,12 @@ toc_max_heading_level: 4
 > 3. Aller dans l'onglet "Réseau"
 > 4. Cliquer sur "Avancé" puis "Redirection de ports"
 > 5. Ajouter une nouvelle règle avec les paramètres suivants :
->     - Nom : Gitea
->     - Protocole : TCP
->     - IP hôte : vide (pour accepter toutes les connexions)
->     - Port hôte : 3000
->     - IP invité : vide (pour diriger vers l'adresse IP de la VM)
->     - Port invité : 3000
+>    - Nom : Gitea
+>    - Protocole : TCP
+>    - IP hôte : vide (pour accepter toutes les connexions)
+>    - Port hôte : 3000
+>    - IP invité : vide (pour diriger vers l'adresse IP de la VM)
+>    - Port invité : 3000
 
 > Cette configuration permettra d'accéder à l'interface web de Gitea via l'adresse <http://localhost:3000> depuis le navigateur de la machine hôte.
 
@@ -51,17 +51,17 @@ toc_max_heading_level: 4
 #### Comparaison avec d'autres logiciels similaires
 
 > Gitea peut être comparé à plusieurs autres logiciels de gestion de code source :
-> 
-> 1. **GitHub** : La plateforme de gestion de code source la plus populaire, appartenant à Microsoft. Contrairement à Gitea, GitHub est principalement une solution cloud, bien qu'il existe une version Enterprise pour le déploiement sur site.  
-> 2. **GitLab** : Une alternative à GitHub qui offre à la fois des solutions cloud et des versions auto-hébergées. GitLab est plus complet que Gitea mais aussi plus lourd en termes de ressources.  
+>
+> 1. **GitHub** : La plateforme de gestion de code source la plus populaire, appartenant à Microsoft. Contrairement à Gitea, GitHub est principalement une solution cloud, bien qu'il existe une version Enterprise pour le déploiement sur site.
+> 2. **GitLab** : Une alternative à GitHub qui offre à la fois des solutions cloud et des versions auto-hébergées. GitLab est plus complet que Gitea mais aussi plus lourd en termes de ressources.
 > 3. **Bitbucket** : Solution de gestion de code source d'Atlassian, disponible en cloud et en version serveur.  
-> Gogs : Un logiciel très similaire à Gitea puisque ce dernier en est un fork.
+>    Gogs : Un logiciel très similaire à Gitea puisque ce dernier en est un fork.
 
 #### Qu'est-ce qu'un fork dans le développement logiciel ?
 
 > Un fork dans le développement logiciel est une copie d'un projet existant que des développeurs créent pour travailler indépendamment du projet original. Le fork part du code source original mais évolue ensuite séparément, bien que des contributions puissent parfois être partagées entre les deux projets.
 > Un fork peut être créé pour diverses raisons :
-> 
+>
 > - Pour développer des fonctionnalités que les mainteneurs du projet original ne souhaitent pas intégrer
 > - En raison de désaccords sur la direction du projet
 > - Pour adapter le projet à des besoins spécifiques
@@ -167,14 +167,14 @@ sudo systemctl start gitea
 #### Paramètres de base de données
 
 > Ensuite, nous avons configuré Gitea pour utiliser SQLite3 comme base de données :
-> 
+>
 > - Type de base de données : SQLite3
 > - Chemin : `/var/lib/gitea/data/gitea.db`
 
 #### Paramètres généraux
 
 > Pour les paramètres généraux, nous avons configuré :
-> 
+>
 > - Nom du site : Gitea Service
 > - URL du serveur : <http://localhost:3000/>
 > - Chemin racine des dépôts : /var/lib/gitea/data/gitea-repositories
@@ -182,9 +182,9 @@ sudo systemctl start gitea
 #### Création du compte administrateur
 
 > Nous avons créé le compte administrateur :
-> 
+>
 > - Nom d'utilisateur : gitea
-> - Adresse e-mail : martin.lecoester.etu@univ-lille.fr
+> - Adresse e-mail : <martin.lecoester.etu@univ-lille.fr>
 > - Mot de passe : gitea
 
 #### Sécurisation des répertoires de configuration
@@ -203,38 +203,38 @@ sudo chmod 640 /etc/gitea/app.ini
 #### Création d'un nouveau projet via l'interface web
 
 > Nous avons créé un nouveau dépôt appelé "test-project" directement depuis l'interface web de Gitea :
-> 
+>
 > 1. Connexion avec le compte administrateur
 > 2. Clic sur le bouton "+" puis "Nouveau dépôt"
 > 3. Remplissage du formulaire avec :
->     - Nom du dépôt : test-project
->     - Description : Projet de test pour Gitea
->     - Visibilité : Privé
-> 
+>    - Nom du dépôt : test-project
+>    - Description : Projet de test pour Gitea
+>    - Visibilité : Privé
+>
 > Clic sur "Créer le dépôt"
 
 #### Création du dépôt "sae203-rapport" via l'interface web
 
-##### Clonage du dépôt vide en local :
+##### Clonage du dépôt vide en local
 
 ```bash
 git clone <http://localhost:3000/gitea/sae203-rapport.git>
 ```
 
-##### Ajout des fichiers du rapport :
+##### Ajout des fichiers du rapport
 
 ```bash
 git add .
 ```
 
-##### Configuration de l'utilisateur Git :
+##### Configuration de l'utilisateur Git
 
 ```bash
 git config --global user.email "martin.lecoester.etu"
 git config --global user.name "Administrateur Gitea"
 ```
 
-##### Commit et push des fichiers :
+##### Commit et push des fichiers
 
 ```bash
 git add .
@@ -245,27 +245,26 @@ git push origin main
 ##### Partage de codes sources et gestion des droits
 
 > Pour tester le partage de code et la gestion des droits, nous avons :
-> 
+>
 > 1. Créé deux utilisateurs supplémentaires ("user1" et "user2")
 > 2. Créé un dépôt "tp-developpement" pour partager du code
 > 3. Configuré les droits d'accès différents pour chaque utilisateur :
->     - user1 : Droits en lecture et écriture
->     - user2 : Droits en lecture seule
+>    - user1 : Droits en lecture et écriture
+>    - user2 : Droits en lecture seule
 
-
-###### Tests effectués avec l'utilisateur "user1" (droits en écriture) :
+###### Tests effectués avec l'utilisateur "user1" (droits en écriture)
 
 > - Clonage réussi du dépôt
 > - Création d'une branche
 > - Ajout de fichiers et commit
 > - Push vers le dépôt distant
 
-###### Tests effectués avec l'utilisateur "user2" (droits en lecture seule) :
+###### Tests effectués avec l'utilisateur "user2" (droits en lecture seule)
 
 > - Clonage réussi du dépôt
 > - Tentative de push (échec, comme prévu)
 > - Vérification de l'erreur : "remote: User does not have write access"
-> 
+>
 > Cette série de tests confirme que les droits d'accès sont correctement appliqués.
 
 ###  Mise à jour de Gitea
@@ -333,41 +332,42 @@ gitea --version
 
 ### Qu'est-ce que l'intégration et la livraison continue ?
 
-> Le CI et le CD sont des pratiques de développement logiciel qui visent à améliorer la qualité du code et à accélérer le déploiement des applications.  
+> Le CI et le CD sont des pratiques de développement logiciel qui visent à améliorer la qualité du code et à accélérer le déploiement des applications.
 
 Intégration Continue (CI)
 
-:   C'est une pratique qui consiste à intégrer les modifications de code dans un dépôt central plusieurs fois par jour. Chaque intégration est vérifiée par des tests automatisés pour détecter rapidement les erreurs. L'objectif est de localiser et de résoudre les problèmes d'intégration le plus tôt possible dans le cycle de développement.  
+: C'est une pratique qui consiste à intégrer les modifications de code dans un dépôt central plusieurs fois par jour. Chaque intégration est vérifiée par des tests automatisés pour détecter rapidement les erreurs. L'objectif est de localiser et de résoudre les problèmes d'intégration le plus tôt possible dans le cycle de développement.
 
 Livraison Continue (CD)
 
-:   C'est une extension de l'intégration continue qui automatise le processus de déploiement d'une application. Elle garantit que le code peut être rapidement et facilement déployé en production à tout moment. La livraison continue implique généralement des tests automatisés plus poussés et peut inclure des déploiements en environnement de test ou de préproduction.  
+: C'est une extension de l'intégration continue qui automatise le processus de déploiement d'une application. Elle garantit que le code peut être rapidement et facilement déployé en production à tout moment. La livraison continue implique généralement des tests automatisés plus poussés et peut inclure des déploiements en environnement de test ou de préproduction.
 
-> Ensemble, CI/CD permet de :  
->     - Réduire les risques d'intégration
->     - Détecter les bugs plus tôt
->     - Accélérer le temps de mise sur le marché
->     - Améliorer la qualité du code
->     - Faciliter le travail d'équipe
+> Ensemble, CI/CD permet de :
+>
+> - Réduire les risques d'intégration
+> - Détecter les bugs plus tôt
+> - Accélérer le temps de mise sur le marché
+> - Améliorer la qualité du code
+> - Faciliter le travail d'équipe
 
 ###  Configuration CI/CD dans Gitea
 
 > Gitea offre des fonctionnalités d'intégration et de livraison continues à travers Gitea Actions, qui est compatible avec GitHub Actions. Voici les étapes pour configurer un pipeline CI/CD simple pour un projet Java :
 
-#### Activation de Gitea Actions dans le fichier de configuration /etc/gitea/app.ini :
+#### Activation de Gitea Actions dans le fichier de configuration /etc/gitea/app.ini
 
 ```bash
 [actions]
 ENABLED = true
 ```
 
-#### Redémarrage du service Gitea :
+#### Redémarrage du service Gitea
 
 ```bash
 sudo systemctl restart gitea
 ```
 
-#### Création d'un workflow dans le dépôt.  
+#### Création d'un workflow dans le dépôt
 
 > Nous avons créé un fichier .gitea/workflows/build.yml dans le dépôt "tp-developpement" avec le contenu suivant :
 
@@ -376,31 +376,31 @@ name: Java CI
 
 on:
   push:
-    branches: [ main ]
+    branches: [main]
   pull_request:
-    branches: [ main ]
+    branches: [main]
 
 jobs:
   build:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v3
-    - name: Set up JDK 17
-      uses: actions/setup-java@v3
-      with:
-        java-version: '17'
-        distribution: 'adopt'
-    - name: Build with Maven
-      run: mvn -B package --file pom.xml
-    - name: Run tests
-      run: mvn test
+      - uses: actions/checkout@v3
+      - name: Set up JDK 17
+        uses: actions/setup-java@v3
+        with:
+          java-version: "17"
+          distribution: "adopt"
+      - name: Build with Maven
+        run: mvn -B package --file pom.xml
+      - name: Run tests
+        run: mvn test
 ```
 
-#### Test du workflow :
+#### Test du workflow
 
 > - Ajout d'un projet Java simple dans le dépôt
 > - Vérification du déclenchement automatique du workflow après un push
 > - Observation du résultat dans l'onglet "Actions" de Gitea
-> 
+>
 > Ce workflow vérifie automatiquement que le code Java peut être compilé et que tous les tests passent à chaque fois qu'un commit est poussé sur la branche principale ou qu'une pull request est créée.
